@@ -1564,34 +1564,7 @@ body.unlock {
 .main__slider div.slick-slide {
   height: 100%;
 }
-.main__slider div.slick-slide .main__video {
-  cursor: pointer;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 1001;
-  height: 100%;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-.main__slider div.slick-slide .main__video.hide {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-.main__slider div.slick-slide .main__video video {
-  width: 100%;
-  border-radius: 8px;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-@media (max-width: 620px) {
-  .main__slider div.slick-slide .main__video video {
-    border-radius: 0;
-  }
-}
+
 .main__slider div.slick-slide img {
   border-radius: 8px;
   cursor: pointer;
@@ -1599,13 +1572,8 @@ body.unlock {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  opacity: 0;
-  pointer-events: none;
 }
-.main__slider div.slick-slide img.read {
-  opacity: 1;
-  pointer-events: auto;
-}
+
 @media (max-width: 620px) {
   .main__slider div.slick-slide img {
     border-radius: 0;
