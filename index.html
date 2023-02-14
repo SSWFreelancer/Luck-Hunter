@@ -1,0 +1,1910 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+	   <meta charset="UTF-8">
+	   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	   <meta name="format-detection" content="telephone=no">
+	   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+	   <meta property="og:image" content="img/favicon/og.png" />   
+	   <title>Luck-Hunter</title>
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-chrome-192x192.png">
+		<link rel="icon" type="image/png" sizes="512x512"  href="img/favicon/android-chrome-512x512.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+
+	   <style>
+
+	   	body{
+	   		background: #000;
+	   	}
+			body>.wrapper{
+				opacity: 0;
+			}
+	   	body.unlock{
+	   		background: #ffffff;
+	   	}
+	   	body.unlock>.wrapper{
+			opacity: 1;
+	   	}
+	   </style>
+
+	</head>
+	<body>
+
+		<div class="preload">
+			<div class="preload__container">
+				<a href="#" class="preload__logo">
+					<img src="img/logo.svg" alt="">
+					<b>Luck-hunter</b>
+				</a>
+				<div class="preload__content">
+					<p><span id="percentage">0</span>%</p>
+					<div class="preload__progressbar">
+						<div class="preload__progress">
+							<p><b></b></p>
+						</div>						
+					</div>
+
+					<span>Загрузка</span>
+				</div>
+			</div>
+		</div>
+		<div class="menu-bg"></div>
+		<div class="menu-other-bg"></div>
+		<div class="menu-call-bg"></div>
+		<a href="#" class="to-up">
+			<img src="img/up.svg" alt="">
+		</a>
+		<div class="wrapper">
+			<div class="cookies">
+				<div class="cookies__container">
+					<div class="cookies__content">
+						<p>
+							Пользуясь нашим сайтом, вы соглашаетесь с тем, что <a href="#" target="blank">мы используем cookies</a>
+						</p>
+						<button>
+							Ок
+						</button>
+					</div>
+					<img src="img/main/close.svg" alt="">
+				</div>
+			</div>
+			<header class="header">
+				<div class="header__container">
+					<div class="header__top">
+						<a href="mailto:sales@luck-hunter.com">
+							sales@luck-hunter.com
+						</a>
+						<div class="header__top-actions">
+							<a target="blank" href="https://api.whatsapp.com/send/?phone=89279067777&text&type=phone_number&app_absent=0" class="header__social" >
+								<img src="img/whatsapp.svg" alt="">
+							</a>
+							<a target="blank" href="https://telegram.me/LUCK_HUNTER_COM" class="header__social">
+								<img src="img/telegram.svg" alt="">
+							</a>
+							<a class="header__call" href="tel:89279067777">
+								<span>8-927-906-77-77</span>
+							</a>
+						</div>
+					</div>
+					<div class="header__content">
+						<a href="#" class="header__logo">
+							<img src="img/logo.svg" alt="">
+							<b>Luck-hunter</b>
+							<p>
+								<b>FORT PRO-01</b>
+								метательная машинка
+							</p>
+						</a>
+						<div class="header__right">
+							<a href="#" class="header__social" >
+								<img src="img/icon-WhatsApp.svg" alt="">
+							</a>		
+							<a class="header__call" href="tel:89279067777">
+								<img src="img/call.svg" alt="">
+							</a>
+							<div class="header__burger"><span></span></div>
+						</div>
+						<nav class="menu">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#videos" class="menu__link">Видеообзоры</a></li>
+								<li class="menu__item"><a href="#descr" class="menu__link">Описание</a></li>
+								<li class="menu__item"><a href="#complect" class="menu__link">Комплектация</a></li>
+								<li class="menu__item"><a href="#pay" class="menu__link">Оплата</a></li>
+								<li class="menu__item"><a href="#delivery" class="menu__link">Доставка</a></li>
+								<li class="menu__item"><a href="#contacts" class="menu__link">Контакты</a></li>
+							</ul>
+						</nav>
+						<nav class="menu-other">
+							<ul class="menu-other__list">
+								<li>Написать:</li>
+								<a href="mailto:sales@luck-hunter.com">sales@luck-hunter.com</a>
+								<a target="blank" href="https://api.whatsapp.com/send/?phone=89279067777&text&type=phone_number&app_absent=0">
+									<img src="img/whatsapp.svg" alt="">
+									WhatsApp
+								</a>
+								<a target="blank" href="https://telegram.me/LUCK_HUNTER_COM">
+									<img src="img/telegram.svg" alt="">
+									Telegram
+								</a>							
+							</ul>
+						</nav>
+						<nav class="menu-call">
+							<ul class="menu-call__list">
+								<li>Позвонить:</li>
+								<a href="tel:89279067777">8-927-906-77-77</a>
+								<a target="blank" href="https://api.whatsapp.com/send/?phone=89279067777&text&type=phone_number&app_absent=0">
+									<img src="img/whatsapp.svg" alt="">
+									WhatsApp
+								</a>
+								<a target="blank" href="https://telegram.me/LUCK_HUNTER_COM">
+									<img src="img/telegram.svg" alt="">
+									Telegram
+								</a>							
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<div class="header__bottom">
+				<div class="header__container">
+					<div class="header__bottom-content">
+						<div class="header__bottom-left">
+							<div class="header__bottom-image">
+								<img src="img/main/1.webp" alt="">
+							</div>
+							<div class="header__bottom-name">
+								<div>
+									<b>FORT PRO-01</b> метательная машинка
+								</div>
+								<p>
+									<span>Бренд: LUCK-HUNTER</span>
+									<span>/</span>
+									<span>Пускает зайца + ещё 5 видов</span>
+									<span>/</span>
+									<span>3 вариации установки метателя</span>
+								</p>
+							</div>
+						</div>
+						<div class="header__bottom-produced">
+							<img src="img/Dev-hunters-gray.svg" alt="">
+						</div>
+						<div class="header__bottom-actions">
+<!-- 							<a href="#">Купить комплект СТАНДАРТ <br>за 25 000 ₽</a>
+							<a href="#">Купить комплект ПРЕМИУМ<br>за 35 000 ₽</a> -->
+							<p>
+								25 000 ₽
+								<span>
+									35 600 ₽
+								</span>
+							</p>
+							<a href="#">Купить</a>
+						</div>					
+					</div>
+				</div>
+			</div>
+			<section class="main">
+				<div class="main__container">
+					<div class="main__overtitle">
+						Бренд: LUCK-HUNTER
+					</div>
+					<h2 class="main__title title">
+						Метательная машинка FORT PRO-01
+					</h2>
+					<div class="main__subtitle">
+						<p>
+							Пускает зайца + ещё 5 видов
+						</p>
+						<p>
+							3 вариации установки метателя
+						</p>
+					</div>
+					<div class="main__body">
+						<div class="main__left">
+							<div class="main__navslider">
+								<div>
+									<img src="img/main/1.webp" alt="">
+								</div>
+								<div>
+									<img src="img/main/2.webp" alt="">
+								</div>
+								<div>
+									<img src="img/main/3.webp" alt="">
+								</div>
+								<div>
+									<img src="img/main/4.webp" alt="">
+								</div>
+								<div>
+									<img src="img/main/5.webp" alt="">
+								</div>
+								<div>
+									<img src="img/main/6.webp" alt="">
+								</div>		
+								<div>
+									<img src="img/main/1.webp" alt="">
+								</div>
+								<div>
+									<img src="img/main/2.webp" alt="">
+								</div>
+								<div>
+									<img src="img/main/3.webp" alt="">
+								</div>
+								<div>
+									<img src="img/main/4.webp" alt="">
+								</div>
+								<div>
+									<img src="img/main/5.webp" alt="">
+								</div>
+								<div>
+									<img src="img/main/6.webp" alt="">
+								</div>					
+							</div>
+							<div class="main__slider">
+								<div>
+									<img data-fancybox="gallery" href="img/main/1.webp" src="img/main/1.webp" alt="">
+								</div>
+								<div>
+									<img data-fancybox="gallery" href="img/main/2.webp" src="img/main/2.webp" alt="">
+								</div>
+								<div>
+									<img data-fancybox="gallery" href="img/main/3.webp" src="img/main/3.webp" alt="">
+								</div>
+								<div>
+									<img data-fancybox="gallery" href="img/main/4.webp" src="img/main/4.webp" alt="">
+								</div>
+								<div>
+									<img data-fancybox="gallery" href="img/main/5.webp" src="img/main/5.webp" alt="">
+								</div>
+								<div>
+									<img data-fancybox="gallery" href="img/main/6.webp" src="img/main/6.webp" alt="">
+								</div>
+								<div>
+									<img data-fancybox="gallery" href="img/main/1.webp" src="img/main/1.webp" alt="">
+								</div>
+								<div>
+									<img data-fancybox="gallery" href="img/main/2.webp" src="img/main/2.webp" alt="">
+								</div>
+								<div>
+									<img data-fancybox="gallery" href="img/main/3.webp" src="img/main/3.webp" alt="">
+								</div>
+								<div>
+									<img data-fancybox="gallery" href="img/main/4.webp" src="img/main/4.webp" alt="">
+								</div>
+								<div>
+									<img data-fancybox="gallery" href="img/main/5.webp" src="img/main/5.webp" alt="">
+								</div>
+								<div>
+									<img data-fancybox="gallery" href="img/main/6.webp" src="img/main/6.webp" alt="">
+								</div>
+							</div>
+							<p>
+								<span>1</span>
+								/12
+							</p>
+						</div>
+						<div class="main__content">
+							<div data-da=".main__body, 991, 1" class="main__produced">
+								<p>
+									<img src="img/Dev-hunters.svg" alt="">
+								</p>
+								<span>
+									<b>-</b><em>это уникальные характеристики для метательных <br> машинок, такого больше нигде не встретить!</em>
+								</span>
+							</div>
+							<b>
+								Характеристики
+							</b>
+							<div class="main__content-top">
+								<div class="main__row">
+									<span>
+										Бренд
+									</span>
+									<em></em>
+									<p>
+										LUCK-HUNTER (Охотник за удачей)
+									</p>
+								</div>
+								<div class="main__row">
+									<span>
+										<img src="img/main/ico1.svg" alt="">
+										Вариантов установки метателя
+									</span>
+									<em></em>
+									<p>
+										<b>3 <img src="img/main/star.svg" alt=""></b>
+									</p>
+								</div>
+								<div class="main__content-photos">
+									<div data-fancybox="main-photos" href="img/main/1.webp">
+										<img src="img/main/1.webp" alt="">
+									</div>
+									<div data-fancybox="main-photos" href="img/main/2.webp">
+										<img src="img/main/2.webp" alt="">
+									</div>
+									<div data-fancybox="main-photos" href="img/main/3.webp">
+										<img src="img/main/3.webp" alt="">
+									</div>								
+								</div>
+								<div class="main__row">
+									<span>
+										<img src="img/main/ico2.svg" alt="">
+										Высота в рабочем состоянии
+									</span>
+									<em></em>
+									<p>
+										<b>120 см <img src="img/main/star.svg" alt=""></b>
+									</p>
+								</div>
+							</div>
+							<div class="main__row">
+								<span>
+									<img src="img/main/ico3.svg" alt="">
+									Полеты мишени
+								</span>
+								<em></em>
+								<p class="smallest">
+									Угонная, Полуугонная, Боковая,<br>Лупер, Свеча, 
+									<b>Заяц <img src="img/main/star.svg" alt=""></b>
+								</p>
+							</div>
+							<div class="main__row">
+								<span>
+									Дальность выброса мишени
+								</span>
+								<em></em>
+								<p>
+									до 60 м
+								</p>
+							</div>
+							<div class="main__row">
+								<span>
+									Размер мишеней
+								</span>
+								<em></em>
+								<p>
+									Стандарт, <b>Заяц <img src="img/main/star.svg" alt=""></b>
+								</p>
+							</div>	
+							<div class="main__row">
+								<span>
+									Угол выброса мишени
+								</span>
+								<em></em>
+								<p>
+									Регулируемый
+								</p>
+							</div>						
+							<div class="main__row main__row-other">
+								<p>Натяжение выбрасывающей</p>
+								<div>
+									<span>								
+										пружины
+									</span>
+									<em></em>
+									<p>
+										Регулируемое
+									</p>							
+								</div>
+							</div>	
+							<div class="main__row">
+								<span>
+									Способы запуска мишеней
+								</span>
+								<em></em>
+								<p>
+									Ручной, <b>педалью <img src="img/main/star.svg" alt=""></b>
+								</p>
+							</div>	
+							<div class="main__row main__row-other">
+								<p>Количество одновременно </p>
+								<div>
+									<span>								
+										запускаемых мишеней
+									</span>
+									<em></em>
+									<p>
+										Соло, <b>дуплет <img src="img/main/star.svg" alt=""></b>
+									</p>							
+								</div>
+							</div>	
+							<div class="main__bottom">
+								<div>
+									<p>
+										<img src="img/main/bottom1.svg" alt="">
+									</p>
+									<span>
+										Масса машинки: <b>7 кг</b>
+									</span>
+								</div>
+								<div>
+									<p>
+										<img src="img/main/ico2.svg" alt="">
+									</p>
+									<span>
+										Габариты в сложенном состоянии (ШхДхВ): <b>0,7х0,3х0,3 м</b>
+									</span>
+								</div>
+								<div>
+									<p>
+										<img src="img/main/bottom3.svg" alt="">
+									</p>
+									<span>
+										Время сборки машинки: <b>1-2 мин</b>
+									</span>
+								</div>
+								<div>
+									<p>
+										<img src="img/main/bottom4.svg" alt="">
+									</p>
+									<span>
+										Толщина металла: <b>3 мм</b>
+									</span>
+								</div>
+								<div>
+									<p>
+										<img src="img/main/bottom5.svg" alt="">
+									</p>
+									<span>
+										Сделано <b>в России</b>
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="main__side">
+							<div class="main__card">
+								<div class="main__card-top">
+									<p>
+										25 000 ₽
+									</p>
+									<span>
+										35 600 ₽
+									</span>
+								</div>
+								<div class="main__card-center">
+									<div data-fancybox="main__card-center" href="img/main/1.webp">
+										<img src="img/main/1.webp" alt="">
+									</div>
+									<p>
+										В цену входит:
+										<span>
+											фирменная сумка-чехол
+										</span>
+									</p>
+								</div>
+								<a href="#">Купить комплект СТАНДАРТ</a>
+								<div class="main__card-bottom">
+									<b></b>В наличии
+								</div>
+							</div>
+							<div class="main__card main__card-premium">
+								<div class="main__card-top">
+									<p>
+										35 000 ₽
+									</p>
+									<span>
+										42 100 ₽
+									</span>
+								</div>
+								<div class="main__card-center">
+									<div data-fancybox="main__card-center1" href="img/main/1.webp">
+										<img src="img/main/1.webp" alt="">
+									</div>
+									<p>
+										В цену входит:
+										<span>
+											фирменная сумка-чехол
+										</span>
+									</p>
+								</div>
+								<a href="#">Купить комплект ПРЕМИУМ</a>
+								<div class="main__card-bottom">
+									<b class="yellow"></b>Предзаказ
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div id="videos" class="videos">
+				<div class="videos__container">
+					<div class="videos__top">
+						<div class="videos__title title">
+							Видео о метательной машинке FORT PRO-01
+						</div>		
+						<a href="#">
+							<img src="img/videos/ytb.svg" alt="">
+							Наш канал на YouTube
+						</a>			
+					</div>
+					<div class="videos__body">
+						<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__iframe">
+							<img src="img/videos/1.webp" alt="">
+							<p>
+								Знакомство с метательной машинкой FORT PRO-01
+							</p>
+							<img src="img/videos/ytb.svg" alt="">
+						</a>
+						<div class="videos__slider">
+							<div class="videos__column">
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide activevideo">
+									<div class="videos__preview">
+										<img src="img/videos/1.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Знакомство с метательной
+											машинкой FORT PRO-01										
+										</b>
+										2:55
+									</p>
+								</a>
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide">
+									<div class="videos__preview">
+										<img src="img/main/1.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Сборка FORT PRO-01 на время
+										</b>
+										2:02
+									</p>
+								</a>
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide">
+									<div class="videos__preview">
+										<img src="img/main/2.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Все типы установки FORT PRO-01
+										</b>
+										0:45
+									</p>
+								</a>
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide">
+									<div class="videos__preview">
+										<img src="img/main/3.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Все типы полета мишеней от FORT PRO-01
+										</b>
+										2:05
+									</p>
+								</a>
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide">
+									<div class="videos__preview">
+										<img src="img/videos/1.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Комплектация метательной машинки FORT PRO-01
+										</b>
+										1:30
+									</p>
+								</a>
+							</div>
+							<div class="videos__column">
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide">
+									<div class="videos__preview">
+										<img src="img/videos/1.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Знакомство с метательной
+											машинкой FORT PRO-01										
+										</b>
+										2:55
+									</p>
+								</a>
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide">
+									<div class="videos__preview">
+										<img src="img/main/1.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Сборка FORT PRO-01 на время
+										</b>
+										2:02
+									</p>
+								</a>
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide">
+									<div class="videos__preview">
+										<img src="img/main/2.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Все типы установки FORT PRO-01
+										</b>
+										0:45
+									</p>
+								</a>
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide">
+									<div class="videos__preview">
+										<img src="img/main/3.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Все типы полета мишеней от FORT PRO-01
+										</b>
+										2:05
+									</p>
+								</a>
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide">
+									<div class="videos__preview">
+										<img src="img/videos/1.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Комплектация метательной машинки FORT PRO-01
+										</b>
+										1:30
+									</p>
+								</a>
+							</div>		
+							<div class="videos__column">
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide">
+									<div class="videos__preview">
+										<img src="img/videos/1.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Знакомство с метательной
+											машинкой FORT PRO-01										
+										</b>
+										2:55
+									</p>
+								</a>
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide">
+									<div class="videos__preview">
+										<img src="img/main/1.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Сборка FORT PRO-01 на время
+										</b>
+										2:02
+									</p>
+								</a>
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide">
+									<div class="videos__preview">
+										<img src="img/main/2.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Все типы установки FORT PRO-01
+										</b>
+										0:45
+									</p>
+								</a>
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide">
+									<div class="videos__preview">
+										<img src="img/main/3.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Все типы полета мишеней от FORT PRO-01
+										</b>
+										2:05
+									</p>
+								</a>
+								<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__slide">
+									<div class="videos__preview">
+										<img src="img/videos/1.webp" alt="">
+									</div>
+									<p>
+										<b>
+											Комплектация метательной машинки FORT PRO-01
+										</b>
+										1:30
+									</p>
+								</a>
+							</div>
+
+						</div>
+					</div>
+					<div data-simplebar data-simplebar-auto-hide="false" class="videos__wrapper" id="videos__wrapper">
+						<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__mobile-card active">
+							<img src="img/videos/1.webp" alt="">
+							<p>
+								Знакомство с метательной машинкой FORT PRO-01
+							</p>
+							<img src="img/videos/ytb.svg" alt="">
+						</a>		
+						<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__mobile-card">
+							<img src="img/videos/1.webp" alt="">
+							<p>
+								Знакомство с метательной машинкой FORT PRO-01
+								<b>3:05</b>
+							</p>
+							<img src="img/videos/ytb.svg" alt="">
+						</a>	
+						<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__mobile-card">
+							<img src="img/videos/1.webp" alt="">
+							<p>
+								Знакомство с метательной машинкой FORT PRO-01
+								<b>3:05</b>
+							</p>
+							<img src="img/videos/ytb.svg" alt="">
+						</a>	
+						<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__mobile-card">
+							<img src="img/videos/1.webp" alt="">
+							<p>
+								Знакомство с метательной машинкой FORT PRO-01
+								<b>3:05</b>
+							</p>
+							<img src="img/videos/ytb.svg" alt="">
+						</a>	
+						<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__mobile-card">
+							<img src="img/videos/1.webp" alt="">
+							<p>
+								Знакомство с метательной машинкой FORT PRO-01
+								<b>3:05</b>
+							</p>
+							<img src="img/videos/ytb.svg" alt="">
+						</a>	
+						<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__mobile-card">
+							<img src="img/videos/1.webp" alt="">
+							<p>
+								Знакомство с метательной машинкой FORT PRO-01
+								<b>3:05</b>
+							</p>
+							<img src="img/videos/ytb.svg" alt="">
+						</a>	
+						<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="videos__mobile-card">
+							<img src="img/videos/1.webp" alt="">
+							<p>
+								Знакомство с метательной машинкой FORT PRO-01
+								<b>3:05</b>
+							</p>
+							<img src="img/videos/ytb.svg" alt="">
+						</a>						
+					</div>
+				</div>
+			</div>
+			<div id="descr" class="descr">
+				<div class="descr__container">
+					<div class="descr__title title">
+						Описание
+					</div>
+					<div class="descr__body">
+						<div class="descr__left">
+							<div class="descr__text">
+								Уникальная метательная машинка FORT PRO-01 разработка бренда LUCK-HUNTER созданного охотниками и спортсменами по стендовой стрельбе. Она предназначена для проведения увлекательного досуга или тренировки перед охотой.
+								<b>Идеально подойдет как для начинающих, так и для опытных стрелков!</b>
+							</div>
+							<div class="descr__images">
+								<div class="descr__image">
+									<img src="img/description/image1.webp" alt="">
+									<p>
+										<img src="img/description/subimage.svg" alt="">
+										Толщина металла в 3 мм
+										дает гарантию на крепость
+									</p>
+								</div>
+								<div class="descr__image">
+									<img src="img/description/image2.webp" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="descr__content">
+							<div class="descr__text">
+								Метательная машинка имеет 3 вариации установки метателя мишени с регулировкой угла наклона для максимально разнообразной стрельбы. Это позволяет стрелку стрелять по разным типам полета мишени:
+							</div>
+							<div class="descr__bottom">
+								<div class="descr__cards">
+									<div class="descr__card">
+										<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="descr__wrap">
+											<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="12.5" cy="12.5" r="11" fill="#242424" stroke="white" stroke-width="3"/>
+												<path d="M13.875 8.41016V17H12.0293V10.4961C11.9277 10.5859 11.8066 10.6719 11.666 10.7539C11.5293 10.832 11.3828 10.9043 11.2266 10.9707C11.0703 11.0332 10.9082 11.0879 10.7402 11.1348C10.5723 11.1777 10.4062 11.209 10.2422 11.2285V9.66992C10.7227 9.5293 11.1758 9.34961 11.6016 9.13086C12.0273 8.91211 12.4121 8.67188 12.7559 8.41016H13.875Z" fill="white"/>
+											</svg>
+											<img src="img/description/ico1.svg" alt="">
+											<p><img src="img/videos/ytb.svg" alt=""></p>								
+										</a>
+										Угонная
+									</div>
+									<div class="descr__card">
+										<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="descr__wrap">
+											<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="12.5" cy="12.5" r="11" fill="#242424" stroke="white" stroke-width="3"/>
+												<path d="M11.5137 15.4648H15.0762V17H9.48633V16.3672C9.48633 15.9375 9.55859 15.5527 9.70312 15.2129C9.84766 14.8691 10.0293 14.5625 10.248 14.293C10.4668 14.0195 10.7051 13.7793 10.9629 13.5723C11.2246 13.3613 11.4727 13.1719 11.707 13.0039C11.9531 12.8281 12.168 12.6602 12.3516 12.5C12.5391 12.3398 12.6953 12.1816 12.8203 12.0254C12.9492 11.8652 13.0449 11.7051 13.1074 11.5449C13.1699 11.3809 13.2012 11.207 13.2012 11.0234C13.2012 10.6641 13.0996 10.3926 12.8965 10.209C12.6934 10.0254 12.3828 9.93359 11.9648 9.93359C11.2422 9.93359 10.5508 10.2207 9.89062 10.7949V9.16602C10.6211 8.69336 11.4453 8.45703 12.3633 8.45703C12.7891 8.45703 13.1699 8.51367 13.5059 8.62695C13.8457 8.73633 14.1328 8.89453 14.3672 9.10156C14.6016 9.30859 14.7793 9.56055 14.9004 9.85742C15.0254 10.1504 15.0879 10.4785 15.0879 10.8418C15.0879 11.2285 15.0273 11.5723 14.9062 11.873C14.7891 12.1738 14.6309 12.4473 14.4316 12.6934C14.2363 12.9395 14.0098 13.166 13.752 13.373C13.4941 13.5762 13.2266 13.7734 12.9492 13.9648C12.7617 14.0977 12.5801 14.2305 12.4043 14.3633C12.2324 14.4922 12.0801 14.6211 11.9473 14.75C11.8145 14.875 11.709 14.998 11.6309 15.1191C11.5527 15.2402 11.5137 15.3555 11.5137 15.4648Z" fill="white"/>
+											</svg>
+											<img src="img/description/ico2.svg" alt="">
+											<p><img src="img/videos/ytb.svg" alt=""></p>										
+										</a>
+										Полуугонная
+									</div>
+									<div class="descr__card">
+										<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="descr__wrap">
+											<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="12.5" cy="12.5" r="11" fill="#242424" stroke="white" stroke-width="3"/>
+												<path d="M9.68555 16.7246V15.1133C10.248 15.5234 10.9043 15.7285 11.6543 15.7285C12.127 15.7285 12.4941 15.627 12.7559 15.4238C13.0215 15.2207 13.1543 14.9375 13.1543 14.5742C13.1543 14.1992 12.9902 13.9102 12.6621 13.707C12.3379 13.5039 11.8906 13.4023 11.3203 13.4023H10.541V11.9844H11.2617C12.3555 11.9844 12.9023 11.6211 12.9023 10.8945C12.9023 10.2109 12.4824 9.86914 11.6426 9.86914C11.0801 9.86914 10.5332 10.0508 10.002 10.4141V8.90234C10.5918 8.60547 11.2793 8.45703 12.0645 8.45703C12.9238 8.45703 13.5918 8.65039 14.0684 9.03711C14.5488 9.42383 14.7891 9.92578 14.7891 10.543C14.7891 11.6406 14.2324 12.3281 13.1191 12.6055V12.6348C13.7129 12.709 14.1816 12.9258 14.5254 13.2852C14.8691 13.6406 15.041 14.0781 15.041 14.5977C15.041 15.3828 14.7539 16.0039 14.1797 16.4609C13.6055 16.918 12.8125 17.1465 11.8008 17.1465C10.9336 17.1465 10.2285 17.0059 9.68555 16.7246Z" fill="white"/>
+											</svg>
+											<img src="img/description/ico3.svg" alt="">
+											<p><img src="img/videos/ytb.svg" alt=""></p>								
+										</a>
+										Боковая
+									</div>
+									<div class="descr__card">
+										<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="descr__wrap">
+											<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="12.5" cy="12.5" r="11" fill="#242424" stroke="white" stroke-width="3"/>
+												<path d="M14.627 8.59766V13.8945H15.6348V15.2773H14.627V17H12.9395V15.2773H9.27734V13.8301C9.60156 13.4668 9.9375 13.0703 10.2852 12.6406C10.6328 12.207 10.9688 11.7617 11.293 11.3047C11.6172 10.8477 11.918 10.3887 12.1953 9.92773C12.4766 9.46289 12.7148 9.01953 12.9102 8.59766H14.627ZM10.9355 13.8945H12.9395V10.959C12.8027 11.2129 12.6543 11.4707 12.4941 11.7324C12.334 11.9902 12.166 12.2461 11.9902 12.5C11.8145 12.75 11.6367 12.9941 11.457 13.2324C11.2773 13.4668 11.1035 13.6875 10.9355 13.8945Z" fill="white"/>
+											</svg>
+											<img src="img/description/ico4.svg" alt="">
+											<p><img src="img/videos/ytb.svg" alt=""></p>									
+										</a>
+										Лупер
+									</div>
+									<div class="descr__card">
+										<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="descr__wrap">
+											<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="12.5" cy="12.5" r="11" fill="#242424" stroke="white" stroke-width="3"/>
+												<path d="M9.88086 16.7832V15.2012C10.4551 15.5527 11.0664 15.7285 11.7148 15.7285C12.2031 15.7285 12.584 15.6133 12.8574 15.3828C13.1348 15.1484 13.2734 14.832 13.2734 14.4336C13.2734 13.6016 12.6855 13.1855 11.5098 13.1855C11.0762 13.1855 10.5762 13.2188 10.0098 13.2852L10.3262 8.59766H14.7734V10.1094H11.7383L11.6211 11.791C11.9219 11.7676 12.1816 11.7559 12.4004 11.7559C13.2637 11.7559 13.9395 11.9824 14.4277 12.4355C14.916 12.8887 15.1602 13.498 15.1602 14.2637C15.1602 15.1113 14.8691 15.8047 14.2871 16.3438C13.7051 16.8789 12.916 17.1465 11.9199 17.1465C11.1113 17.1465 10.4316 17.0254 9.88086 16.7832Z" fill="white"/>
+											</svg>
+											<img src="img/description/ico5.svg" alt="">
+											<p><img src="img/videos/ytb.svg" alt=""></p>										
+										</a>
+										Свеча
+									</div>
+									<div class="descr__card">
+										<a target="blank" href="https://www.youtube.com/watch?v=APO0YdUgFY8" class="descr__wrap">
+											<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="12.5" cy="12.5" r="11" fill="#242424" stroke="white" stroke-width="3"/>
+												<path d="M15.5527 14.2051C15.5527 14.6191 15.4805 15.0059 15.3359 15.3652C15.1914 15.7246 14.9902 16.0371 14.7324 16.3027C14.4746 16.5645 14.168 16.7715 13.8125 16.9238C13.457 17.0723 13.0684 17.1465 12.6465 17.1465C12.1738 17.1465 11.75 17.0586 11.375 16.8828C11.0039 16.707 10.6895 16.4531 10.4316 16.1211C10.1738 15.7852 9.97656 15.375 9.83984 14.8906C9.70312 14.4062 9.63477 13.8574 9.63477 13.2441C9.63477 12.5215 9.72266 11.8672 9.89844 11.2812C10.0781 10.6914 10.332 10.1875 10.6602 9.76953C10.9922 9.35156 11.3926 9.0293 11.8613 8.80273C12.3301 8.57227 12.8574 8.45703 13.4434 8.45703C14.0918 8.45703 14.5957 8.5332 14.9551 8.68555V10.2324C14.5293 9.99023 14.0645 9.86914 13.5605 9.86914C13.248 9.86914 12.9648 9.92969 12.7109 10.0508C12.457 10.1719 12.2383 10.3438 12.0547 10.5664C11.875 10.7891 11.7324 11.0586 11.627 11.375C11.5254 11.6875 11.4707 12.0371 11.4629 12.4238H11.498C11.8965 11.873 12.4844 11.5977 13.2617 11.5977C13.6094 11.5977 13.9238 11.6602 14.2051 11.7852C14.4863 11.9102 14.7266 12.0879 14.9258 12.3184C15.125 12.5449 15.2793 12.8184 15.3887 13.1387C15.498 13.459 15.5527 13.8145 15.5527 14.2051ZM13.7422 14.3223C13.7422 13.4199 13.373 12.9688 12.6348 12.9688C12.4668 12.9688 12.3145 13 12.1777 13.0625C12.041 13.125 11.9238 13.2129 11.8262 13.3262C11.7285 13.4395 11.6523 13.5742 11.5977 13.7305C11.5469 13.8828 11.5215 14.0527 11.5215 14.2402C11.5215 14.4473 11.5488 14.6406 11.6035 14.8203C11.6582 15 11.7344 15.1582 11.832 15.2949C11.9336 15.4277 12.0527 15.5332 12.1895 15.6113C12.3262 15.6895 12.4785 15.7285 12.6465 15.7285C12.8145 15.7285 12.9648 15.6953 13.0977 15.6289C13.2344 15.5586 13.3496 15.4629 13.4434 15.3418C13.541 15.2168 13.6152 15.0684 13.666 14.8965C13.7168 14.7207 13.7422 14.5293 13.7422 14.3223Z" fill="white"/>
+											</svg>
+											<img src="img/description/ico6.svg" alt="">
+											<p><img src="img/videos/ytb.svg" alt=""></p>										
+										</a>
+										Заяц
+									</div>							
+								</div>
+								<div class="descr__right">
+									<img src="img/description/ico.svg" alt="">
+									Они не дадут заскучать даже опытному стрелку!
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="feature">
+				<div class="feature__container">
+					<div class="feature__title title">
+						Особенности конструкции метательной машинки FORT PRO-01:
+					</div>
+					<div class="feature__body">
+						<div class="feature__cards feature__cards-mobile">
+							<div class="feature__card">
+								<div class="feature__text">
+									<b>
+										Высокое положение метателя (120 см от уровня земли)
+									</b>
+									<p>
+										Сохранит спину заряжающего здоровой, позволяя получать истинное удовольствие от стрельбы.
+									</p>
+								</div>
+								<div data-fancybox="feature__fancybox" href="img/feature/1.webp" class="feature__image">
+									<img src="img/feature/1.webp" alt="">
+								</div>
+							</div>
+							<div class="feature__card small">
+								<div class="feature__text">
+									<b>
+										Управляется одним человеком
+									</b>
+									<p>
+										Позволяет стрелку самому управлять машинкой и находиться в положении готовности к стрельбе.
+									</p>
+								</div>
+								<div data-fancybox="feature__fancybox" href="img/feature/1.webp" class="feature__image">
+									<img src="img/feature/1.webp" alt="">
+								</div>
+							</div>
+							<div class="feature__card">
+								<div class="feature__text">
+									<b>
+										Транспортировочная сумка-чехол
+									</b>
+									<p>
+										В комплект входит качественная транспортировочная водонепро-ницаемая сумка-чехол, в которой удобно перевозить и хранить устройство.								
+									</p>
+								</div>
+								<div data-fancybox="feature__fancybox" href="img/feature/1.webp" class="feature__image">
+									<img src="img/feature/1.webp" alt="">
+								</div>
+							</div>						
+						</div>
+						<div class="feature__cards center">
+							<div data-da=".feature__cards-mobile, 1350, last" class="feature__card feature__card-mobile">
+								<div class="feature__text">
+									<b>
+										Устойчивость
+									</b>
+									<p>
+										Широкий разброс ножек дает максимальную устойчивость метательной машинке при запуске мишеней.
+									</p>
+								</div>
+								<div data-fancybox="feature__fancybox" href="img/feature/1.webp" class="feature__image">
+									<img src="img/feature/1.webp" alt="">
+								</div>
+							</div>
+							<div data-da=".feature__cards-mobile, 1350, last" class="feature__card feature__card-mobile">
+								<div class="feature__text">
+									<b>
+										Два способа запуска мишеней
+									</b>
+									<p>
+										Метательная машинка FORT PRO-01 способна осуществлять запуск полета мишени с помощью ножной педали или ручным тросиком.
+									</p>
+								</div>
+								<div data-fancybox="feature__fancybox" href="img/feature/1.webp" class="feature__image">
+									<img src="img/feature/1.webp" alt="">
+								</div>
+							</div>
+							<div data-da=".feature__cards-mobile, 1350, last" class="feature__card feature__card-mobile">
+								<div class="feature__text">
+									<b>
+										Комфортная транспортировка
+									</b>
+									<p>
+										В сложенном виде машинка компактно помещается в багажник легкового автомобиля.
+									</p>
+								</div>
+								<div data-fancybox="feature__fancybox" href="img/feature/1.webp" class="feature__image">
+									<img src="img/feature/1.webp" alt="">
+								</div>
+							</div>
+							<div data-da=".feature__cards-mobile, 1350, last" class="feature__card feature__card-mobile">
+								<div class="feature__text">
+									<b>
+										Большой выбор запуска мишеней
+									</b>
+									<p>
+										Угонная, Полуугонная, Боковая, Лупер, Свеча, Заяц. А также, запуск 2-х мишеней одновременно (дуплет).
+									</p>
+								</div>
+								<div data-fancybox="feature__fancybox" href="img/feature/1.webp" class="feature__image">
+									<img src="img/feature/1.webp" alt="">
+								</div>
+							</div>						
+						</div>
+						<div class="feature__cards">
+							<div data-da=".feature__cards-mobile, 1350, last" class="feature__card small feature__card-mobile">
+								<div class="feature__text">
+									<b>
+										Простота сборки (1-2 минуты)
+									</b>
+									<p>
+										Благодаря продуманности конструкции собирать и разбирать метательную машинку можно за считанные минуты.
+									</p>
+								</div>
+								<div data-fancybox="feature__fancybox" href="img/feature/1.webp" class="feature__image">
+									<img src="img/feature/1.webp" alt="">
+								</div>
+							</div>
+							<div data-da=".feature__cards-mobile, 1350, last" class="feature__card feature__card-mobile">
+								<div class="feature__text">
+									<b>
+										Удобство в использовании и тонкой настройки
+									</b>
+									<p>
+										На машинке есть навигационные разметки. Регулируется натяжение выбрасывающей пружины и угол выброса мишени.
+									</p>
+								</div>
+								<div data-fancybox="feature__fancybox" href="img/feature/1.webp" class="feature__image">
+									<img src="img/feature/1.webp" alt="">
+								</div>
+							</div>
+							<div data-da=".feature__cards-mobile, 1350, last" class="feature__card small feature__card-mobile">
+								<div class="feature__text">
+									<b>
+										3 вариации установки метателя
+									</b>
+									<p>
+										Обеспечивает разные типы полетов мишени для максимально разнообразной стрельбы.
+									</p>
+								</div>
+								<div data-fancybox="feature__fancybox" href="img/feature/1.webp" class="feature__image">
+									<img src="img/feature/1.webp" alt="">
+								</div>
+							</div>						
+						</div>
+					</div>
+					<p class="feature__more">
+						Посмотреть ещё 7 особенностей
+						<img src="img/feature/arr.svg" alt="">
+					</p>
+				</div>
+			</div>
+			<div class="die">
+				<div class="die__container">
+					<p>Уникальная метательная машинка FORT PRO-01, пожалуй, лучшая в своем сегменте!</p>
+				</div>
+			</div>
+			<section id="complect" class="complect">
+				<div class="complect__container">
+					<div class="complect__title title">
+						Комплектация метательной машинки FORT PRO-01
+					</div>
+					<div class="complect__body">
+						<div data-fancybox="complect__image" href="img/complect/bigimage.webp" class="complect__image">
+							<img src="img/complect/bigimage.webp" alt="">
+							<b>1</b>
+						</div>
+						<div class="complect__content">
+							<div class="complect__text">
+								<p>1. Сама метательная машинка FORT PRO-01</p>
+								<p>2. Влагозащищенный транспортировочный чехол с дополнительным уплотнением</p>
+								<p>3. Чехол для Метателя</p>
+								<p>4. Чехол для устройства запуска типа «Педаль»</p>
+								<p>5. Чехол для элементов основания</p>
+								<p>6. Инструкция по сборке</p>
+							</div>
+							<p>
+								* Дополнительно можно выбрать вариант с подарочным кейсом
+								из благородных сортов дерева (на выбор клиента)
+							</p>
+							<div class="complect__cards">
+								<div class="complect__column">
+									<span>2</span>
+									<div data-fancybox="complect__image" href="img/complect/1.webp" class="complect__card">
+										<img src="img/complect/1.webp" alt="">
+									</div>
+									<div data-fancybox="complect__image" href="img/complect/2.webp" class="complect__card">
+										<img src="img/complect/2.webp" alt="">
+									</div>										
+								</div>
+								<div class="complect__column">
+									<span>3</span>
+									<div data-fancybox="complect__image" href="img/complect/3.webp" class="complect__card">
+										<img src="img/complect/3.webp" alt="">
+									</div>
+									<div data-fancybox="complect__image" href="img/complect/4.webp" class="complect__card">
+										<img src="img/complect/4.webp" alt="">
+									</div>										
+								</div>
+								<div class="complect__column">
+									<span>4</span>
+									<div data-fancybox="complect__image" href="img/complect/5.webp" class="complect__card">
+										<img src="img/complect/5.webp" alt="">
+									</div>
+									<div data-fancybox="complect__image" href="img/complect/6.webp" class="complect__card">
+										<img src="img/complect/6.webp" alt="">
+									</div>										
+								</div>
+								<div class="complect__column">
+									<span>5</span>
+									<div data-fancybox="complect__image" href="img/complect/7.webp" class="complect__card">
+										<img src="img/complect/7.webp" alt="">
+									</div>
+									<div data-fancybox="complect__image" href="img/complect/8.webp" class="complect__card">
+										<img src="img/complect/8.webp" alt="">
+									</div>										
+								</div>	
+								<div class="complect__column">
+									<span>6</span>
+									<div data-fancybox="complect__image" href="img/complect/9.webp" class="complect__card">
+										<img src="img/complect/9.webp" alt="">
+									</div>
+									<div data-fancybox="complect__image" href="img/complect/10.webp" class="complect__card">
+										<img src="img/complect/10.webp" alt="">
+									</div>										
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="survey">
+				<div class="survey__container">
+					<div class="survey__content">
+						<p>
+							Ответьте на 5 вопросов и узнайте, как 
+							<b>Метательная машинка FORT PRO-01</b>
+							будет полезна именно Вам:
+						</p>
+						<div class="survey__btn">
+							<img src="img/survey/check.png" alt="">
+							<img src="img/survey/checkhover.png" alt="">
+							Пройти опрос
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="pay" class="pay">
+				<div class="pay__container">
+					<div class="pay__title title">
+						Оплата
+					</div>
+					<div class="pay__cards">
+						<div class="pay__card">
+							<div class="pay__image">
+								<img src="img/pay/1.webp" alt="">
+							</div>
+							<p>СБП - Оплата по QR-коду</p>
+						</div>
+						<div class="pay__card">
+							<div class="pay__image">
+								<img src="img/pay/2.svg" alt="">
+							</div>
+							<p>Принимаются карты платёжных систем: VISA, MasterCard, МИР.</p>
+						</div>
+						<div class="pay__card">
+							<div class="pay__image">
+								<img src="img/pay/3.webp" alt="">
+							</div>
+							<p>Yandex Pay</p>
+						</div>
+						<div class="pay__card">
+							<div class="pay__image">
+								<img src="img/pay/4.svg" alt="">
+							</div>
+							<p>Платёжный сервис <br>рассрочки «Подели»</p>
+						</div>
+						<div class="pay__card">
+							<div class="pay__image small">
+								<img src="img/pay/5.svg" alt="">
+							</div>
+							<p>Наличными</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div id="delivery" class="delivery">
+				<div class="delivery__container">
+					<div class="delivery__title title">
+						Доставка
+					</div>
+					<div class="delivery__subtitle">
+						Товар передаётся в транспортную компанию в течении 1 рабочего дня после оплаты заказа.
+						<br>Доставка осуществляется за счет покупателя по действующим тарифам транспортных компаний:
+					</div>
+					<div class="delivery__cards">
+						<div class="delivery__card">
+							<a target="blank" href="https://cdek.ru" class="delivery__image">
+								<img src="img/delivery/1.webp" alt="">
+							</a>
+							<p>
+								Компания СДЭК
+								<a target="blank" class="delivery__address" href="https://cdek.ru">www.cdek.ru</a>
+								<a href="tel:88002500405">8-800-250-04-05</a>
+							</p>
+						</div>
+						<div class="delivery__card">
+							<a target="blank" href="https://dellin.ru" class="delivery__image">
+								<img src="img/delivery/2.webp" alt="">
+							</a>
+							<p>
+								Деловые линии
+								<a target="blank" class="delivery__address" href="https://dellin.ru">www.dellin.ru</a>
+								<a href="tel:88001008000">8-800-100-8000</a>
+							</p>
+						</div>			
+						<div class="delivery__card">
+							<a target="blank" href="https://pecom.ru" class="delivery__image middle">
+								<img src="img/delivery/3.webp" alt="">
+							</a>
+							<p>
+								ПЭК
+								<a target="blank" class="delivery__address" href="https://pecom.ru">www.pecom.ru</a>
+								<a href="tel:+74956601111">+7 (495) 660-11-11</a>
+							</p>
+						</div>	
+						<div class="delivery__card">
+							<a target="blank" href="https://pochta.ru" class="delivery__image">
+								<img src="img/delivery/4.webp" alt="">
+							</a>
+							<p>
+								Почта России
+								<a target="blank" class="delivery__address" href="https://pochta.ru">www.pochta.ru</a>
+								<a href="tel:88001000000">8-800-1-000-000</a>
+							</p>
+						</div>
+						<div class="delivery__card">
+							<a class="delivery__image small">
+								<img src="img/delivery/5.svg" alt="">
+							</a>
+							<p>
+								Другая транспортная компания
+								<br>по выбору заказчика
+							</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<footer id="contacts" class="footer">
+				<div class="footer__content">
+					<div class="footer__container">
+						<div class="footer__body">
+							<div class="footer__title">
+								Контакты
+							</div>
+							<div class="footer__wrap">
+								<div class="footer__info">
+									<p>
+										Адрес отдела продаж:
+									</p>
+									<a target="blank" href="https://yandex.uz/maps/51/samara/house/ulitsa_michurina_21d/YUkYdwNjS0IBQFtpfX5xdX9qYQ==/?ll=50.148322%2C53.205603&utm_source=share&z=15">
+										Самарская область, Самара, <br>
+										ул. Мичуриная 21Д, 104 офис
+									</a>
+								</div>
+								<div class="footer__info">
+									<p>
+										Почта:
+									</p>
+									<a href="mailto:sales@luck-hunter.com">
+										sales@luck-hunter.com
+									</a>
+								</div>
+								<div class="footer__info">
+									<p>
+										Телефон:
+									</p>
+									<div class="footer__numbers">
+										<a class="footer__numbers-social" target="blank" href="https://api.whatsapp.com/send/?phone=89279067777&text&type=phone_number&app_absent=0">
+											<img src="img/whatsapp.svg" alt="">
+										</a>
+										<a class="footer__numbers-social" target="blank" href="https://telegram.me/LUCK_HUNTER_COM">
+											<img src="img/telegram.svg" alt="">
+										</a>
+										<a href="tel:89279067777">
+											8-927-906-77-77
+										</a>
+									</div>
+								</div>
+								<div class="footer__info">
+									<p>Продавец:</p>	
+									<span>ИП Гайнутдинов Р.М. <br>ИНН 636705661623	</span>			
+								</div>									
+								<div class="footer__info">
+									<p>
+										Мы в соцсетях:
+									</p>
+									<div class="footer__socials">
+										<a class="footer__ytb" target="blank" href="#">
+											<svg  width="22" height="15" viewBox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M21.6204 2.35037C21.4853 1.89027 21.2266 1.47358 20.871 1.14322C20.5154 0.812864 20.0758 0.58079 19.5974 0.470911C16.7444 0.125583 13.8706 -0.0301457 10.9959 0.00480573C8.12207 -0.0281668 5.24904 0.117474 2.3943 0.44084C1.9306 0.572962 1.50888 0.817429 1.16859 1.15138C0.8283 1.48533 0.580557 1.89785 0.448529 2.35037C0.138357 4.05765 -0.0115401 5.78889 0.00069228 7.52264C-0.00983956 9.24137 0.140056 10.9575 0.448529 12.6498C0.578846 13.1015 0.826256 13.513 1.167 13.8448C1.50774 14.1765 1.93037 14.4174 2.3943 14.5443C5.2482 14.8784 8.12161 15.0291 10.9959 14.9954C13.8697 15.0283 16.7427 14.8827 19.5974 14.5593C20.0756 14.4439 20.5141 14.2081 20.8692 13.8756C21.2243 13.5431 21.4833 13.1255 21.6204 12.6648C21.9034 10.9652 22.0275 9.24409 21.991 7.52264C22.036 5.79101 21.9119 4.05914 21.6204 2.35037ZM8.803 10.7102V4.28997L14.5322 7.52264L8.803 10.7102Z" fill="white"/>
+											</svg>
+										</a>
+										<a class="footer__vk" target="blank" href="#">
+											<svg  width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M18.6806 8.01646C18.8198 8.17637 19.1294 8.4962 19.6246 8.97595C20.4739 9.73784 21.2139 10.6209 21.8221 11.5986L21.8995 11.7425C21.9325 11.8471 21.9584 11.9539 21.9769 12.0623C22.0077 12.1937 22.0077 12.3307 21.9769 12.4621C21.9561 12.5395 21.9189 12.6113 21.8681 12.6721C21.8172 12.7329 21.754 12.7814 21.6828 12.8139C21.4724 12.9241 21.2373 12.9738 21.0019 12.9578H18.0615C17.8535 13.0141 17.635 13.0141 17.427 12.9578C17.2163 12.8991 17.0135 12.8131 16.8235 12.702L16.5914 12.558C16.3066 12.333 16.0424 12.0814 15.8021 11.8064C15.4926 11.4546 15.2295 11.1508 15.0129 10.8789C14.8081 10.6218 14.5743 10.391 14.3165 10.1913C14.2298 10.1101 14.1255 10.0518 14.0123 10.0211C13.8992 9.99053 13.7805 9.98855 13.6665 10.0154H13.5736C13.4998 10.0652 13.4322 10.1243 13.3724 10.1913C13.2729 10.2948 13.1894 10.4134 13.1248 10.5431C13.0424 10.7574 12.9953 10.9844 12.9856 11.2148C12.9215 11.5192 12.8955 11.8309 12.9082 12.1423C12.9244 12.2482 12.9244 12.3561 12.9082 12.4621C12.8918 12.5398 12.8658 12.6151 12.8308 12.686C12.663 12.8488 12.442 12.9402 12.2118 12.9418H10.8499C10.2745 13.0003 9.69355 12.957 9.13214 12.8139C8.59074 12.6738 8.07017 12.4586 7.58458 12.1742C7.17994 11.9338 6.78738 11.6723 6.40844 11.3907C6.12029 11.1935 5.85085 10.9686 5.60371 10.719L5.30967 10.4312C5.19992 10.3203 5.09657 10.2028 5.00016 10.0794C4.86088 9.91945 4.58232 9.55164 4.17995 8.99194C3.77759 8.43224 3.35975 7.84055 2.95738 7.20089C2.55502 6.56123 2.1217 5.71369 1.56458 4.67424C0.996716 3.63587 0.4802 2.5684 0.0170249 1.47594C-0.00567495 1.37062 -0.00567495 1.26143 0.0170249 1.15611C0.00686411 1.08185 0.00686411 1.00649 0.0170249 0.932229C0.10623 0.822028 0.221543 0.737589 0.351726 0.687143C0.481909 0.636697 0.62252 0.621965 0.759852 0.644383H3.85497H4.11805L4.35018 0.788306C4.50136 0.880493 4.61225 1.02945 4.6597 1.20408C4.81445 1.60387 4.98468 2.01965 5.18587 2.43543C5.38705 2.85121 5.5418 3.18703 5.66561 3.41091L5.83584 3.74673C6.06797 4.22648 6.28463 4.62626 6.48581 4.97808C6.65371 5.26247 6.83983 5.53493 7.04293 5.79364C7.17993 5.96719 7.3417 6.11817 7.52268 6.2414C7.63619 6.34126 7.77665 6.40267 7.92504 6.41731C8.02691 6.4413 8.13269 6.4413 8.23455 6.41731L8.37383 6.16145C8.44877 5.98263 8.5008 5.79448 8.52859 5.60174C8.52859 5.37786 8.52859 5.05803 8.63692 4.64226C8.66787 4.15237 8.66787 3.66092 8.63692 3.17104C8.62468 2.87525 8.58844 2.58104 8.52859 2.29151C8.51875 2.06505 8.48765 1.84011 8.43574 1.61986L8.35836 1.47594C8.23687 1.32931 8.08779 1.20975 7.92019 1.12452C7.75258 1.0393 7.56995 0.990198 7.3834 0.980204C7.29054 0.980204 7.3834 0.868263 7.3834 0.692357C7.51999 0.537171 7.68948 0.416758 7.87862 0.340544C8.76452 0.0590081 9.69343 -0.0494536 10.6178 0.0207145C11.1368 0.0202748 11.6548 0.0684463 12.1653 0.164638C12.3002 0.201215 12.4302 0.25493 12.5522 0.324553C12.6539 0.396447 12.7343 0.496096 12.7844 0.6124C12.8394 0.73514 12.8809 0.863878 12.9082 0.996195C12.9242 1.17706 12.9242 1.35905 12.9082 1.53991C12.9082 1.76379 12.9082 1.98767 12.9082 2.17957C12.9082 2.37146 12.9082 2.6753 12.9082 3.02711C12.9082 3.37893 12.9082 3.69876 12.9082 4.0026C12.9082 4.30643 12.9082 4.25846 12.9082 4.49833V5.07403C12.9082 5.20196 12.9082 5.36187 12.9082 5.55377C12.9315 5.71478 12.9785 5.87117 13.0475 6.01752C13.0994 6.17248 13.1902 6.31042 13.3105 6.41731H13.4962C13.4962 6.41731 13.6665 6.41731 13.8058 6.28938C13.9575 6.15916 14.1022 6.02036 14.2391 5.8736C14.4569 5.62498 14.6537 5.35747 14.8271 5.07403C15.0748 4.72221 15.3224 4.29044 15.6164 3.8107C16.0843 2.94033 16.4928 2.03729 16.839 1.10814C16.8657 1.03404 16.9022 0.964091 16.9473 0.900246L17.0402 0.772314H17.1949C17.2706 0.748749 17.3513 0.748749 17.427 0.772314H20.7233C20.968 0.71633 21.2215 0.71633 21.4662 0.772314C21.6021 0.793643 21.7274 0.861162 21.8221 0.964212V1.07615C22.0078 1.58788 21.4352 2.6753 20.1043 4.5623L19.3615 5.56976C18.963 6.06407 18.6154 6.60002 18.3246 7.16891C18.3116 7.32958 18.3372 7.49108 18.3993 7.63899C18.4614 7.7869 18.5581 7.91659 18.6806 8.01646Z" fill="white"/>
+											</svg>
+										</a>
+									</div>
+								</div>	
+							</div>
+							<div data-da="footer, 700, last" class="footer__bottom">
+								<span>
+									© 2022 «Luck-Hunter»
+									<a href="#" target="blank">Политика конфеденциальности</a>
+								</span>
+								<a href="https://varnoff-studio.ru/" target="blank">
+										<svg viewBox="0 0 71 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<mask id="path-1-outside-1_77_1484" maskUnits="userSpaceOnUse" x="-1" y="0.417969" width="72" height="43" fill="black">
+										<rect fill="white" x="-1" y="0.417969" width="72" height="43"/>
+										<path d="M28.1617 3.88816C28.2459 3.85482 27.2247 3.8092 26.9878 3.9057C21.5626 6.16562 16.6024 9.41514 12.7019 13.7841C10.5385 16.2072 5.86951 23.0922 5.71862 23.315C6.77137 18.1109 9.44362 11.4434 11.8808 6.29546C12.5499 5.60102 12.9407 4.68506 12.9791 3.72147C12.9791 3.60216 11.4895 3.3144 11.4263 3.45653C11.0473 4.30926 10.6841 5.17252 10.3297 6.02876C9.68751 6.7306 8.82776 7.25698 7.93643 7.72546C6.83805 8.30272 4.66586 9.03263 4.92028 10.6241C4.9501 10.8153 6.30114 10.975 6.47134 10.889C7.15354 10.4922 7.75813 9.97502 8.25576 9.3625C8.19435 9.43268 7.77325 9.24669 7.37846 9.12563C8.03995 8.63609 8.91198 8.29044 9.48398 7.9904L9.55241 7.95531C5.90285 15.851 4.25879 22.0728 3.00777 28.9947C2.90424 29.8035 3.86927 30.7335 3.90787 30.5914C4.13039 29.754 4.39627 28.9288 4.70446 28.1191C5.79056 25.2574 8.06451 20.9902 13.609 14.3157C17.4411 9.71166 22.6171 6.19721 28.1617 3.88816ZM29.4671 23.1887C29.8302 23.0494 30.1726 22.8611 30.4847 22.629L30.2689 22.522C29.9654 22.3202 29.4285 21.9166 29.2004 21.9956C28.8835 22.1182 28.5875 22.2893 28.3231 22.5027C26.3509 23.3291 24.749 22.0114 22.7487 22.5027C22.3399 22.6044 21.1906 23.187 21.4538 23.7204C21.717 24.2538 22.7943 24.4924 23.4137 24.4327C23.4997 24.4327 23.0733 24.1397 23.0277 24.1169C22.9558 24.0765 22.868 24.0204 22.775 23.966C22.9154 23.7063 23.2488 23.5045 23.4769 23.3642C24.2489 22.9027 25.1069 23.0536 25.7982 23.1571C26.2878 23.2291 26.6211 23.3115 27.1159 23.3694C26.3392 24.0678 25.6072 24.8144 24.9244 25.6048C23.7857 26.9225 22.8435 28.4718 23.9822 29.5211C25.0104 30.4685 26.6422 30.5738 28.2266 30.1457C28.7477 30.0059 29.256 29.8222 29.7461 29.5965C30.676 29.1947 30.1514 28.9192 29.6811 28.2876C29.3302 28.463 28.6021 28.8455 28.2564 28.9771C27.5077 29.2646 26.7358 29.4876 25.9491 29.6439C25.1701 29.7965 24.9911 29.5193 24.9525 29.3807C24.6016 28.0911 25.9631 26.6821 26.9352 25.6241C27.6019 24.8977 28.5301 23.859 29.4671 23.187V23.1887ZM18.6237 22.236C17.6452 21.8852 16.6118 21.7123 15.5724 21.7254C12.7756 21.7254 10.5841 22.8202 9.08042 24.3889C7.65218 25.8768 7.10826 27.5331 7.30302 29.2105C7.42408 30.2632 9.16464 30.4019 9.16464 30.4019C8.18382 29.2807 8.48386 27.9156 9.09621 26.433C9.79805 24.7398 11.1912 23.7344 12.3878 23.2256C13.3793 22.7625 14.4625 22.5292 15.5566 22.543C17.22 22.543 18.4763 22.9799 19.0957 23.7712C19.5799 24.3941 19.6922 25.2398 19.4273 26.2821C19.2167 27.1173 18.757 27.9735 17.9797 28.9806C17.887 29.1047 17.7856 29.2219 17.6762 29.3316C17.6384 29.3459 17.5968 29.3468 17.5584 29.334C17.52 29.3212 17.4873 29.2955 17.4656 29.2614C17.0077 28.5911 16.7901 27.6208 16.8024 26.2961C16.8009 25.6663 16.8443 25.0371 16.9322 24.4134V24.3748C16.9336 24.3596 16.9319 24.3443 16.927 24.3298C16.9222 24.3153 16.9144 24.3019 16.9042 24.2906C16.8708 24.2502 16.8024 24.2152 16.5392 24.2152C16.2092 24.2216 15.8809 24.2639 15.5601 24.3415C15.4128 24.331 15.2654 24.3257 15.1162 24.3257C13.6441 24.3257 12.1896 24.8521 11.228 25.7294C10.4174 26.4716 9.98229 27.2471 9.89456 28.1033C9.79981 29.0263 10.4209 30.1685 11.4474 30.3352C11.6604 30.3688 11.8757 30.3858 12.0913 30.3861C13.5494 30.3861 14.9232 29.6281 15.7093 28.9578C15.7836 29.1464 15.8716 29.3294 15.9725 29.5053C16.2181 29.9264 16.5655 30.1597 17.2428 30.1597C17.8593 30.155 18.464 29.9899 18.9974 29.6807C19.6834 29.2403 20.3204 28.4192 20.7046 27.484C21.1819 26.3172 21.2152 25.2469 20.8029 24.2994C20.3652 23.3596 19.586 22.6217 18.6237 22.236ZM14.8987 27.3471C14.4811 28.363 13.6862 29.1543 12.465 29.7649C12.4352 29.7439 12.4071 29.7228 12.3773 29.6983C12.1 29.4521 11.8976 29.1329 11.793 28.7771C11.5597 28.1402 11.7614 27.4664 11.9685 27.0137C12.2054 26.4996 12.8195 25.5557 14.2495 24.9959C14.5881 24.8628 14.9511 24.803 15.3145 24.8205H15.3654C15.3408 25.4714 15.125 26.7944 14.8987 27.3471ZM64.7696 3.82148C63.2834 4.50402 62.2219 6.37267 61.5183 7.72897C59.6461 11.3452 58.4776 15.286 57.2318 19.1496C56.8809 19.1637 56.544 19.1689 56.2019 19.1602C55.8597 19.1514 55.2614 19.6865 54.9964 19.876C54.9438 19.9199 54.2841 20.4375 54.4174 20.4375C55.2336 20.4602 56.0503 20.418 56.8598 20.3112C55.8702 23.3554 54.8999 26.3066 53.8139 29.3368C53.7735 29.4456 53.8577 29.7228 54.3174 29.9615C54.5683 30.0931 54.8245 30.2317 54.9754 30.3124C56.179 26.94 57.2108 23.4923 58.2881 20.0603C58.7916 19.9497 59.2882 19.8181 59.776 19.662C60.2076 19.5234 60.6164 19.2075 60.9814 18.9461C61.0656 18.8864 61.6411 18.3618 61.5621 18.3881C60.6009 18.6933 59.6135 18.9095 58.6127 19.0338C59.5479 16.0931 60.5322 13.1717 61.706 10.3275C62.5184 8.35711 63.336 6.62533 64.752 5.20937C65.0573 4.90407 65.7662 4.61105 66.1838 4.48647C66.2317 4.47128 66.2811 4.46128 66.3311 4.45665C66.6119 4.82336 66.8575 5.33394 66.4294 5.56029C66.5487 5.49888 67.4576 6.63936 67.7699 6.47619C68.7104 5.99192 66.5803 2.98805 64.7696 3.82148ZM66.4662 4.47068C66.5171 4.49525 66.5154 4.48121 66.4662 4.47068V4.47068ZM55.3895 18.3899C54.4275 18.6944 53.4396 18.9099 52.4382 19.0338C53.3734 16.0931 54.3578 13.1717 55.5316 10.3275C56.3422 8.35711 57.1599 6.62533 58.5758 5.20937C58.8811 4.90407 59.59 4.61105 60.0093 4.48647C60.0572 4.47099 60.1066 4.46098 60.1567 4.45665C60.4375 4.82336 60.6831 5.33394 60.2532 5.56029C60.3725 5.49888 61.2832 6.63936 61.5937 6.47619C62.5359 5.98841 60.4059 2.98454 58.5969 3.81797C57.1107 4.50051 56.0492 6.36916 55.3474 7.72546C53.4752 11.3452 52.3119 15.286 51.0609 19.1496C50.71 19.1637 50.3731 19.1689 50.0309 19.1602C49.6888 19.1514 49.0887 19.6865 48.8255 19.876C48.7624 19.9199 48.1079 20.4322 48.2448 20.434C49.0604 20.4567 49.8765 20.4145 50.6854 20.3077C49.6976 23.3519 48.7255 26.3031 47.6412 29.3333C47.6008 29.4421 47.685 29.7193 48.143 29.9579C48.3957 30.0895 48.6518 30.2282 48.8027 30.3089C50.0064 26.9365 51.0381 23.4888 52.1154 20.0568C52.619 19.9462 53.1155 19.8146 53.6015 19.6585C54.0349 19.5199 54.442 19.204 54.807 18.9426C54.8912 18.8882 55.4702 18.3636 55.3895 18.3899ZM60.2901 4.47068C60.3427 4.49525 60.3392 4.48121 60.2901 4.47068V4.47068ZM37.0346 21.9868C35.9293 21.7973 34.966 22.7904 34.2448 23.7835C34.2951 23.4572 34.3484 23.1378 34.4045 22.8255C34.4361 22.6501 34.0062 22.2833 33.9062 22.1781C33.8729 22.1395 33.2939 21.6306 33.2921 21.6412C32.9043 23.7783 32.7394 26.3417 31.5603 28.2613C31.3127 28.6434 31.0308 29.0022 30.7181 29.3333C30.6198 29.4368 31.5638 30.4738 31.6358 30.4001C31.8974 30.1417 32.1325 29.8578 32.3376 29.5526C33.8009 27.512 34.5028 24.8152 36.689 23.3817C37.1434 23.0852 37.9348 22.8904 38.3594 23.2256C38.3861 23.3756 38.4008 23.5276 38.4032 23.68C38.4014 24.0715 38.3501 24.4612 38.2506 24.8398C37.9979 25.9785 37.4751 27.0225 37.0417 28.0946C36.8744 28.4995 36.7286 28.913 36.6048 29.3333C36.5048 29.6842 37.6242 30.2632 37.7628 30.3633C37.9323 29.7924 38.1374 29.2328 38.3769 28.6876C38.8331 27.6085 39.3209 26.5698 39.4876 25.3416C39.6788 23.9116 38.4822 22.2342 37.0346 21.9868ZM45.0058 22.0816C43.8197 21.7306 42.0861 23.3852 41.7194 23.8607C40.8018 25.0521 39.4876 27.4419 40.5877 28.8789C41.2018 29.6807 42.0177 30.379 43.0564 30.3948C44.811 30.4194 46.1796 28.8964 46.9165 27.4506C47.5815 26.1487 47.5728 24.1362 46.5937 23.015C46.1631 22.5602 45.6126 22.2366 45.0058 22.0816ZM45.4164 27.5068C43.7705 29.6912 41.7106 29.2947 41.4299 29.2438C41.4291 29.241 41.4291 29.2379 41.4299 29.2351C41.1141 27.9542 41.744 26.2908 42.4914 25.3188C44.4689 22.7483 45.7374 23.0589 45.8006 23.0694C45.9041 23.2905 46.9183 25.5118 45.4164 27.5068Z"/>
+										<path d="M41.6369 35.8243C41.6369 36.3788 41.5071 36.8086 41.2526 37.0999C41.1073 37.2535 40.9299 37.3732 40.7331 37.4505C40.5363 37.5278 40.3249 37.5609 40.1139 37.5473C39.7279 37.5473 39.4454 37.4403 39.2752 37.2297C39.105 37.0192 39.0278 36.6788 39.0278 36.177V33.3995H38.4751V36.3419C38.469 36.5803 38.4843 36.8187 38.5207 37.0543C38.5459 37.1824 38.594 37.3048 38.6629 37.4157C38.7859 37.6069 38.963 37.7572 39.1717 37.8474C39.4386 37.9563 39.7251 38.0092 40.0133 38.0029C40.3016 37.9965 40.5854 37.931 40.8473 37.8105C41.0938 37.6786 41.2986 37.4805 41.4386 37.2385L41.6737 36.8507V37.8842H42.1826V33.3995H41.6369V35.8243ZM36.631 32.0765H36.0871V33.3995H35.3853V33.7732H36.0871V37.0788C36.0871 37.4105 36.1485 37.6386 36.2731 37.7579C36.3977 37.8772 36.6345 37.9333 36.9749 37.9333C37.0635 37.9327 37.1519 37.9274 37.2399 37.9175C37.3153 37.9088 37.396 37.8965 37.4855 37.8825V37.4578H37.3574C37.289 37.4578 37.2293 37.4578 37.182 37.4578C37.1038 37.4661 37.0247 37.457 36.9504 37.4312C36.8761 37.4055 36.8084 37.3636 36.7521 37.3087C36.6547 37.1586 36.612 36.9795 36.631 36.8016V33.7732H37.4855V33.3924H36.631V32.0765ZM33.4061 35.3523L32.6376 35.1769C32.4084 35.1405 32.1903 35.0536 31.9989 34.9225C31.9326 34.8669 31.8799 34.7969 31.8449 34.7178C31.81 34.6387 31.7936 34.5527 31.7971 34.4663C31.7917 34.3489 31.817 34.2321 31.8706 34.1274C31.9241 34.0228 32.004 33.934 32.1024 33.8697C32.3452 33.7289 32.6242 33.663 32.9043 33.6802C33.2006 33.6656 33.4939 33.7462 33.7412 33.91C33.8339 33.975 33.9126 34.0579 33.9729 34.1537C34.0331 34.2495 34.0737 34.3563 34.0921 34.468H34.6185C34.6112 34.3022 34.5673 34.1401 34.4899 33.9933C34.4126 33.8464 34.3037 33.7186 34.1711 33.6188C33.8024 33.3568 33.3559 33.2276 32.9043 33.2521C32.4671 33.2285 32.0347 33.352 31.6761 33.603C31.5374 33.7069 31.4261 33.8429 31.3518 33.9995C31.2775 34.156 31.2425 34.3282 31.2497 34.5013C31.2392 34.6392 31.2565 34.7778 31.3005 34.9089C31.3445 35.04 31.4143 35.1609 31.5059 35.2646C31.6813 35.4401 32.0164 35.5962 32.4919 35.7103L33.3833 35.9401C33.6127 35.9775 33.8295 36.0703 34.0149 36.2103C34.0789 36.2749 34.1287 36.3521 34.161 36.437C34.1933 36.5219 34.2075 36.6126 34.2027 36.7034C34.2057 36.8337 34.175 36.9626 34.1135 37.0776C34.052 37.1926 33.9619 37.2897 33.8517 37.3596C33.5877 37.5186 33.2823 37.5956 32.9745 37.5807C32.6391 37.6001 32.3074 37.5028 32.0357 37.3052C31.8258 37.1271 31.6905 36.8766 31.6567 36.6034H31.1304C31.132 36.7972 31.1731 36.9887 31.2512 37.1661C31.3293 37.3435 31.4429 37.503 31.5848 37.6351C31.8848 37.9018 32.3288 38.0369 32.9008 38.0369C33.4728 38.0369 33.9535 37.9088 34.2746 37.6544C34.4328 37.5302 34.5585 37.3696 34.641 37.1863C34.7235 37.0029 34.7603 36.8023 34.7483 36.6016C34.7586 36.4606 34.7397 36.319 34.6929 36.1856C34.6461 36.0522 34.5724 35.9298 34.4764 35.8261C34.2904 35.6401 33.929 35.4839 33.4061 35.3523ZM49.022 32.2695H49.5659V31.6133H49.022V32.2695ZM49.022 37.8842H49.5659V33.3995H49.022V37.8842ZM47.0095 34.2276L46.7831 33.9293C46.6224 33.7139 46.4124 33.54 46.1708 33.4223C45.9132 33.3025 45.6319 33.2425 45.3479 33.2468C45.0784 33.2359 44.8102 33.2885 44.5648 33.4003C44.3195 33.5122 44.1039 33.6802 43.9354 33.8907C43.5845 34.3224 43.3985 34.9189 43.3985 35.6611C43.3985 36.4033 43.574 36.9736 43.9337 37.3999C44.1038 37.6083 44.3203 37.7741 44.5658 37.884C44.8113 37.994 45.0791 38.0451 45.3479 38.0333C45.6221 38.0354 45.8932 37.9754 46.1409 37.8579C46.3928 37.7321 46.6138 37.5524 46.7884 37.3315L47.013 37.0595V37.8825H47.5394V31.6185H47.013L47.0095 34.2276ZM46.6428 37.0473C46.5097 37.2197 46.3371 37.3576 46.1395 37.4492C45.9419 37.5408 45.7251 37.5835 45.5075 37.5736C45.2917 37.5825 45.0767 37.541 44.8796 37.4524C44.6826 37.3638 44.5089 37.2305 44.3723 37.0631C44.0849 36.6725 43.9411 36.1946 43.9652 35.7103C43.9652 35.0874 44.0986 34.5943 44.3583 34.2487C44.4902 34.0729 44.6631 33.932 44.8618 33.8381C45.0605 33.7442 45.2792 33.7003 45.4988 33.71C45.7161 33.6963 45.9336 33.7337 46.1338 33.8193C46.334 33.905 46.5114 34.0364 46.6515 34.2031C46.9059 34.5224 47.0358 34.9944 47.0358 35.6067C47.0358 36.2191 46.9095 36.7069 46.6498 37.0473H46.6428ZM54.5139 33.8644C54.1419 33.4521 53.6085 33.2433 52.9347 33.2433C52.261 33.2433 51.7276 33.4539 51.3556 33.8662C50.9836 34.2785 50.7924 34.8786 50.7924 35.6348C50.7924 36.391 50.9819 36.9946 51.3574 37.4105C51.7328 37.8263 52.261 38.0298 52.9365 38.0298C53.612 38.0298 54.1437 37.821 54.5156 37.4087C54.8876 36.9964 55.0771 36.3963 55.0771 35.6348C55.0771 34.8733 54.8946 34.2785 54.5209 33.8644H54.5139ZM54.1068 37.0613C53.9664 37.2329 53.7872 37.3689 53.5841 37.4579C53.381 37.547 53.1597 37.5866 52.9382 37.5736C52.7154 37.5858 52.4928 37.5458 52.2881 37.4569C52.0834 37.3679 51.9023 37.2325 51.7592 37.0613C51.489 36.7279 51.3538 36.2489 51.3538 35.6348C51.3538 35.0207 51.4889 34.5435 51.7574 34.2118C51.9007 34.0403 52.0821 33.9046 52.2871 33.8157C52.4921 33.7267 52.7151 33.6869 52.9382 33.6995C53.1599 33.6869 53.3815 33.7271 53.5846 33.8168C53.7877 33.9065 53.9667 34.0431 54.1068 34.2153C54.3717 34.547 54.5051 35.026 54.5051 35.6348C54.5051 36.2437 54.3788 36.7279 54.1138 37.0613H54.1068Z"/>
+										</mask>
+										<path class="footer__vst-hover" d="M28.1617 3.88816C28.2459 3.85482 27.2247 3.8092 26.9878 3.9057C21.5626 6.16562 16.6024 9.41514 12.7019 13.7841C10.5385 16.2072 5.86951 23.0922 5.71862 23.315C6.77137 18.1109 9.44362 11.4434 11.8808 6.29546C12.5499 5.60102 12.9407 4.68506 12.9791 3.72147C12.9791 3.60216 11.4895 3.3144 11.4263 3.45653C11.0473 4.30926 10.6841 5.17252 10.3297 6.02876C9.68751 6.7306 8.82776 7.25698 7.93643 7.72546C6.83805 8.30272 4.66586 9.03263 4.92028 10.6241C4.9501 10.8153 6.30114 10.975 6.47134 10.889C7.15354 10.4922 7.75813 9.97502 8.25576 9.3625C8.19435 9.43268 7.77325 9.24669 7.37846 9.12563C8.03995 8.63609 8.91198 8.29044 9.48398 7.9904L9.55241 7.95531C5.90285 15.851 4.25879 22.0728 3.00777 28.9947C2.90424 29.8035 3.86927 30.7335 3.90787 30.5914C4.13039 29.754 4.39627 28.9288 4.70446 28.1191C5.79056 25.2574 8.06451 20.9902 13.609 14.3157C17.4411 9.71166 22.6171 6.19721 28.1617 3.88816ZM29.4671 23.1887C29.8302 23.0494 30.1726 22.8611 30.4847 22.629L30.2689 22.522C29.9654 22.3202 29.4285 21.9166 29.2004 21.9956C28.8835 22.1182 28.5875 22.2893 28.3231 22.5027C26.3509 23.3291 24.749 22.0114 22.7487 22.5027C22.3399 22.6044 21.1906 23.187 21.4538 23.7204C21.717 24.2538 22.7943 24.4924 23.4137 24.4327C23.4997 24.4327 23.0733 24.1397 23.0277 24.1169C22.9558 24.0765 22.868 24.0204 22.775 23.966C22.9154 23.7063 23.2488 23.5045 23.4769 23.3642C24.2489 22.9027 25.1069 23.0536 25.7982 23.1571C26.2878 23.2291 26.6211 23.3115 27.1159 23.3694C26.3392 24.0678 25.6072 24.8144 24.9244 25.6048C23.7857 26.9225 22.8435 28.4718 23.9822 29.5211C25.0104 30.4685 26.6422 30.5738 28.2266 30.1457C28.7477 30.0059 29.256 29.8222 29.7461 29.5965C30.676 29.1947 30.1514 28.9192 29.6811 28.2876C29.3302 28.463 28.6021 28.8455 28.2564 28.9771C27.5077 29.2646 26.7358 29.4876 25.9491 29.6439C25.1701 29.7965 24.9911 29.5193 24.9525 29.3807C24.6016 28.0911 25.9631 26.6821 26.9352 25.6241C27.6019 24.8977 28.5301 23.859 29.4671 23.187V23.1887ZM18.6237 22.236C17.6452 21.8852 16.6118 21.7123 15.5724 21.7254C12.7756 21.7254 10.5841 22.8202 9.08042 24.3889C7.65218 25.8768 7.10826 27.5331 7.30302 29.2105C7.42408 30.2632 9.16464 30.4019 9.16464 30.4019C8.18382 29.2807 8.48386 27.9156 9.09621 26.433C9.79805 24.7398 11.1912 23.7344 12.3878 23.2256C13.3793 22.7625 14.4625 22.5292 15.5566 22.543C17.22 22.543 18.4763 22.9799 19.0957 23.7712C19.5799 24.3941 19.6922 25.2398 19.4273 26.2821C19.2167 27.1173 18.757 27.9735 17.9797 28.9806C17.887 29.1047 17.7856 29.2219 17.6762 29.3316C17.6384 29.3459 17.5968 29.3468 17.5584 29.334C17.52 29.3212 17.4873 29.2955 17.4656 29.2614C17.0077 28.5911 16.7901 27.6208 16.8024 26.2961C16.8009 25.6663 16.8443 25.0371 16.9322 24.4134V24.3748C16.9336 24.3596 16.9319 24.3443 16.927 24.3298C16.9222 24.3153 16.9144 24.3019 16.9042 24.2906C16.8708 24.2502 16.8024 24.2152 16.5392 24.2152C16.2092 24.2216 15.8809 24.2639 15.5601 24.3415C15.4128 24.331 15.2654 24.3257 15.1162 24.3257C13.6441 24.3257 12.1896 24.8521 11.228 25.7294C10.4174 26.4716 9.98229 27.2471 9.89456 28.1033C9.79981 29.0263 10.4209 30.1685 11.4474 30.3352C11.6604 30.3688 11.8757 30.3858 12.0913 30.3861C13.5494 30.3861 14.9232 29.6281 15.7093 28.9578C15.7836 29.1464 15.8716 29.3294 15.9725 29.5053C16.2181 29.9264 16.5655 30.1597 17.2428 30.1597C17.8593 30.155 18.464 29.9899 18.9974 29.6807C19.6834 29.2403 20.3204 28.4192 20.7046 27.484C21.1819 26.3172 21.2152 25.2469 20.8029 24.2994C20.3652 23.3596 19.586 22.6217 18.6237 22.236ZM14.8987 27.3471C14.4811 28.363 13.6862 29.1543 12.465 29.7649C12.4352 29.7439 12.4071 29.7228 12.3773 29.6983C12.1 29.4521 11.8976 29.1329 11.793 28.7771C11.5597 28.1402 11.7614 27.4664 11.9685 27.0137C12.2054 26.4996 12.8195 25.5557 14.2495 24.9959C14.5881 24.8628 14.9511 24.803 15.3145 24.8205H15.3654C15.3408 25.4714 15.125 26.7944 14.8987 27.3471ZM64.7696 3.82148C63.2834 4.50402 62.2219 6.37267 61.5183 7.72897C59.6461 11.3452 58.4776 15.286 57.2318 19.1496C56.8809 19.1637 56.544 19.1689 56.2019 19.1602C55.8597 19.1514 55.2614 19.6865 54.9964 19.876C54.9438 19.9199 54.2841 20.4375 54.4174 20.4375C55.2336 20.4602 56.0503 20.418 56.8598 20.3112C55.8702 23.3554 54.8999 26.3066 53.8139 29.3368C53.7735 29.4456 53.8577 29.7228 54.3174 29.9615C54.5683 30.0931 54.8245 30.2317 54.9754 30.3124C56.179 26.94 57.2108 23.4923 58.2881 20.0603C58.7916 19.9497 59.2882 19.8181 59.776 19.662C60.2076 19.5234 60.6164 19.2075 60.9814 18.9461C61.0656 18.8864 61.6411 18.3618 61.5621 18.3881C60.6009 18.6933 59.6135 18.9095 58.6127 19.0338C59.5479 16.0931 60.5322 13.1717 61.706 10.3275C62.5184 8.35711 63.336 6.62533 64.752 5.20937C65.0573 4.90407 65.7662 4.61105 66.1838 4.48647C66.2317 4.47128 66.2811 4.46128 66.3311 4.45665C66.6119 4.82336 66.8575 5.33394 66.4294 5.56029C66.5487 5.49888 67.4576 6.63936 67.7699 6.47619C68.7104 5.99192 66.5803 2.98805 64.7696 3.82148ZM66.4662 4.47068C66.5171 4.49525 66.5154 4.48121 66.4662 4.47068V4.47068ZM55.3895 18.3899C54.4275 18.6944 53.4396 18.9099 52.4382 19.0338C53.3734 16.0931 54.3578 13.1717 55.5316 10.3275C56.3422 8.35711 57.1599 6.62533 58.5758 5.20937C58.8811 4.90407 59.59 4.61105 60.0093 4.48647C60.0572 4.47099 60.1066 4.46098 60.1567 4.45665C60.4375 4.82336 60.6831 5.33394 60.2532 5.56029C60.3725 5.49888 61.2832 6.63936 61.5937 6.47619C62.5359 5.98841 60.4059 2.98454 58.5969 3.81797C57.1107 4.50051 56.0492 6.36916 55.3474 7.72546C53.4752 11.3452 52.3119 15.286 51.0609 19.1496C50.71 19.1637 50.3731 19.1689 50.0309 19.1602C49.6888 19.1514 49.0887 19.6865 48.8255 19.876C48.7624 19.9199 48.1079 20.4322 48.2448 20.434C49.0604 20.4567 49.8765 20.4145 50.6854 20.3077C49.6976 23.3519 48.7255 26.3031 47.6412 29.3333C47.6008 29.4421 47.685 29.7193 48.143 29.9579C48.3957 30.0895 48.6518 30.2282 48.8027 30.3089C50.0064 26.9365 51.0381 23.4888 52.1154 20.0568C52.619 19.9462 53.1155 19.8146 53.6015 19.6585C54.0349 19.5199 54.442 19.204 54.807 18.9426C54.8912 18.8882 55.4702 18.3636 55.3895 18.3899ZM60.2901 4.47068C60.3427 4.49525 60.3392 4.48121 60.2901 4.47068V4.47068ZM37.0346 21.9868C35.9293 21.7973 34.966 22.7904 34.2448 23.7835C34.2951 23.4572 34.3484 23.1378 34.4045 22.8255C34.4361 22.6501 34.0062 22.2833 33.9062 22.1781C33.8729 22.1395 33.2939 21.6306 33.2921 21.6412C32.9043 23.7783 32.7394 26.3417 31.5603 28.2613C31.3127 28.6434 31.0308 29.0022 30.7181 29.3333C30.6198 29.4368 31.5638 30.4738 31.6358 30.4001C31.8974 30.1417 32.1325 29.8578 32.3376 29.5526C33.8009 27.512 34.5028 24.8152 36.689 23.3817C37.1434 23.0852 37.9348 22.8904 38.3594 23.2256C38.3861 23.3756 38.4008 23.5276 38.4032 23.68C38.4014 24.0715 38.3501 24.4612 38.2506 24.8398C37.9979 25.9785 37.4751 27.0225 37.0417 28.0946C36.8744 28.4995 36.7286 28.913 36.6048 29.3333C36.5048 29.6842 37.6242 30.2632 37.7628 30.3633C37.9323 29.7924 38.1374 29.2328 38.3769 28.6876C38.8331 27.6085 39.3209 26.5698 39.4876 25.3416C39.6788 23.9116 38.4822 22.2342 37.0346 21.9868ZM45.0058 22.0816C43.8197 21.7306 42.0861 23.3852 41.7194 23.8607C40.8018 25.0521 39.4876 27.4419 40.5877 28.8789C41.2018 29.6807 42.0177 30.379 43.0564 30.3948C44.811 30.4194 46.1796 28.8964 46.9165 27.4506C47.5815 26.1487 47.5728 24.1362 46.5937 23.015C46.1631 22.5602 45.6126 22.2366 45.0058 22.0816ZM45.4164 27.5068C43.7705 29.6912 41.7106 29.2947 41.4299 29.2438C41.4291 29.241 41.4291 29.2379 41.4299 29.2351C41.1141 27.9542 41.744 26.2908 42.4914 25.3188C44.4689 22.7483 45.7374 23.0589 45.8006 23.0694C45.9041 23.2905 46.9183 25.5118 45.4164 27.5068Z" fill="white"/>
+										<path class="footer__vst-hover" d="M41.6369 35.8243C41.6369 36.3788 41.5071 36.8086 41.2526 37.0999C41.1073 37.2535 40.9299 37.3732 40.7331 37.4505C40.5363 37.5278 40.3249 37.5609 40.1139 37.5473C39.7279 37.5473 39.4454 37.4403 39.2752 37.2297C39.105 37.0192 39.0278 36.6788 39.0278 36.177V33.3995H38.4751V36.3419C38.469 36.5803 38.4843 36.8187 38.5207 37.0543C38.5459 37.1824 38.594 37.3048 38.6629 37.4157C38.7859 37.6069 38.963 37.7572 39.1717 37.8474C39.4386 37.9563 39.7251 38.0092 40.0133 38.0029C40.3016 37.9965 40.5854 37.931 40.8473 37.8105C41.0938 37.6786 41.2986 37.4805 41.4386 37.2385L41.6737 36.8507V37.8842H42.1826V33.3995H41.6369V35.8243ZM36.631 32.0765H36.0871V33.3995H35.3853V33.7732H36.0871V37.0788C36.0871 37.4105 36.1485 37.6386 36.2731 37.7579C36.3977 37.8772 36.6345 37.9333 36.9749 37.9333C37.0635 37.9327 37.1519 37.9274 37.2399 37.9175C37.3153 37.9088 37.396 37.8965 37.4855 37.8825V37.4578H37.3574C37.289 37.4578 37.2293 37.4578 37.182 37.4578C37.1038 37.4661 37.0247 37.457 36.9504 37.4312C36.8761 37.4055 36.8084 37.3636 36.7521 37.3087C36.6547 37.1586 36.612 36.9795 36.631 36.8016V33.7732H37.4855V33.3924H36.631V32.0765ZM33.4061 35.3523L32.6376 35.1769C32.4084 35.1405 32.1903 35.0536 31.9989 34.9225C31.9326 34.8669 31.8799 34.7969 31.8449 34.7178C31.81 34.6387 31.7936 34.5527 31.7971 34.4663C31.7917 34.3489 31.817 34.2321 31.8706 34.1274C31.9241 34.0228 32.004 33.934 32.1024 33.8697C32.3452 33.7289 32.6242 33.663 32.9043 33.6802C33.2006 33.6656 33.4939 33.7462 33.7412 33.91C33.8339 33.975 33.9126 34.0579 33.9729 34.1537C34.0331 34.2495 34.0737 34.3563 34.0921 34.468H34.6185C34.6112 34.3022 34.5673 34.1401 34.4899 33.9933C34.4126 33.8464 34.3037 33.7186 34.1711 33.6188C33.8024 33.3568 33.3559 33.2276 32.9043 33.2521C32.4671 33.2285 32.0347 33.352 31.6761 33.603C31.5374 33.7069 31.4261 33.8429 31.3518 33.9995C31.2775 34.156 31.2425 34.3282 31.2497 34.5013C31.2392 34.6392 31.2565 34.7778 31.3005 34.9089C31.3445 35.04 31.4143 35.1609 31.5059 35.2646C31.6813 35.4401 32.0164 35.5962 32.4919 35.7103L33.3833 35.9401C33.6127 35.9775 33.8295 36.0703 34.0149 36.2103C34.0789 36.2749 34.1287 36.3521 34.161 36.437C34.1933 36.5219 34.2075 36.6126 34.2027 36.7034C34.2057 36.8337 34.175 36.9626 34.1135 37.0776C34.052 37.1926 33.9619 37.2897 33.8517 37.3596C33.5877 37.5186 33.2823 37.5956 32.9745 37.5807C32.6391 37.6001 32.3074 37.5028 32.0357 37.3052C31.8258 37.1271 31.6905 36.8766 31.6567 36.6034H31.1304C31.132 36.7972 31.1731 36.9887 31.2512 37.1661C31.3293 37.3435 31.4429 37.503 31.5848 37.6351C31.8848 37.9018 32.3288 38.0369 32.9008 38.0369C33.4728 38.0369 33.9535 37.9088 34.2746 37.6544C34.4328 37.5302 34.5585 37.3696 34.641 37.1863C34.7235 37.0029 34.7603 36.8023 34.7483 36.6016C34.7586 36.4606 34.7397 36.319 34.6929 36.1856C34.6461 36.0522 34.5724 35.9298 34.4764 35.8261C34.2904 35.6401 33.929 35.4839 33.4061 35.3523ZM49.022 32.2695H49.5659V31.6133H49.022V32.2695ZM49.022 37.8842H49.5659V33.3995H49.022V37.8842ZM47.0095 34.2276L46.7831 33.9293C46.6224 33.7139 46.4124 33.54 46.1708 33.4223C45.9132 33.3025 45.6319 33.2425 45.3479 33.2468C45.0784 33.2359 44.8102 33.2885 44.5648 33.4003C44.3195 33.5122 44.1039 33.6802 43.9354 33.8907C43.5845 34.3224 43.3985 34.9189 43.3985 35.6611C43.3985 36.4033 43.574 36.9736 43.9337 37.3999C44.1038 37.6083 44.3203 37.7741 44.5658 37.884C44.8113 37.994 45.0791 38.0451 45.3479 38.0333C45.6221 38.0354 45.8932 37.9754 46.1409 37.8579C46.3928 37.7321 46.6138 37.5524 46.7884 37.3315L47.013 37.0595V37.8825H47.5394V31.6185H47.013L47.0095 34.2276ZM46.6428 37.0473C46.5097 37.2197 46.3371 37.3576 46.1395 37.4492C45.9419 37.5408 45.7251 37.5835 45.5075 37.5736C45.2917 37.5825 45.0767 37.541 44.8796 37.4524C44.6826 37.3638 44.5089 37.2305 44.3723 37.0631C44.0849 36.6725 43.9411 36.1946 43.9652 35.7103C43.9652 35.0874 44.0986 34.5943 44.3583 34.2487C44.4902 34.0729 44.6631 33.932 44.8618 33.8381C45.0605 33.7442 45.2792 33.7003 45.4988 33.71C45.7161 33.6963 45.9336 33.7337 46.1338 33.8193C46.334 33.905 46.5114 34.0364 46.6515 34.2031C46.9059 34.5224 47.0358 34.9944 47.0358 35.6067C47.0358 36.2191 46.9095 36.7069 46.6498 37.0473H46.6428ZM54.5139 33.8644C54.1419 33.4521 53.6085 33.2433 52.9347 33.2433C52.261 33.2433 51.7276 33.4539 51.3556 33.8662C50.9836 34.2785 50.7924 34.8786 50.7924 35.6348C50.7924 36.391 50.9819 36.9946 51.3574 37.4105C51.7328 37.8263 52.261 38.0298 52.9365 38.0298C53.612 38.0298 54.1437 37.821 54.5156 37.4087C54.8876 36.9964 55.0771 36.3963 55.0771 35.6348C55.0771 34.8733 54.8946 34.2785 54.5209 33.8644H54.5139ZM54.1068 37.0613C53.9664 37.2329 53.7872 37.3689 53.5841 37.4579C53.381 37.547 53.1597 37.5866 52.9382 37.5736C52.7154 37.5858 52.4928 37.5458 52.2881 37.4569C52.0834 37.3679 51.9023 37.2325 51.7592 37.0613C51.489 36.7279 51.3538 36.2489 51.3538 35.6348C51.3538 35.0207 51.4889 34.5435 51.7574 34.2118C51.9007 34.0403 52.0821 33.9046 52.2871 33.8157C52.4921 33.7267 52.7151 33.6869 52.9382 33.6995C53.1599 33.6869 53.3815 33.7271 53.5846 33.8168C53.7877 33.9065 53.9667 34.0431 54.1068 34.2153C54.3717 34.547 54.5051 35.026 54.5051 35.6348C54.5051 36.2437 54.3788 36.7279 54.1138 37.0613H54.1068Z" fill="white"/>
+										<path class="footer__vst-hover"d="M28.1617 3.88816C28.2459 3.85482 27.2247 3.8092 26.9878 3.9057C21.5626 6.16562 16.6024 9.41514 12.7019 13.7841C10.5385 16.2072 5.86951 23.0922 5.71862 23.315C6.77137 18.1109 9.44362 11.4434 11.8808 6.29546C12.5499 5.60102 12.9407 4.68506 12.9791 3.72147C12.9791 3.60216 11.4895 3.3144 11.4263 3.45653C11.0473 4.30926 10.6841 5.17252 10.3297 6.02876C9.68751 6.7306 8.82776 7.25698 7.93643 7.72546C6.83805 8.30272 4.66586 9.03263 4.92028 10.6241C4.9501 10.8153 6.30114 10.975 6.47134 10.889C7.15354 10.4922 7.75813 9.97502 8.25576 9.3625C8.19435 9.43268 7.77325 9.24669 7.37846 9.12563C8.03995 8.63609 8.91198 8.29044 9.48398 7.9904L9.55241 7.95531C5.90285 15.851 4.25879 22.0728 3.00777 28.9947C2.90424 29.8035 3.86927 30.7335 3.90787 30.5914C4.13039 29.754 4.39627 28.9288 4.70446 28.1191C5.79056 25.2574 8.06451 20.9902 13.609 14.3157C17.4411 9.71166 22.6171 6.19721 28.1617 3.88816ZM29.4671 23.1887C29.8302 23.0494 30.1726 22.8611 30.4847 22.629L30.2689 22.522C29.9654 22.3202 29.4285 21.9166 29.2004 21.9956C28.8835 22.1182 28.5875 22.2893 28.3231 22.5027C26.3509 23.3291 24.749 22.0114 22.7487 22.5027C22.3399 22.6044 21.1906 23.187 21.4538 23.7204C21.717 24.2538 22.7943 24.4924 23.4137 24.4327C23.4997 24.4327 23.0733 24.1397 23.0277 24.1169C22.9558 24.0765 22.868 24.0204 22.775 23.966C22.9154 23.7063 23.2488 23.5045 23.4769 23.3642C24.2489 22.9027 25.1069 23.0536 25.7982 23.1571C26.2878 23.2291 26.6211 23.3115 27.1159 23.3694C26.3392 24.0678 25.6072 24.8144 24.9244 25.6048C23.7857 26.9225 22.8435 28.4718 23.9822 29.5211C25.0104 30.4685 26.6422 30.5738 28.2266 30.1457C28.7477 30.0059 29.256 29.8222 29.7461 29.5965C30.676 29.1947 30.1514 28.9192 29.6811 28.2876C29.3302 28.463 28.6021 28.8455 28.2564 28.9771C27.5077 29.2646 26.7358 29.4876 25.9491 29.6439C25.1701 29.7965 24.9911 29.5193 24.9525 29.3807C24.6016 28.0911 25.9631 26.6821 26.9352 25.6241C27.6019 24.8977 28.5301 23.859 29.4671 23.187V23.1887ZM18.6237 22.236C17.6452 21.8852 16.6118 21.7123 15.5724 21.7254C12.7756 21.7254 10.5841 22.8202 9.08042 24.3889C7.65218 25.8768 7.10826 27.5331 7.30302 29.2105C7.42408 30.2632 9.16464 30.4019 9.16464 30.4019C8.18382 29.2807 8.48386 27.9156 9.09621 26.433C9.79805 24.7398 11.1912 23.7344 12.3878 23.2256C13.3793 22.7625 14.4625 22.5292 15.5566 22.543C17.22 22.543 18.4763 22.9799 19.0957 23.7712C19.5799 24.3941 19.6922 25.2398 19.4273 26.2821C19.2167 27.1173 18.757 27.9735 17.9797 28.9806C17.887 29.1047 17.7856 29.2219 17.6762 29.3316C17.6384 29.3459 17.5968 29.3468 17.5584 29.334C17.52 29.3212 17.4873 29.2955 17.4656 29.2614C17.0077 28.5911 16.7901 27.6208 16.8024 26.2961C16.8009 25.6663 16.8443 25.0371 16.9322 24.4134V24.3748C16.9336 24.3596 16.9319 24.3443 16.927 24.3298C16.9222 24.3153 16.9144 24.3019 16.9042 24.2906C16.8708 24.2502 16.8024 24.2152 16.5392 24.2152C16.2092 24.2216 15.8809 24.2639 15.5601 24.3415C15.4128 24.331 15.2654 24.3257 15.1162 24.3257C13.6441 24.3257 12.1896 24.8521 11.228 25.7294C10.4174 26.4716 9.98229 27.2471 9.89456 28.1033C9.79981 29.0263 10.4209 30.1685 11.4474 30.3352C11.6604 30.3688 11.8757 30.3858 12.0913 30.3861C13.5494 30.3861 14.9232 29.6281 15.7093 28.9578C15.7836 29.1464 15.8716 29.3294 15.9725 29.5053C16.2181 29.9264 16.5655 30.1597 17.2428 30.1597C17.8593 30.155 18.464 29.9899 18.9974 29.6807C19.6834 29.2403 20.3204 28.4192 20.7046 27.484C21.1819 26.3172 21.2152 25.2469 20.8029 24.2994C20.3652 23.3596 19.586 22.6217 18.6237 22.236ZM14.8987 27.3471C14.4811 28.363 13.6862 29.1543 12.465 29.7649C12.4352 29.7439 12.4071 29.7228 12.3773 29.6983C12.1 29.4521 11.8976 29.1329 11.793 28.7771C11.5597 28.1402 11.7614 27.4664 11.9685 27.0137C12.2054 26.4996 12.8195 25.5557 14.2495 24.9959C14.5881 24.8628 14.9511 24.803 15.3145 24.8205H15.3654C15.3408 25.4714 15.125 26.7944 14.8987 27.3471ZM64.7696 3.82148C63.2834 4.50402 62.2219 6.37267 61.5183 7.72897C59.6461 11.3452 58.4776 15.286 57.2318 19.1496C56.8809 19.1637 56.544 19.1689 56.2019 19.1602C55.8597 19.1514 55.2614 19.6865 54.9964 19.876C54.9438 19.9199 54.2841 20.4375 54.4174 20.4375C55.2336 20.4602 56.0503 20.418 56.8598 20.3112C55.8702 23.3554 54.8999 26.3066 53.8139 29.3368C53.7735 29.4456 53.8577 29.7228 54.3174 29.9615C54.5683 30.0931 54.8245 30.2317 54.9754 30.3124C56.179 26.94 57.2108 23.4923 58.2881 20.0603C58.7916 19.9497 59.2882 19.8181 59.776 19.662C60.2076 19.5234 60.6164 19.2075 60.9814 18.9461C61.0656 18.8864 61.6411 18.3618 61.5621 18.3881C60.6009 18.6933 59.6135 18.9095 58.6127 19.0338C59.5479 16.0931 60.5322 13.1717 61.706 10.3275C62.5184 8.35711 63.336 6.62533 64.752 5.20937C65.0573 4.90407 65.7662 4.61105 66.1838 4.48647C66.2317 4.47128 66.2811 4.46128 66.3311 4.45665C66.6119 4.82336 66.8575 5.33394 66.4294 5.56029C66.5487 5.49888 67.4576 6.63936 67.7699 6.47619C68.7104 5.99192 66.5803 2.98805 64.7696 3.82148ZM66.4662 4.47068C66.5171 4.49525 66.5154 4.48121 66.4662 4.47068V4.47068ZM55.3895 18.3899C54.4275 18.6944 53.4396 18.9099 52.4382 19.0338C53.3734 16.0931 54.3578 13.1717 55.5316 10.3275C56.3422 8.35711 57.1599 6.62533 58.5758 5.20937C58.8811 4.90407 59.59 4.61105 60.0093 4.48647C60.0572 4.47099 60.1066 4.46098 60.1567 4.45665C60.4375 4.82336 60.6831 5.33394 60.2532 5.56029C60.3725 5.49888 61.2832 6.63936 61.5937 6.47619C62.5359 5.98841 60.4059 2.98454 58.5969 3.81797C57.1107 4.50051 56.0492 6.36916 55.3474 7.72546C53.4752 11.3452 52.3119 15.286 51.0609 19.1496C50.71 19.1637 50.3731 19.1689 50.0309 19.1602C49.6888 19.1514 49.0887 19.6865 48.8255 19.876C48.7624 19.9199 48.1079 20.4322 48.2448 20.434C49.0604 20.4567 49.8765 20.4145 50.6854 20.3077C49.6976 23.3519 48.7255 26.3031 47.6412 29.3333C47.6008 29.4421 47.685 29.7193 48.143 29.9579C48.3957 30.0895 48.6518 30.2282 48.8027 30.3089C50.0064 26.9365 51.0381 23.4888 52.1154 20.0568C52.619 19.9462 53.1155 19.8146 53.6015 19.6585C54.0349 19.5199 54.442 19.204 54.807 18.9426C54.8912 18.8882 55.4702 18.3636 55.3895 18.3899ZM60.2901 4.47068C60.3427 4.49525 60.3392 4.48121 60.2901 4.47068V4.47068ZM37.0346 21.9868C35.9293 21.7973 34.966 22.7904 34.2448 23.7835C34.2951 23.4572 34.3484 23.1378 34.4045 22.8255C34.4361 22.6501 34.0062 22.2833 33.9062 22.1781C33.8729 22.1395 33.2939 21.6306 33.2921 21.6412C32.9043 23.7783 32.7394 26.3417 31.5603 28.2613C31.3127 28.6434 31.0308 29.0022 30.7181 29.3333C30.6198 29.4368 31.5638 30.4738 31.6358 30.4001C31.8974 30.1417 32.1325 29.8578 32.3376 29.5526C33.8009 27.512 34.5028 24.8152 36.689 23.3817C37.1434 23.0852 37.9348 22.8904 38.3594 23.2256C38.3861 23.3756 38.4008 23.5276 38.4032 23.68C38.4014 24.0715 38.3501 24.4612 38.2506 24.8398C37.9979 25.9785 37.4751 27.0225 37.0417 28.0946C36.8744 28.4995 36.7286 28.913 36.6048 29.3333C36.5048 29.6842 37.6242 30.2632 37.7628 30.3633C37.9323 29.7924 38.1374 29.2328 38.3769 28.6876C38.8331 27.6085 39.3209 26.5698 39.4876 25.3416C39.6788 23.9116 38.4822 22.2342 37.0346 21.9868ZM45.0058 22.0816C43.8197 21.7306 42.0861 23.3852 41.7194 23.8607C40.8018 25.0521 39.4876 27.4419 40.5877 28.8789C41.2018 29.6807 42.0177 30.379 43.0564 30.3948C44.811 30.4194 46.1796 28.8964 46.9165 27.4506C47.5815 26.1487 47.5728 24.1362 46.5937 23.015C46.1631 22.5602 45.6126 22.2366 45.0058 22.0816ZM45.4164 27.5068C43.7705 29.6912 41.7106 29.2947 41.4299 29.2438C41.4291 29.241 41.4291 29.2379 41.4299 29.2351C41.1141 27.9542 41.744 26.2908 42.4914 25.3188C44.4689 22.7483 45.7374 23.0589 45.8006 23.0694C45.9041 23.2905 46.9183 25.5118 45.4164 27.5068Z" stroke="#505050" stroke-width="6" mask="url(#path-1-outside-1_77_1484)"/>
+										<path class="footer__vst-hover" d="M41.6369 35.8243C41.6369 36.3788 41.5071 36.8086 41.2526 37.0999C41.1073 37.2535 40.9299 37.3732 40.7331 37.4505C40.5363 37.5278 40.3249 37.5609 40.1139 37.5473C39.7279 37.5473 39.4454 37.4403 39.2752 37.2297C39.105 37.0192 39.0278 36.6788 39.0278 36.177V33.3995H38.4751V36.3419C38.469 36.5803 38.4843 36.8187 38.5207 37.0543C38.5459 37.1824 38.594 37.3048 38.6629 37.4157C38.7859 37.6069 38.963 37.7572 39.1717 37.8474C39.4386 37.9563 39.7251 38.0092 40.0133 38.0029C40.3016 37.9965 40.5854 37.931 40.8473 37.8105C41.0938 37.6786 41.2986 37.4805 41.4386 37.2385L41.6737 36.8507V37.8842H42.1826V33.3995H41.6369V35.8243ZM36.631 32.0765H36.0871V33.3995H35.3853V33.7732H36.0871V37.0788C36.0871 37.4105 36.1485 37.6386 36.2731 37.7579C36.3977 37.8772 36.6345 37.9333 36.9749 37.9333C37.0635 37.9327 37.1519 37.9274 37.2399 37.9175C37.3153 37.9088 37.396 37.8965 37.4855 37.8825V37.4578H37.3574C37.289 37.4578 37.2293 37.4578 37.182 37.4578C37.1038 37.4661 37.0247 37.457 36.9504 37.4312C36.8761 37.4055 36.8084 37.3636 36.7521 37.3087C36.6547 37.1586 36.612 36.9795 36.631 36.8016V33.7732H37.4855V33.3924H36.631V32.0765ZM33.4061 35.3523L32.6376 35.1769C32.4084 35.1405 32.1903 35.0536 31.9989 34.9225C31.9326 34.8669 31.8799 34.7969 31.8449 34.7178C31.81 34.6387 31.7936 34.5527 31.7971 34.4663C31.7917 34.3489 31.817 34.2321 31.8706 34.1274C31.9241 34.0228 32.004 33.934 32.1024 33.8697C32.3452 33.7289 32.6242 33.663 32.9043 33.6802C33.2006 33.6656 33.4939 33.7462 33.7412 33.91C33.8339 33.975 33.9126 34.0579 33.9729 34.1537C34.0331 34.2495 34.0737 34.3563 34.0921 34.468H34.6185C34.6112 34.3022 34.5673 34.1401 34.4899 33.9933C34.4126 33.8464 34.3037 33.7186 34.1711 33.6188C33.8024 33.3568 33.3559 33.2276 32.9043 33.2521C32.4671 33.2285 32.0347 33.352 31.6761 33.603C31.5374 33.7069 31.4261 33.8429 31.3518 33.9995C31.2775 34.156 31.2425 34.3282 31.2497 34.5013C31.2392 34.6392 31.2565 34.7778 31.3005 34.9089C31.3445 35.04 31.4143 35.1609 31.5059 35.2646C31.6813 35.4401 32.0164 35.5962 32.4919 35.7103L33.3833 35.9401C33.6127 35.9775 33.8295 36.0703 34.0149 36.2103C34.0789 36.2749 34.1287 36.3521 34.161 36.437C34.1933 36.5219 34.2075 36.6126 34.2027 36.7034C34.2057 36.8337 34.175 36.9626 34.1135 37.0776C34.052 37.1926 33.9619 37.2897 33.8517 37.3596C33.5877 37.5186 33.2823 37.5956 32.9745 37.5807C32.6391 37.6001 32.3074 37.5028 32.0357 37.3052C31.8258 37.1271 31.6905 36.8766 31.6567 36.6034H31.1304C31.132 36.7972 31.1731 36.9887 31.2512 37.1661C31.3293 37.3435 31.4429 37.503 31.5848 37.6351C31.8848 37.9018 32.3288 38.0369 32.9008 38.0369C33.4728 38.0369 33.9535 37.9088 34.2746 37.6544C34.4328 37.5302 34.5585 37.3696 34.641 37.1863C34.7235 37.0029 34.7603 36.8023 34.7483 36.6016C34.7586 36.4606 34.7397 36.319 34.6929 36.1856C34.6461 36.0522 34.5724 35.9298 34.4764 35.8261C34.2904 35.6401 33.929 35.4839 33.4061 35.3523ZM49.022 32.2695H49.5659V31.6133H49.022V32.2695ZM49.022 37.8842H49.5659V33.3995H49.022V37.8842ZM47.0095 34.2276L46.7831 33.9293C46.6224 33.7139 46.4124 33.54 46.1708 33.4223C45.9132 33.3025 45.6319 33.2425 45.3479 33.2468C45.0784 33.2359 44.8102 33.2885 44.5648 33.4003C44.3195 33.5122 44.1039 33.6802 43.9354 33.8907C43.5845 34.3224 43.3985 34.9189 43.3985 35.6611C43.3985 36.4033 43.574 36.9736 43.9337 37.3999C44.1038 37.6083 44.3203 37.7741 44.5658 37.884C44.8113 37.994 45.0791 38.0451 45.3479 38.0333C45.6221 38.0354 45.8932 37.9754 46.1409 37.8579C46.3928 37.7321 46.6138 37.5524 46.7884 37.3315L47.013 37.0595V37.8825H47.5394V31.6185H47.013L47.0095 34.2276ZM46.6428 37.0473C46.5097 37.2197 46.3371 37.3576 46.1395 37.4492C45.9419 37.5408 45.7251 37.5835 45.5075 37.5736C45.2917 37.5825 45.0767 37.541 44.8796 37.4524C44.6826 37.3638 44.5089 37.2305 44.3723 37.0631C44.0849 36.6725 43.9411 36.1946 43.9652 35.7103C43.9652 35.0874 44.0986 34.5943 44.3583 34.2487C44.4902 34.0729 44.6631 33.932 44.8618 33.8381C45.0605 33.7442 45.2792 33.7003 45.4988 33.71C45.7161 33.6963 45.9336 33.7337 46.1338 33.8193C46.334 33.905 46.5114 34.0364 46.6515 34.2031C46.9059 34.5224 47.0358 34.9944 47.0358 35.6067C47.0358 36.2191 46.9095 36.7069 46.6498 37.0473H46.6428ZM54.5139 33.8644C54.1419 33.4521 53.6085 33.2433 52.9347 33.2433C52.261 33.2433 51.7276 33.4539 51.3556 33.8662C50.9836 34.2785 50.7924 34.8786 50.7924 35.6348C50.7924 36.391 50.9819 36.9946 51.3574 37.4105C51.7328 37.8263 52.261 38.0298 52.9365 38.0298C53.612 38.0298 54.1437 37.821 54.5156 37.4087C54.8876 36.9964 55.0771 36.3963 55.0771 35.6348C55.0771 34.8733 54.8946 34.2785 54.5209 33.8644H54.5139ZM54.1068 37.0613C53.9664 37.2329 53.7872 37.3689 53.5841 37.4579C53.381 37.547 53.1597 37.5866 52.9382 37.5736C52.7154 37.5858 52.4928 37.5458 52.2881 37.4569C52.0834 37.3679 51.9023 37.2325 51.7592 37.0613C51.489 36.7279 51.3538 36.2489 51.3538 35.6348C51.3538 35.0207 51.4889 34.5435 51.7574 34.2118C51.9007 34.0403 52.0821 33.9046 52.2871 33.8157C52.4921 33.7267 52.7151 33.6869 52.9382 33.6995C53.1599 33.6869 53.3815 33.7271 53.5846 33.8168C53.7877 33.9065 53.9667 34.0431 54.1068 34.2153C54.3717 34.547 54.5051 35.026 54.5051 35.6348C54.5051 36.2437 54.3788 36.7279 54.1138 37.0613H54.1068Z" stroke="#505050" stroke-width="6" mask="url(#path-1-outside-1_77_1484)"/>
+										<mask id="path-2-outside-2_77_1484" maskUnits="userSpaceOnUse" x="0" y="1.41797" width="70" height="39" fill="black">
+										<rect fill="white" y="1.41797" width="70" height="39"/>
+										<path d="M28.1617 3.88816C28.2459 3.85482 27.2247 3.8092 26.9878 3.9057C21.5626 6.16562 16.6024 9.41514 12.7019 13.7841C10.5385 16.2072 5.86951 23.0922 5.71862 23.315C6.77137 18.1109 9.44362 11.4434 11.8808 6.29546C12.5499 5.60102 12.9407 4.68506 12.9791 3.72147C12.9791 3.60216 11.4895 3.3144 11.4263 3.45653C11.0473 4.30926 10.6841 5.17252 10.3297 6.02876C9.68751 6.7306 8.82776 7.25698 7.93643 7.72546C6.83805 8.30272 4.66586 9.03263 4.92028 10.6241C4.9501 10.8153 6.30114 10.975 6.47134 10.889C7.15354 10.4922 7.75813 9.97502 8.25576 9.3625C8.19435 9.43268 7.77325 9.24669 7.37846 9.12563C8.03995 8.63609 8.91198 8.29044 9.48398 7.9904L9.55241 7.95531C5.90285 15.851 4.25879 22.0728 3.00777 28.9947C2.90424 29.8035 3.86927 30.7335 3.90787 30.5914C4.13039 29.754 4.39627 28.9288 4.70446 28.1191C5.79056 25.2574 8.06451 20.9902 13.609 14.3157C17.4411 9.71166 22.6171 6.19721 28.1617 3.88816ZM29.4671 23.1887C29.8302 23.0494 30.1726 22.8611 30.4847 22.629L30.2689 22.522C29.9654 22.3202 29.4285 21.9166 29.2004 21.9956C28.8835 22.1182 28.5875 22.2893 28.3231 22.5027C26.3509 23.3291 24.749 22.0114 22.7487 22.5027C22.3399 22.6044 21.1906 23.187 21.4538 23.7204C21.717 24.2538 22.7943 24.4924 23.4137 24.4327C23.4997 24.4327 23.0733 24.1397 23.0277 24.1169C22.9558 24.0765 22.868 24.0204 22.775 23.966C22.9154 23.7063 23.2488 23.5045 23.4769 23.3642C24.2489 22.9027 25.1069 23.0536 25.7982 23.1571C26.2878 23.2291 26.6211 23.3115 27.1159 23.3694C26.3392 24.0678 25.6072 24.8144 24.9244 25.6048C23.7857 26.9225 22.8435 28.4718 23.9822 29.5211C25.0104 30.4685 26.6422 30.5738 28.2266 30.1457C28.7477 30.0059 29.256 29.8222 29.7461 29.5965C30.676 29.1947 30.1514 28.9192 29.6811 28.2876C29.3302 28.463 28.6021 28.8455 28.2564 28.9771C27.5077 29.2646 26.7358 29.4876 25.9491 29.6439C25.1701 29.7965 24.9911 29.5193 24.9525 29.3807C24.6016 28.0911 25.9631 26.6821 26.9352 25.6241C27.6019 24.8977 28.5301 23.859 29.4671 23.187V23.1887ZM18.6237 22.236C17.6452 21.8852 16.6118 21.7123 15.5724 21.7254C12.7756 21.7254 10.5841 22.8202 9.08042 24.3889C7.65218 25.8768 7.10826 27.5331 7.30302 29.2105C7.42408 30.2632 9.16464 30.4019 9.16464 30.4019C8.18382 29.2807 8.48386 27.9156 9.09621 26.433C9.79805 24.7398 11.1912 23.7344 12.3878 23.2256C13.3793 22.7625 14.4625 22.5292 15.5566 22.543C17.22 22.543 18.4763 22.9799 19.0957 23.7712C19.5799 24.3941 19.6922 25.2398 19.4273 26.2821C19.2167 27.1173 18.757 27.9735 17.9797 28.9806C17.887 29.1047 17.7856 29.2219 17.6762 29.3316C17.6384 29.3459 17.5968 29.3468 17.5584 29.334C17.52 29.3212 17.4873 29.2955 17.4656 29.2614C17.0077 28.5911 16.7901 27.6208 16.8024 26.2961C16.8009 25.6663 16.8443 25.0371 16.9322 24.4134V24.3748C16.9336 24.3596 16.9319 24.3443 16.927 24.3298C16.9222 24.3153 16.9144 24.3019 16.9042 24.2906C16.8708 24.2502 16.8024 24.2152 16.5392 24.2152C16.2092 24.2216 15.8809 24.2639 15.5601 24.3415C15.4128 24.331 15.2654 24.3257 15.1162 24.3257C13.6441 24.3257 12.1896 24.8521 11.228 25.7294C10.4174 26.4716 9.98229 27.2471 9.89456 28.1033C9.79981 29.0263 10.4209 30.1685 11.4474 30.3352C11.6604 30.3688 11.8757 30.3858 12.0913 30.3861C13.5494 30.3861 14.9232 29.6281 15.7093 28.9578C15.7836 29.1464 15.8716 29.3294 15.9725 29.5053C16.2181 29.9264 16.5655 30.1597 17.2428 30.1597C17.8593 30.155 18.464 29.9899 18.9974 29.6807C19.6834 29.2403 20.3204 28.4192 20.7046 27.484C21.1819 26.3172 21.2152 25.2469 20.8029 24.2994C20.3652 23.3596 19.586 22.6217 18.6237 22.236ZM14.8987 27.3471C14.4811 28.363 13.6862 29.1543 12.465 29.7649C12.4352 29.7439 12.4071 29.7228 12.3773 29.6983C12.1 29.4521 11.8976 29.1329 11.793 28.7771C11.5597 28.1402 11.7614 27.4664 11.9685 27.0137C12.2054 26.4996 12.8195 25.5557 14.2495 24.9959C14.5881 24.8628 14.9511 24.803 15.3145 24.8205H15.3654C15.3408 25.4714 15.125 26.7944 14.8987 27.3471ZM64.7696 3.82148C63.2834 4.50402 62.2219 6.37267 61.5183 7.72897C59.6461 11.3452 58.4776 15.286 57.2318 19.1496C56.8809 19.1637 56.544 19.1689 56.2019 19.1602C55.8597 19.1514 55.2614 19.6865 54.9964 19.876C54.9438 19.9199 54.2841 20.4375 54.4174 20.4375C55.2336 20.4602 56.0503 20.418 56.8598 20.3112C55.8702 23.3554 54.8999 26.3066 53.8139 29.3368C53.7735 29.4456 53.8577 29.7228 54.3174 29.9615C54.5683 30.0931 54.8245 30.2317 54.9754 30.3124C56.179 26.94 57.2108 23.4923 58.2881 20.0603C58.7916 19.9497 59.2882 19.8181 59.776 19.662C60.2076 19.5234 60.6164 19.2075 60.9814 18.9461C61.0656 18.8864 61.6411 18.3618 61.5621 18.3881C60.6009 18.6933 59.6135 18.9095 58.6127 19.0338C59.5479 16.0931 60.5322 13.1717 61.706 10.3275C62.5184 8.35711 63.336 6.62533 64.752 5.20937C65.0573 4.90407 65.7662 4.61105 66.1838 4.48647C66.2317 4.47128 66.2811 4.46128 66.3311 4.45665C66.6119 4.82336 66.8575 5.33394 66.4294 5.56029C66.5487 5.49888 67.4576 6.63936 67.7699 6.47619C68.7104 5.99192 66.5803 2.98805 64.7696 3.82148ZM66.4662 4.47068C66.5171 4.49525 66.5154 4.48121 66.4662 4.47068V4.47068ZM55.3895 18.3899C54.4275 18.6944 53.4396 18.9099 52.4382 19.0338C53.3734 16.0931 54.3578 13.1717 55.5316 10.3275C56.3422 8.35711 57.1599 6.62533 58.5758 5.20937C58.8811 4.90407 59.59 4.61105 60.0093 4.48647C60.0572 4.47099 60.1066 4.46098 60.1567 4.45665C60.4375 4.82336 60.6831 5.33394 60.2532 5.56029C60.3725 5.49888 61.2832 6.63936 61.5937 6.47619C62.5359 5.98841 60.4059 2.98454 58.5969 3.81797C57.1107 4.50051 56.0492 6.36916 55.3474 7.72546C53.4752 11.3452 52.3119 15.286 51.0609 19.1496C50.71 19.1637 50.3731 19.1689 50.0309 19.1602C49.6888 19.1514 49.0887 19.6865 48.8255 19.876C48.7624 19.9199 48.1079 20.4322 48.2448 20.434C49.0604 20.4567 49.8765 20.4145 50.6854 20.3077C49.6976 23.3519 48.7255 26.3031 47.6412 29.3333C47.6008 29.4421 47.685 29.7193 48.143 29.9579C48.3957 30.0895 48.6518 30.2282 48.8027 30.3089C50.0064 26.9365 51.0381 23.4888 52.1154 20.0568C52.619 19.9462 53.1155 19.8146 53.6015 19.6585C54.0349 19.5199 54.442 19.204 54.807 18.9426C54.8912 18.8882 55.4702 18.3636 55.3895 18.3899ZM60.2901 4.47068C60.3427 4.49525 60.3392 4.48121 60.2901 4.47068V4.47068ZM37.0346 21.9868C35.9293 21.7973 34.966 22.7904 34.2448 23.7835C34.2951 23.4572 34.3484 23.1378 34.4045 22.8255C34.4361 22.6501 34.0062 22.2833 33.9062 22.1781C33.8729 22.1395 33.2939 21.6306 33.2921 21.6412C32.9043 23.7783 32.7394 26.3417 31.5603 28.2613C31.3127 28.6434 31.0308 29.0022 30.7181 29.3333C30.6198 29.4368 31.5638 30.4738 31.6358 30.4001C31.8974 30.1417 32.1325 29.8578 32.3376 29.5526C33.8009 27.512 34.5028 24.8152 36.689 23.3817C37.1434 23.0852 37.9348 22.8904 38.3594 23.2256C38.3861 23.3756 38.4008 23.5276 38.4032 23.68C38.4014 24.0715 38.3501 24.4612 38.2506 24.8398C37.9979 25.9785 37.4751 27.0225 37.0417 28.0946C36.8744 28.4995 36.7286 28.913 36.6048 29.3333C36.5048 29.6842 37.6242 30.2632 37.7628 30.3633C37.9323 29.7924 38.1374 29.2328 38.3769 28.6876C38.8331 27.6085 39.3209 26.5698 39.4876 25.3416C39.6788 23.9116 38.4822 22.2342 37.0346 21.9868ZM45.0058 22.0816C43.8197 21.7306 42.0861 23.3852 41.7194 23.8607C40.8018 25.0521 39.4876 27.4419 40.5877 28.8789C41.2018 29.6807 42.0177 30.379 43.0564 30.3948C44.811 30.4194 46.1796 28.8964 46.9165 27.4506C47.5815 26.1487 47.5728 24.1362 46.5937 23.015C46.1631 22.5602 45.6126 22.2366 45.0058 22.0816ZM45.4164 27.5068C43.7705 29.6912 41.7106 29.2947 41.4299 29.2438C41.4291 29.241 41.4291 29.2379 41.4299 29.2351C41.1141 27.9542 41.744 26.2908 42.4914 25.3188C44.4689 22.7483 45.7374 23.0589 45.8006 23.0694C45.9041 23.2905 46.9183 25.5118 45.4164 27.5068Z"/>
+										<path d="M41.6369 35.8243C41.6369 36.3788 41.5071 36.8086 41.2526 37.0999C41.1073 37.2535 40.9299 37.3732 40.7331 37.4505C40.5363 37.5278 40.3249 37.5609 40.1139 37.5473C39.7279 37.5473 39.4454 37.4403 39.2752 37.2297C39.105 37.0192 39.0278 36.6788 39.0278 36.177V33.3995H38.4751V36.3419C38.469 36.5803 38.4843 36.8187 38.5207 37.0543C38.5459 37.1824 38.594 37.3048 38.6629 37.4157C38.7859 37.6069 38.963 37.7572 39.1717 37.8474C39.4386 37.9563 39.7251 38.0092 40.0133 38.0029C40.3016 37.9965 40.5854 37.931 40.8473 37.8105C41.0938 37.6786 41.2986 37.4805 41.4386 37.2385L41.6737 36.8507V37.8842H42.1826V33.3995H41.6369V35.8243ZM36.631 32.0765H36.0871V33.3995H35.3853V33.7732H36.0871V37.0788C36.0871 37.4105 36.1485 37.6386 36.2731 37.7579C36.3977 37.8772 36.6345 37.9333 36.9749 37.9333C37.0635 37.9327 37.1519 37.9274 37.2399 37.9175C37.3153 37.9088 37.396 37.8965 37.4855 37.8825V37.4578H37.3574C37.289 37.4578 37.2293 37.4578 37.182 37.4578C37.1038 37.4661 37.0247 37.457 36.9504 37.4312C36.8761 37.4055 36.8084 37.3636 36.7521 37.3087C36.6547 37.1586 36.612 36.9795 36.631 36.8016V33.7732H37.4855V33.3924H36.631V32.0765ZM33.4061 35.3523L32.6376 35.1769C32.4084 35.1405 32.1903 35.0536 31.9989 34.9225C31.9326 34.8669 31.8799 34.7969 31.8449 34.7178C31.81 34.6387 31.7936 34.5527 31.7971 34.4663C31.7917 34.3489 31.817 34.2321 31.8706 34.1274C31.9241 34.0228 32.004 33.934 32.1024 33.8697C32.3452 33.7289 32.6242 33.663 32.9043 33.6802C33.2006 33.6656 33.4939 33.7462 33.7412 33.91C33.8339 33.975 33.9126 34.0579 33.9729 34.1537C34.0331 34.2495 34.0737 34.3563 34.0921 34.468H34.6185C34.6112 34.3022 34.5673 34.1401 34.4899 33.9933C34.4126 33.8464 34.3037 33.7186 34.1711 33.6188C33.8024 33.3568 33.3559 33.2276 32.9043 33.2521C32.4671 33.2285 32.0347 33.352 31.6761 33.603C31.5374 33.7069 31.4261 33.8429 31.3518 33.9995C31.2775 34.156 31.2425 34.3282 31.2497 34.5013C31.2392 34.6392 31.2565 34.7778 31.3005 34.9089C31.3445 35.04 31.4143 35.1609 31.5059 35.2646C31.6813 35.4401 32.0164 35.5962 32.4919 35.7103L33.3833 35.9401C33.6127 35.9775 33.8295 36.0703 34.0149 36.2103C34.0789 36.2749 34.1287 36.3521 34.161 36.437C34.1933 36.5219 34.2075 36.6126 34.2027 36.7034C34.2057 36.8337 34.175 36.9626 34.1135 37.0776C34.052 37.1926 33.9619 37.2897 33.8517 37.3596C33.5877 37.5186 33.2823 37.5956 32.9745 37.5807C32.6391 37.6001 32.3074 37.5028 32.0357 37.3052C31.8258 37.1271 31.6905 36.8766 31.6567 36.6034H31.1304C31.132 36.7972 31.1731 36.9887 31.2512 37.1661C31.3293 37.3435 31.4429 37.503 31.5848 37.6351C31.8848 37.9018 32.3288 38.0369 32.9008 38.0369C33.4728 38.0369 33.9535 37.9088 34.2746 37.6544C34.4328 37.5302 34.5585 37.3696 34.641 37.1863C34.7235 37.0029 34.7603 36.8023 34.7483 36.6016C34.7586 36.4606 34.7397 36.319 34.6929 36.1856C34.6461 36.0522 34.5724 35.9298 34.4764 35.8261C34.2904 35.6401 33.929 35.4839 33.4061 35.3523ZM49.022 32.2695H49.5659V31.6133H49.022V32.2695ZM49.022 37.8842H49.5659V33.3995H49.022V37.8842ZM47.0095 34.2276L46.7831 33.9293C46.6224 33.7139 46.4124 33.54 46.1708 33.4223C45.9132 33.3025 45.6319 33.2425 45.3479 33.2468C45.0784 33.2359 44.8102 33.2885 44.5648 33.4003C44.3195 33.5122 44.1039 33.6802 43.9354 33.8907C43.5845 34.3224 43.3985 34.9189 43.3985 35.6611C43.3985 36.4033 43.574 36.9736 43.9337 37.3999C44.1038 37.6083 44.3203 37.7741 44.5658 37.884C44.8113 37.994 45.0791 38.0451 45.3479 38.0333C45.6221 38.0354 45.8932 37.9754 46.1409 37.8579C46.3928 37.7321 46.6138 37.5524 46.7884 37.3315L47.013 37.0595V37.8825H47.5394V31.6185H47.013L47.0095 34.2276ZM46.6428 37.0473C46.5097 37.2197 46.3371 37.3576 46.1395 37.4492C45.9419 37.5408 45.7251 37.5835 45.5075 37.5736C45.2917 37.5825 45.0767 37.541 44.8796 37.4524C44.6826 37.3638 44.5089 37.2305 44.3723 37.0631C44.0849 36.6725 43.9411 36.1946 43.9652 35.7103C43.9652 35.0874 44.0986 34.5943 44.3583 34.2487C44.4902 34.0729 44.6631 33.932 44.8618 33.8381C45.0605 33.7442 45.2792 33.7003 45.4988 33.71C45.7161 33.6963 45.9336 33.7337 46.1338 33.8193C46.334 33.905 46.5114 34.0364 46.6515 34.2031C46.9059 34.5224 47.0358 34.9944 47.0358 35.6067C47.0358 36.2191 46.9095 36.7069 46.6498 37.0473H46.6428ZM54.5139 33.8644C54.1419 33.4521 53.6085 33.2433 52.9347 33.2433C52.261 33.2433 51.7276 33.4539 51.3556 33.8662C50.9836 34.2785 50.7924 34.8786 50.7924 35.6348C50.7924 36.391 50.9819 36.9946 51.3574 37.4105C51.7328 37.8263 52.261 38.0298 52.9365 38.0298C53.612 38.0298 54.1437 37.821 54.5156 37.4087C54.8876 36.9964 55.0771 36.3963 55.0771 35.6348C55.0771 34.8733 54.8946 34.2785 54.5209 33.8644H54.5139ZM54.1068 37.0613C53.9664 37.2329 53.7872 37.3689 53.5841 37.4579C53.381 37.547 53.1597 37.5866 52.9382 37.5736C52.7154 37.5858 52.4928 37.5458 52.2881 37.4569C52.0834 37.3679 51.9023 37.2325 51.7592 37.0613C51.489 36.7279 51.3538 36.2489 51.3538 35.6348C51.3538 35.0207 51.4889 34.5435 51.7574 34.2118C51.9007 34.0403 52.0821 33.9046 52.2871 33.8157C52.4921 33.7267 52.7151 33.6869 52.9382 33.6995C53.1599 33.6869 53.3815 33.7271 53.5846 33.8168C53.7877 33.9065 53.9667 34.0431 54.1068 34.2153C54.3717 34.547 54.5051 35.026 54.5051 35.6348C54.5051 36.2437 54.3788 36.7279 54.1138 37.0613H54.1068Z"/>
+										</mask>
+										<path d="M28.1617 3.88816C28.2459 3.85482 27.2247 3.8092 26.9878 3.9057C21.5626 6.16562 16.6024 9.41514 12.7019 13.7841C10.5385 16.2072 5.86951 23.0922 5.71862 23.315C6.77137 18.1109 9.44362 11.4434 11.8808 6.29546C12.5499 5.60102 12.9407 4.68506 12.9791 3.72147C12.9791 3.60216 11.4895 3.3144 11.4263 3.45653C11.0473 4.30926 10.6841 5.17252 10.3297 6.02876C9.68751 6.7306 8.82776 7.25698 7.93643 7.72546C6.83805 8.30272 4.66586 9.03263 4.92028 10.6241C4.9501 10.8153 6.30114 10.975 6.47134 10.889C7.15354 10.4922 7.75813 9.97502 8.25576 9.3625C8.19435 9.43268 7.77325 9.24669 7.37846 9.12563C8.03995 8.63609 8.91198 8.29044 9.48398 7.9904L9.55241 7.95531C5.90285 15.851 4.25879 22.0728 3.00777 28.9947C2.90424 29.8035 3.86927 30.7335 3.90787 30.5914C4.13039 29.754 4.39627 28.9288 4.70446 28.1191C5.79056 25.2574 8.06451 20.9902 13.609 14.3157C17.4411 9.71166 22.6171 6.19721 28.1617 3.88816ZM29.4671 23.1887C29.8302 23.0494 30.1726 22.8611 30.4847 22.629L30.2689 22.522C29.9654 22.3202 29.4285 21.9166 29.2004 21.9956C28.8835 22.1182 28.5875 22.2893 28.3231 22.5027C26.3509 23.3291 24.749 22.0114 22.7487 22.5027C22.3399 22.6044 21.1906 23.187 21.4538 23.7204C21.717 24.2538 22.7943 24.4924 23.4137 24.4327C23.4997 24.4327 23.0733 24.1397 23.0277 24.1169C22.9558 24.0765 22.868 24.0204 22.775 23.966C22.9154 23.7063 23.2488 23.5045 23.4769 23.3642C24.2489 22.9027 25.1069 23.0536 25.7982 23.1571C26.2878 23.2291 26.6211 23.3115 27.1159 23.3694C26.3392 24.0678 25.6072 24.8144 24.9244 25.6048C23.7857 26.9225 22.8435 28.4718 23.9822 29.5211C25.0104 30.4685 26.6422 30.5738 28.2266 30.1457C28.7477 30.0059 29.256 29.8222 29.7461 29.5965C30.676 29.1947 30.1514 28.9192 29.6811 28.2876C29.3302 28.463 28.6021 28.8455 28.2564 28.9771C27.5077 29.2646 26.7358 29.4876 25.9491 29.6439C25.1701 29.7965 24.9911 29.5193 24.9525 29.3807C24.6016 28.0911 25.9631 26.6821 26.9352 25.6241C27.6019 24.8977 28.5301 23.859 29.4671 23.187V23.1887ZM18.6237 22.236C17.6452 21.8852 16.6118 21.7123 15.5724 21.7254C12.7756 21.7254 10.5841 22.8202 9.08042 24.3889C7.65218 25.8768 7.10826 27.5331 7.30302 29.2105C7.42408 30.2632 9.16464 30.4019 9.16464 30.4019C8.18382 29.2807 8.48386 27.9156 9.09621 26.433C9.79805 24.7398 11.1912 23.7344 12.3878 23.2256C13.3793 22.7625 14.4625 22.5292 15.5566 22.543C17.22 22.543 18.4763 22.9799 19.0957 23.7712C19.5799 24.3941 19.6922 25.2398 19.4273 26.2821C19.2167 27.1173 18.757 27.9735 17.9797 28.9806C17.887 29.1047 17.7856 29.2219 17.6762 29.3316C17.6384 29.3459 17.5968 29.3468 17.5584 29.334C17.52 29.3212 17.4873 29.2955 17.4656 29.2614C17.0077 28.5911 16.7901 27.6208 16.8024 26.2961C16.8009 25.6663 16.8443 25.0371 16.9322 24.4134V24.3748C16.9336 24.3596 16.9319 24.3443 16.927 24.3298C16.9222 24.3153 16.9144 24.3019 16.9042 24.2906C16.8708 24.2502 16.8024 24.2152 16.5392 24.2152C16.2092 24.2216 15.8809 24.2639 15.5601 24.3415C15.4128 24.331 15.2654 24.3257 15.1162 24.3257C13.6441 24.3257 12.1896 24.8521 11.228 25.7294C10.4174 26.4716 9.98229 27.2471 9.89456 28.1033C9.79981 29.0263 10.4209 30.1685 11.4474 30.3352C11.6604 30.3688 11.8757 30.3858 12.0913 30.3861C13.5494 30.3861 14.9232 29.6281 15.7093 28.9578C15.7836 29.1464 15.8716 29.3294 15.9725 29.5053C16.2181 29.9264 16.5655 30.1597 17.2428 30.1597C17.8593 30.155 18.464 29.9899 18.9974 29.6807C19.6834 29.2403 20.3204 28.4192 20.7046 27.484C21.1819 26.3172 21.2152 25.2469 20.8029 24.2994C20.3652 23.3596 19.586 22.6217 18.6237 22.236ZM14.8987 27.3471C14.4811 28.363 13.6862 29.1543 12.465 29.7649C12.4352 29.7439 12.4071 29.7228 12.3773 29.6983C12.1 29.4521 11.8976 29.1329 11.793 28.7771C11.5597 28.1402 11.7614 27.4664 11.9685 27.0137C12.2054 26.4996 12.8195 25.5557 14.2495 24.9959C14.5881 24.8628 14.9511 24.803 15.3145 24.8205H15.3654C15.3408 25.4714 15.125 26.7944 14.8987 27.3471ZM64.7696 3.82148C63.2834 4.50402 62.2219 6.37267 61.5183 7.72897C59.6461 11.3452 58.4776 15.286 57.2318 19.1496C56.8809 19.1637 56.544 19.1689 56.2019 19.1602C55.8597 19.1514 55.2614 19.6865 54.9964 19.876C54.9438 19.9199 54.2841 20.4375 54.4174 20.4375C55.2336 20.4602 56.0503 20.418 56.8598 20.3112C55.8702 23.3554 54.8999 26.3066 53.8139 29.3368C53.7735 29.4456 53.8577 29.7228 54.3174 29.9615C54.5683 30.0931 54.8245 30.2317 54.9754 30.3124C56.179 26.94 57.2108 23.4923 58.2881 20.0603C58.7916 19.9497 59.2882 19.8181 59.776 19.662C60.2076 19.5234 60.6164 19.2075 60.9814 18.9461C61.0656 18.8864 61.6411 18.3618 61.5621 18.3881C60.6009 18.6933 59.6135 18.9095 58.6127 19.0338C59.5479 16.0931 60.5322 13.1717 61.706 10.3275C62.5184 8.35711 63.336 6.62533 64.752 5.20937C65.0573 4.90407 65.7662 4.61105 66.1838 4.48647C66.2317 4.47128 66.2811 4.46128 66.3311 4.45665C66.6119 4.82336 66.8575 5.33394 66.4294 5.56029C66.5487 5.49888 67.4576 6.63936 67.7699 6.47619C68.7104 5.99192 66.5803 2.98805 64.7696 3.82148ZM66.4662 4.47068C66.5171 4.49525 66.5154 4.48121 66.4662 4.47068V4.47068ZM55.3895 18.3899C54.4275 18.6944 53.4396 18.9099 52.4382 19.0338C53.3734 16.0931 54.3578 13.1717 55.5316 10.3275C56.3422 8.35711 57.1599 6.62533 58.5758 5.20937C58.8811 4.90407 59.59 4.61105 60.0093 4.48647C60.0572 4.47099 60.1066 4.46098 60.1567 4.45665C60.4375 4.82336 60.6831 5.33394 60.2532 5.56029C60.3725 5.49888 61.2832 6.63936 61.5937 6.47619C62.5359 5.98841 60.4059 2.98454 58.5969 3.81797C57.1107 4.50051 56.0492 6.36916 55.3474 7.72546C53.4752 11.3452 52.3119 15.286 51.0609 19.1496C50.71 19.1637 50.3731 19.1689 50.0309 19.1602C49.6888 19.1514 49.0887 19.6865 48.8255 19.876C48.7624 19.9199 48.1079 20.4322 48.2448 20.434C49.0604 20.4567 49.8765 20.4145 50.6854 20.3077C49.6976 23.3519 48.7255 26.3031 47.6412 29.3333C47.6008 29.4421 47.685 29.7193 48.143 29.9579C48.3957 30.0895 48.6518 30.2282 48.8027 30.3089C50.0064 26.9365 51.0381 23.4888 52.1154 20.0568C52.619 19.9462 53.1155 19.8146 53.6015 19.6585C54.0349 19.5199 54.442 19.204 54.807 18.9426C54.8912 18.8882 55.4702 18.3636 55.3895 18.3899ZM60.2901 4.47068C60.3427 4.49525 60.3392 4.48121 60.2901 4.47068V4.47068ZM37.0346 21.9868C35.9293 21.7973 34.966 22.7904 34.2448 23.7835C34.2951 23.4572 34.3484 23.1378 34.4045 22.8255C34.4361 22.6501 34.0062 22.2833 33.9062 22.1781C33.8729 22.1395 33.2939 21.6306 33.2921 21.6412C32.9043 23.7783 32.7394 26.3417 31.5603 28.2613C31.3127 28.6434 31.0308 29.0022 30.7181 29.3333C30.6198 29.4368 31.5638 30.4738 31.6358 30.4001C31.8974 30.1417 32.1325 29.8578 32.3376 29.5526C33.8009 27.512 34.5028 24.8152 36.689 23.3817C37.1434 23.0852 37.9348 22.8904 38.3594 23.2256C38.3861 23.3756 38.4008 23.5276 38.4032 23.68C38.4014 24.0715 38.3501 24.4612 38.2506 24.8398C37.9979 25.9785 37.4751 27.0225 37.0417 28.0946C36.8744 28.4995 36.7286 28.913 36.6048 29.3333C36.5048 29.6842 37.6242 30.2632 37.7628 30.3633C37.9323 29.7924 38.1374 29.2328 38.3769 28.6876C38.8331 27.6085 39.3209 26.5698 39.4876 25.3416C39.6788 23.9116 38.4822 22.2342 37.0346 21.9868ZM45.0058 22.0816C43.8197 21.7306 42.0861 23.3852 41.7194 23.8607C40.8018 25.0521 39.4876 27.4419 40.5877 28.8789C41.2018 29.6807 42.0177 30.379 43.0564 30.3948C44.811 30.4194 46.1796 28.8964 46.9165 27.4506C47.5815 26.1487 47.5728 24.1362 46.5937 23.015C46.1631 22.5602 45.6126 22.2366 45.0058 22.0816ZM45.4164 27.5068C43.7705 29.6912 41.7106 29.2947 41.4299 29.2438C41.4291 29.241 41.4291 29.2379 41.4299 29.2351C41.1141 27.9542 41.744 26.2908 42.4914 25.3188C44.4689 22.7483 45.7374 23.0589 45.8006 23.0694C45.9041 23.2905 46.9183 25.5118 45.4164 27.5068Z" fill="white"/>
+										<path d="M41.6369 35.8243C41.6369 36.3788 41.5071 36.8086 41.2526 37.0999C41.1073 37.2535 40.9299 37.3732 40.7331 37.4505C40.5363 37.5278 40.3249 37.5609 40.1139 37.5473C39.7279 37.5473 39.4454 37.4403 39.2752 37.2297C39.105 37.0192 39.0278 36.6788 39.0278 36.177V33.3995H38.4751V36.3419C38.469 36.5803 38.4843 36.8187 38.5207 37.0543C38.5459 37.1824 38.594 37.3048 38.6629 37.4157C38.7859 37.6069 38.963 37.7572 39.1717 37.8474C39.4386 37.9563 39.7251 38.0092 40.0133 38.0029C40.3016 37.9965 40.5854 37.931 40.8473 37.8105C41.0938 37.6786 41.2986 37.4805 41.4386 37.2385L41.6737 36.8507V37.8842H42.1826V33.3995H41.6369V35.8243ZM36.631 32.0765H36.0871V33.3995H35.3853V33.7732H36.0871V37.0788C36.0871 37.4105 36.1485 37.6386 36.2731 37.7579C36.3977 37.8772 36.6345 37.9333 36.9749 37.9333C37.0635 37.9327 37.1519 37.9274 37.2399 37.9175C37.3153 37.9088 37.396 37.8965 37.4855 37.8825V37.4578H37.3574C37.289 37.4578 37.2293 37.4578 37.182 37.4578C37.1038 37.4661 37.0247 37.457 36.9504 37.4312C36.8761 37.4055 36.8084 37.3636 36.7521 37.3087C36.6547 37.1586 36.612 36.9795 36.631 36.8016V33.7732H37.4855V33.3924H36.631V32.0765ZM33.4061 35.3523L32.6376 35.1769C32.4084 35.1405 32.1903 35.0536 31.9989 34.9225C31.9326 34.8669 31.8799 34.7969 31.8449 34.7178C31.81 34.6387 31.7936 34.5527 31.7971 34.4663C31.7917 34.3489 31.817 34.2321 31.8706 34.1274C31.9241 34.0228 32.004 33.934 32.1024 33.8697C32.3452 33.7289 32.6242 33.663 32.9043 33.6802C33.2006 33.6656 33.4939 33.7462 33.7412 33.91C33.8339 33.975 33.9126 34.0579 33.9729 34.1537C34.0331 34.2495 34.0737 34.3563 34.0921 34.468H34.6185C34.6112 34.3022 34.5673 34.1401 34.4899 33.9933C34.4126 33.8464 34.3037 33.7186 34.1711 33.6188C33.8024 33.3568 33.3559 33.2276 32.9043 33.2521C32.4671 33.2285 32.0347 33.352 31.6761 33.603C31.5374 33.7069 31.4261 33.8429 31.3518 33.9995C31.2775 34.156 31.2425 34.3282 31.2497 34.5013C31.2392 34.6392 31.2565 34.7778 31.3005 34.9089C31.3445 35.04 31.4143 35.1609 31.5059 35.2646C31.6813 35.4401 32.0164 35.5962 32.4919 35.7103L33.3833 35.9401C33.6127 35.9775 33.8295 36.0703 34.0149 36.2103C34.0789 36.2749 34.1287 36.3521 34.161 36.437C34.1933 36.5219 34.2075 36.6126 34.2027 36.7034C34.2057 36.8337 34.175 36.9626 34.1135 37.0776C34.052 37.1926 33.9619 37.2897 33.8517 37.3596C33.5877 37.5186 33.2823 37.5956 32.9745 37.5807C32.6391 37.6001 32.3074 37.5028 32.0357 37.3052C31.8258 37.1271 31.6905 36.8766 31.6567 36.6034H31.1304C31.132 36.7972 31.1731 36.9887 31.2512 37.1661C31.3293 37.3435 31.4429 37.503 31.5848 37.6351C31.8848 37.9018 32.3288 38.0369 32.9008 38.0369C33.4728 38.0369 33.9535 37.9088 34.2746 37.6544C34.4328 37.5302 34.5585 37.3696 34.641 37.1863C34.7235 37.0029 34.7603 36.8023 34.7483 36.6016C34.7586 36.4606 34.7397 36.319 34.6929 36.1856C34.6461 36.0522 34.5724 35.9298 34.4764 35.8261C34.2904 35.6401 33.929 35.4839 33.4061 35.3523ZM49.022 32.2695H49.5659V31.6133H49.022V32.2695ZM49.022 37.8842H49.5659V33.3995H49.022V37.8842ZM47.0095 34.2276L46.7831 33.9293C46.6224 33.7139 46.4124 33.54 46.1708 33.4223C45.9132 33.3025 45.6319 33.2425 45.3479 33.2468C45.0784 33.2359 44.8102 33.2885 44.5648 33.4003C44.3195 33.5122 44.1039 33.6802 43.9354 33.8907C43.5845 34.3224 43.3985 34.9189 43.3985 35.6611C43.3985 36.4033 43.574 36.9736 43.9337 37.3999C44.1038 37.6083 44.3203 37.7741 44.5658 37.884C44.8113 37.994 45.0791 38.0451 45.3479 38.0333C45.6221 38.0354 45.8932 37.9754 46.1409 37.8579C46.3928 37.7321 46.6138 37.5524 46.7884 37.3315L47.013 37.0595V37.8825H47.5394V31.6185H47.013L47.0095 34.2276ZM46.6428 37.0473C46.5097 37.2197 46.3371 37.3576 46.1395 37.4492C45.9419 37.5408 45.7251 37.5835 45.5075 37.5736C45.2917 37.5825 45.0767 37.541 44.8796 37.4524C44.6826 37.3638 44.5089 37.2305 44.3723 37.0631C44.0849 36.6725 43.9411 36.1946 43.9652 35.7103C43.9652 35.0874 44.0986 34.5943 44.3583 34.2487C44.4902 34.0729 44.6631 33.932 44.8618 33.8381C45.0605 33.7442 45.2792 33.7003 45.4988 33.71C45.7161 33.6963 45.9336 33.7337 46.1338 33.8193C46.334 33.905 46.5114 34.0364 46.6515 34.2031C46.9059 34.5224 47.0358 34.9944 47.0358 35.6067C47.0358 36.2191 46.9095 36.7069 46.6498 37.0473H46.6428ZM54.5139 33.8644C54.1419 33.4521 53.6085 33.2433 52.9347 33.2433C52.261 33.2433 51.7276 33.4539 51.3556 33.8662C50.9836 34.2785 50.7924 34.8786 50.7924 35.6348C50.7924 36.391 50.9819 36.9946 51.3574 37.4105C51.7328 37.8263 52.261 38.0298 52.9365 38.0298C53.612 38.0298 54.1437 37.821 54.5156 37.4087C54.8876 36.9964 55.0771 36.3963 55.0771 35.6348C55.0771 34.8733 54.8946 34.2785 54.5209 33.8644H54.5139ZM54.1068 37.0613C53.9664 37.2329 53.7872 37.3689 53.5841 37.4579C53.381 37.547 53.1597 37.5866 52.9382 37.5736C52.7154 37.5858 52.4928 37.5458 52.2881 37.4569C52.0834 37.3679 51.9023 37.2325 51.7592 37.0613C51.489 36.7279 51.3538 36.2489 51.3538 35.6348C51.3538 35.0207 51.4889 34.5435 51.7574 34.2118C51.9007 34.0403 52.0821 33.9046 52.2871 33.8157C52.4921 33.7267 52.7151 33.6869 52.9382 33.6995C53.1599 33.6869 53.3815 33.7271 53.5846 33.8168C53.7877 33.9065 53.9667 34.0431 54.1068 34.2153C54.3717 34.547 54.5051 35.026 54.5051 35.6348C54.5051 36.2437 54.3788 36.7279 54.1138 37.0613H54.1068Z" fill="white"/>
+										<path d="M28.1617 3.88816C28.2459 3.85482 27.2247 3.8092 26.9878 3.9057C21.5626 6.16562 16.6024 9.41514 12.7019 13.7841C10.5385 16.2072 5.86951 23.0922 5.71862 23.315C6.77137 18.1109 9.44362 11.4434 11.8808 6.29546C12.5499 5.60102 12.9407 4.68506 12.9791 3.72147C12.9791 3.60216 11.4895 3.3144 11.4263 3.45653C11.0473 4.30926 10.6841 5.17252 10.3297 6.02876C9.68751 6.7306 8.82776 7.25698 7.93643 7.72546C6.83805 8.30272 4.66586 9.03263 4.92028 10.6241C4.9501 10.8153 6.30114 10.975 6.47134 10.889C7.15354 10.4922 7.75813 9.97502 8.25576 9.3625C8.19435 9.43268 7.77325 9.24669 7.37846 9.12563C8.03995 8.63609 8.91198 8.29044 9.48398 7.9904L9.55241 7.95531C5.90285 15.851 4.25879 22.0728 3.00777 28.9947C2.90424 29.8035 3.86927 30.7335 3.90787 30.5914C4.13039 29.754 4.39627 28.9288 4.70446 28.1191C5.79056 25.2574 8.06451 20.9902 13.609 14.3157C17.4411 9.71166 22.6171 6.19721 28.1617 3.88816ZM29.4671 23.1887C29.8302 23.0494 30.1726 22.8611 30.4847 22.629L30.2689 22.522C29.9654 22.3202 29.4285 21.9166 29.2004 21.9956C28.8835 22.1182 28.5875 22.2893 28.3231 22.5027C26.3509 23.3291 24.749 22.0114 22.7487 22.5027C22.3399 22.6044 21.1906 23.187 21.4538 23.7204C21.717 24.2538 22.7943 24.4924 23.4137 24.4327C23.4997 24.4327 23.0733 24.1397 23.0277 24.1169C22.9558 24.0765 22.868 24.0204 22.775 23.966C22.9154 23.7063 23.2488 23.5045 23.4769 23.3642C24.2489 22.9027 25.1069 23.0536 25.7982 23.1571C26.2878 23.2291 26.6211 23.3115 27.1159 23.3694C26.3392 24.0678 25.6072 24.8144 24.9244 25.6048C23.7857 26.9225 22.8435 28.4718 23.9822 29.5211C25.0104 30.4685 26.6422 30.5738 28.2266 30.1457C28.7477 30.0059 29.256 29.8222 29.7461 29.5965C30.676 29.1947 30.1514 28.9192 29.6811 28.2876C29.3302 28.463 28.6021 28.8455 28.2564 28.9771C27.5077 29.2646 26.7358 29.4876 25.9491 29.6439C25.1701 29.7965 24.9911 29.5193 24.9525 29.3807C24.6016 28.0911 25.9631 26.6821 26.9352 25.6241C27.6019 24.8977 28.5301 23.859 29.4671 23.187V23.1887ZM18.6237 22.236C17.6452 21.8852 16.6118 21.7123 15.5724 21.7254C12.7756 21.7254 10.5841 22.8202 9.08042 24.3889C7.65218 25.8768 7.10826 27.5331 7.30302 29.2105C7.42408 30.2632 9.16464 30.4019 9.16464 30.4019C8.18382 29.2807 8.48386 27.9156 9.09621 26.433C9.79805 24.7398 11.1912 23.7344 12.3878 23.2256C13.3793 22.7625 14.4625 22.5292 15.5566 22.543C17.22 22.543 18.4763 22.9799 19.0957 23.7712C19.5799 24.3941 19.6922 25.2398 19.4273 26.2821C19.2167 27.1173 18.757 27.9735 17.9797 28.9806C17.887 29.1047 17.7856 29.2219 17.6762 29.3316C17.6384 29.3459 17.5968 29.3468 17.5584 29.334C17.52 29.3212 17.4873 29.2955 17.4656 29.2614C17.0077 28.5911 16.7901 27.6208 16.8024 26.2961C16.8009 25.6663 16.8443 25.0371 16.9322 24.4134V24.3748C16.9336 24.3596 16.9319 24.3443 16.927 24.3298C16.9222 24.3153 16.9144 24.3019 16.9042 24.2906C16.8708 24.2502 16.8024 24.2152 16.5392 24.2152C16.2092 24.2216 15.8809 24.2639 15.5601 24.3415C15.4128 24.331 15.2654 24.3257 15.1162 24.3257C13.6441 24.3257 12.1896 24.8521 11.228 25.7294C10.4174 26.4716 9.98229 27.2471 9.89456 28.1033C9.79981 29.0263 10.4209 30.1685 11.4474 30.3352C11.6604 30.3688 11.8757 30.3858 12.0913 30.3861C13.5494 30.3861 14.9232 29.6281 15.7093 28.9578C15.7836 29.1464 15.8716 29.3294 15.9725 29.5053C16.2181 29.9264 16.5655 30.1597 17.2428 30.1597C17.8593 30.155 18.464 29.9899 18.9974 29.6807C19.6834 29.2403 20.3204 28.4192 20.7046 27.484C21.1819 26.3172 21.2152 25.2469 20.8029 24.2994C20.3652 23.3596 19.586 22.6217 18.6237 22.236ZM14.8987 27.3471C14.4811 28.363 13.6862 29.1543 12.465 29.7649C12.4352 29.7439 12.4071 29.7228 12.3773 29.6983C12.1 29.4521 11.8976 29.1329 11.793 28.7771C11.5597 28.1402 11.7614 27.4664 11.9685 27.0137C12.2054 26.4996 12.8195 25.5557 14.2495 24.9959C14.5881 24.8628 14.9511 24.803 15.3145 24.8205H15.3654C15.3408 25.4714 15.125 26.7944 14.8987 27.3471ZM64.7696 3.82148C63.2834 4.50402 62.2219 6.37267 61.5183 7.72897C59.6461 11.3452 58.4776 15.286 57.2318 19.1496C56.8809 19.1637 56.544 19.1689 56.2019 19.1602C55.8597 19.1514 55.2614 19.6865 54.9964 19.876C54.9438 19.9199 54.2841 20.4375 54.4174 20.4375C55.2336 20.4602 56.0503 20.418 56.8598 20.3112C55.8702 23.3554 54.8999 26.3066 53.8139 29.3368C53.7735 29.4456 53.8577 29.7228 54.3174 29.9615C54.5683 30.0931 54.8245 30.2317 54.9754 30.3124C56.179 26.94 57.2108 23.4923 58.2881 20.0603C58.7916 19.9497 59.2882 19.8181 59.776 19.662C60.2076 19.5234 60.6164 19.2075 60.9814 18.9461C61.0656 18.8864 61.6411 18.3618 61.5621 18.3881C60.6009 18.6933 59.6135 18.9095 58.6127 19.0338C59.5479 16.0931 60.5322 13.1717 61.706 10.3275C62.5184 8.35711 63.336 6.62533 64.752 5.20937C65.0573 4.90407 65.7662 4.61105 66.1838 4.48647C66.2317 4.47128 66.2811 4.46128 66.3311 4.45665C66.6119 4.82336 66.8575 5.33394 66.4294 5.56029C66.5487 5.49888 67.4576 6.63936 67.7699 6.47619C68.7104 5.99192 66.5803 2.98805 64.7696 3.82148ZM66.4662 4.47068C66.5171 4.49525 66.5154 4.48121 66.4662 4.47068V4.47068ZM55.3895 18.3899C54.4275 18.6944 53.4396 18.9099 52.4382 19.0338C53.3734 16.0931 54.3578 13.1717 55.5316 10.3275C56.3422 8.35711 57.1599 6.62533 58.5758 5.20937C58.8811 4.90407 59.59 4.61105 60.0093 4.48647C60.0572 4.47099 60.1066 4.46098 60.1567 4.45665C60.4375 4.82336 60.6831 5.33394 60.2532 5.56029C60.3725 5.49888 61.2832 6.63936 61.5937 6.47619C62.5359 5.98841 60.4059 2.98454 58.5969 3.81797C57.1107 4.50051 56.0492 6.36916 55.3474 7.72546C53.4752 11.3452 52.3119 15.286 51.0609 19.1496C50.71 19.1637 50.3731 19.1689 50.0309 19.1602C49.6888 19.1514 49.0887 19.6865 48.8255 19.876C48.7624 19.9199 48.1079 20.4322 48.2448 20.434C49.0604 20.4567 49.8765 20.4145 50.6854 20.3077C49.6976 23.3519 48.7255 26.3031 47.6412 29.3333C47.6008 29.4421 47.685 29.7193 48.143 29.9579C48.3957 30.0895 48.6518 30.2282 48.8027 30.3089C50.0064 26.9365 51.0381 23.4888 52.1154 20.0568C52.619 19.9462 53.1155 19.8146 53.6015 19.6585C54.0349 19.5199 54.442 19.204 54.807 18.9426C54.8912 18.8882 55.4702 18.3636 55.3895 18.3899ZM60.2901 4.47068C60.3427 4.49525 60.3392 4.48121 60.2901 4.47068V4.47068ZM37.0346 21.9868C35.9293 21.7973 34.966 22.7904 34.2448 23.7835C34.2951 23.4572 34.3484 23.1378 34.4045 22.8255C34.4361 22.6501 34.0062 22.2833 33.9062 22.1781C33.8729 22.1395 33.2939 21.6306 33.2921 21.6412C32.9043 23.7783 32.7394 26.3417 31.5603 28.2613C31.3127 28.6434 31.0308 29.0022 30.7181 29.3333C30.6198 29.4368 31.5638 30.4738 31.6358 30.4001C31.8974 30.1417 32.1325 29.8578 32.3376 29.5526C33.8009 27.512 34.5028 24.8152 36.689 23.3817C37.1434 23.0852 37.9348 22.8904 38.3594 23.2256C38.3861 23.3756 38.4008 23.5276 38.4032 23.68C38.4014 24.0715 38.3501 24.4612 38.2506 24.8398C37.9979 25.9785 37.4751 27.0225 37.0417 28.0946C36.8744 28.4995 36.7286 28.913 36.6048 29.3333C36.5048 29.6842 37.6242 30.2632 37.7628 30.3633C37.9323 29.7924 38.1374 29.2328 38.3769 28.6876C38.8331 27.6085 39.3209 26.5698 39.4876 25.3416C39.6788 23.9116 38.4822 22.2342 37.0346 21.9868ZM45.0058 22.0816C43.8197 21.7306 42.0861 23.3852 41.7194 23.8607C40.8018 25.0521 39.4876 27.4419 40.5877 28.8789C41.2018 29.6807 42.0177 30.379 43.0564 30.3948C44.811 30.4194 46.1796 28.8964 46.9165 27.4506C47.5815 26.1487 47.5728 24.1362 46.5937 23.015C46.1631 22.5602 45.6126 22.2366 45.0058 22.0816ZM45.4164 27.5068C43.7705 29.6912 41.7106 29.2947 41.4299 29.2438C41.4291 29.241 41.4291 29.2379 41.4299 29.2351C41.1141 27.9542 41.744 26.2908 42.4914 25.3188C44.4689 22.7483 45.7374 23.0589 45.8006 23.0694C45.9041 23.2905 46.9183 25.5118 45.4164 27.5068Z" stroke="black" stroke-width="4" mask="url(#path-2-outside-2_77_1484)"/>
+										<path d="M41.6369 35.8243C41.6369 36.3788 41.5071 36.8086 41.2526 37.0999C41.1073 37.2535 40.9299 37.3732 40.7331 37.4505C40.5363 37.5278 40.3249 37.5609 40.1139 37.5473C39.7279 37.5473 39.4454 37.4403 39.2752 37.2297C39.105 37.0192 39.0278 36.6788 39.0278 36.177V33.3995H38.4751V36.3419C38.469 36.5803 38.4843 36.8187 38.5207 37.0543C38.5459 37.1824 38.594 37.3048 38.6629 37.4157C38.7859 37.6069 38.963 37.7572 39.1717 37.8474C39.4386 37.9563 39.7251 38.0092 40.0133 38.0029C40.3016 37.9965 40.5854 37.931 40.8473 37.8105C41.0938 37.6786 41.2986 37.4805 41.4386 37.2385L41.6737 36.8507V37.8842H42.1826V33.3995H41.6369V35.8243ZM36.631 32.0765H36.0871V33.3995H35.3853V33.7732H36.0871V37.0788C36.0871 37.4105 36.1485 37.6386 36.2731 37.7579C36.3977 37.8772 36.6345 37.9333 36.9749 37.9333C37.0635 37.9327 37.1519 37.9274 37.2399 37.9175C37.3153 37.9088 37.396 37.8965 37.4855 37.8825V37.4578H37.3574C37.289 37.4578 37.2293 37.4578 37.182 37.4578C37.1038 37.4661 37.0247 37.457 36.9504 37.4312C36.8761 37.4055 36.8084 37.3636 36.7521 37.3087C36.6547 37.1586 36.612 36.9795 36.631 36.8016V33.7732H37.4855V33.3924H36.631V32.0765ZM33.4061 35.3523L32.6376 35.1769C32.4084 35.1405 32.1903 35.0536 31.9989 34.9225C31.9326 34.8669 31.8799 34.7969 31.8449 34.7178C31.81 34.6387 31.7936 34.5527 31.7971 34.4663C31.7917 34.3489 31.817 34.2321 31.8706 34.1274C31.9241 34.0228 32.004 33.934 32.1024 33.8697C32.3452 33.7289 32.6242 33.663 32.9043 33.6802C33.2006 33.6656 33.4939 33.7462 33.7412 33.91C33.8339 33.975 33.9126 34.0579 33.9729 34.1537C34.0331 34.2495 34.0737 34.3563 34.0921 34.468H34.6185C34.6112 34.3022 34.5673 34.1401 34.4899 33.9933C34.4126 33.8464 34.3037 33.7186 34.1711 33.6188C33.8024 33.3568 33.3559 33.2276 32.9043 33.2521C32.4671 33.2285 32.0347 33.352 31.6761 33.603C31.5374 33.7069 31.4261 33.8429 31.3518 33.9995C31.2775 34.156 31.2425 34.3282 31.2497 34.5013C31.2392 34.6392 31.2565 34.7778 31.3005 34.9089C31.3445 35.04 31.4143 35.1609 31.5059 35.2646C31.6813 35.4401 32.0164 35.5962 32.4919 35.7103L33.3833 35.9401C33.6127 35.9775 33.8295 36.0703 34.0149 36.2103C34.0789 36.2749 34.1287 36.3521 34.161 36.437C34.1933 36.5219 34.2075 36.6126 34.2027 36.7034C34.2057 36.8337 34.175 36.9626 34.1135 37.0776C34.052 37.1926 33.9619 37.2897 33.8517 37.3596C33.5877 37.5186 33.2823 37.5956 32.9745 37.5807C32.6391 37.6001 32.3074 37.5028 32.0357 37.3052C31.8258 37.1271 31.6905 36.8766 31.6567 36.6034H31.1304C31.132 36.7972 31.1731 36.9887 31.2512 37.1661C31.3293 37.3435 31.4429 37.503 31.5848 37.6351C31.8848 37.9018 32.3288 38.0369 32.9008 38.0369C33.4728 38.0369 33.9535 37.9088 34.2746 37.6544C34.4328 37.5302 34.5585 37.3696 34.641 37.1863C34.7235 37.0029 34.7603 36.8023 34.7483 36.6016C34.7586 36.4606 34.7397 36.319 34.6929 36.1856C34.6461 36.0522 34.5724 35.9298 34.4764 35.8261C34.2904 35.6401 33.929 35.4839 33.4061 35.3523ZM49.022 32.2695H49.5659V31.6133H49.022V32.2695ZM49.022 37.8842H49.5659V33.3995H49.022V37.8842ZM47.0095 34.2276L46.7831 33.9293C46.6224 33.7139 46.4124 33.54 46.1708 33.4223C45.9132 33.3025 45.6319 33.2425 45.3479 33.2468C45.0784 33.2359 44.8102 33.2885 44.5648 33.4003C44.3195 33.5122 44.1039 33.6802 43.9354 33.8907C43.5845 34.3224 43.3985 34.9189 43.3985 35.6611C43.3985 36.4033 43.574 36.9736 43.9337 37.3999C44.1038 37.6083 44.3203 37.7741 44.5658 37.884C44.8113 37.994 45.0791 38.0451 45.3479 38.0333C45.6221 38.0354 45.8932 37.9754 46.1409 37.8579C46.3928 37.7321 46.6138 37.5524 46.7884 37.3315L47.013 37.0595V37.8825H47.5394V31.6185H47.013L47.0095 34.2276ZM46.6428 37.0473C46.5097 37.2197 46.3371 37.3576 46.1395 37.4492C45.9419 37.5408 45.7251 37.5835 45.5075 37.5736C45.2917 37.5825 45.0767 37.541 44.8796 37.4524C44.6826 37.3638 44.5089 37.2305 44.3723 37.0631C44.0849 36.6725 43.9411 36.1946 43.9652 35.7103C43.9652 35.0874 44.0986 34.5943 44.3583 34.2487C44.4902 34.0729 44.6631 33.932 44.8618 33.8381C45.0605 33.7442 45.2792 33.7003 45.4988 33.71C45.7161 33.6963 45.9336 33.7337 46.1338 33.8193C46.334 33.905 46.5114 34.0364 46.6515 34.2031C46.9059 34.5224 47.0358 34.9944 47.0358 35.6067C47.0358 36.2191 46.9095 36.7069 46.6498 37.0473H46.6428ZM54.5139 33.8644C54.1419 33.4521 53.6085 33.2433 52.9347 33.2433C52.261 33.2433 51.7276 33.4539 51.3556 33.8662C50.9836 34.2785 50.7924 34.8786 50.7924 35.6348C50.7924 36.391 50.9819 36.9946 51.3574 37.4105C51.7328 37.8263 52.261 38.0298 52.9365 38.0298C53.612 38.0298 54.1437 37.821 54.5156 37.4087C54.8876 36.9964 55.0771 36.3963 55.0771 35.6348C55.0771 34.8733 54.8946 34.2785 54.5209 33.8644H54.5139ZM54.1068 37.0613C53.9664 37.2329 53.7872 37.3689 53.5841 37.4579C53.381 37.547 53.1597 37.5866 52.9382 37.5736C52.7154 37.5858 52.4928 37.5458 52.2881 37.4569C52.0834 37.3679 51.9023 37.2325 51.7592 37.0613C51.489 36.7279 51.3538 36.2489 51.3538 35.6348C51.3538 35.0207 51.4889 34.5435 51.7574 34.2118C51.9007 34.0403 52.0821 33.9046 52.2871 33.8157C52.4921 33.7267 52.7151 33.6869 52.9382 33.6995C53.1599 33.6869 53.3815 33.7271 53.5846 33.8168C53.7877 33.9065 53.9667 34.0431 54.1068 34.2153C54.3717 34.547 54.5051 35.026 54.5051 35.6348C54.5051 36.2437 54.3788 36.7279 54.1138 37.0613H54.1068Z" stroke="black" stroke-width="4" mask="url(#path-2-outside-2_77_1484)"/>
+										<path d="M28.1617 3.88816C28.2459 3.85482 27.2247 3.8092 26.9878 3.9057C21.5626 6.16562 16.6024 9.41514 12.7019 13.7841C10.5385 16.2072 5.86951 23.0922 5.71862 23.315C6.77137 18.1109 9.44362 11.4434 11.8808 6.29546C12.5499 5.60102 12.9407 4.68506 12.9791 3.72147C12.9791 3.60216 11.4895 3.3144 11.4263 3.45653C11.0473 4.30926 10.6841 5.17252 10.3297 6.02876C9.68751 6.7306 8.82776 7.25698 7.93643 7.72546C6.83805 8.30272 4.66586 9.03263 4.92028 10.6241C4.9501 10.8153 6.30114 10.975 6.47134 10.889C7.15354 10.4922 7.75813 9.97502 8.25576 9.3625C8.19435 9.43268 7.77325 9.24669 7.37846 9.12563C8.03995 8.63609 8.91198 8.29044 9.48398 7.9904L9.55241 7.95531C5.90285 15.851 4.25879 22.0728 3.00777 28.9947C2.90424 29.8035 3.86927 30.7335 3.90787 30.5914C4.13039 29.754 4.39627 28.9288 4.70446 28.1191C5.79056 25.2574 8.06451 20.9902 13.609 14.3157C17.4411 9.71166 22.6171 6.19721 28.1617 3.88816ZM29.4671 23.1887C29.8302 23.0494 30.1726 22.8611 30.4847 22.629L30.2689 22.522C29.9654 22.3202 29.4285 21.9166 29.2004 21.9956C28.8835 22.1182 28.5875 22.2893 28.3231 22.5027C26.3509 23.3291 24.749 22.0114 22.7487 22.5027C22.3399 22.6044 21.1906 23.187 21.4538 23.7204C21.717 24.2538 22.7943 24.4924 23.4137 24.4327C23.4997 24.4327 23.0733 24.1397 23.0277 24.1169C22.9558 24.0765 22.868 24.0204 22.775 23.966C22.9154 23.7063 23.2488 23.5045 23.4769 23.3642C24.2489 22.9027 25.1069 23.0536 25.7982 23.1571C26.2878 23.2291 26.6211 23.3115 27.1159 23.3694C26.3392 24.0678 25.6072 24.8144 24.9244 25.6048C23.7857 26.9225 22.8435 28.4718 23.9822 29.5211C25.0104 30.4685 26.6422 30.5738 28.2266 30.1457C28.7477 30.0059 29.256 29.8222 29.7461 29.5965C30.676 29.1947 30.1514 28.9192 29.6811 28.2876C29.3302 28.463 28.6021 28.8455 28.2564 28.9771C27.5077 29.2646 26.7358 29.4876 25.9491 29.6439C25.1701 29.7965 24.9911 29.5193 24.9525 29.3807C24.6016 28.0911 25.9631 26.6821 26.9352 25.6241C27.6019 24.8977 28.5301 23.859 29.4671 23.187V23.1887ZM18.6237 22.236C17.6452 21.8852 16.6118 21.7123 15.5724 21.7254C12.7756 21.7254 10.5841 22.8202 9.08042 24.3889C7.65218 25.8768 7.10826 27.5331 7.30302 29.2105C7.42408 30.2632 9.16464 30.4019 9.16464 30.4019C8.18382 29.2807 8.48386 27.9156 9.09621 26.433C9.79805 24.7398 11.1912 23.7344 12.3878 23.2256C13.3793 22.7625 14.4625 22.5292 15.5566 22.543C17.22 22.543 18.4763 22.9799 19.0957 23.7712C19.5799 24.3941 19.6922 25.2398 19.4273 26.2821C19.2167 27.1173 18.757 27.9735 17.9797 28.9806C17.887 29.1047 17.7856 29.2219 17.6762 29.3316C17.6384 29.3459 17.5968 29.3468 17.5584 29.334C17.52 29.3212 17.4873 29.2955 17.4656 29.2614C17.0077 28.5911 16.7901 27.6208 16.8024 26.2961C16.8009 25.6663 16.8443 25.0371 16.9322 24.4134V24.3748C16.9336 24.3596 16.9319 24.3443 16.927 24.3298C16.9222 24.3153 16.9144 24.3019 16.9042 24.2906C16.8708 24.2502 16.8024 24.2152 16.5392 24.2152C16.2092 24.2216 15.8809 24.2639 15.5601 24.3415C15.4128 24.331 15.2654 24.3257 15.1162 24.3257C13.6441 24.3257 12.1896 24.8521 11.228 25.7294C10.4174 26.4716 9.98229 27.2471 9.89456 28.1033C9.79981 29.0263 10.4209 30.1685 11.4474 30.3352C11.6604 30.3688 11.8757 30.3858 12.0913 30.3861C13.5494 30.3861 14.9232 29.6281 15.7093 28.9578C15.7836 29.1464 15.8716 29.3294 15.9725 29.5053C16.2181 29.9264 16.5655 30.1597 17.2428 30.1597C17.8593 30.155 18.464 29.9899 18.9974 29.6807C19.6834 29.2403 20.3204 28.4192 20.7046 27.484C21.1819 26.3172 21.2152 25.2469 20.8029 24.2994C20.3652 23.3596 19.586 22.6217 18.6237 22.236ZM14.8987 27.3471C14.4811 28.363 13.6862 29.1543 12.465 29.7649C12.4352 29.7439 12.4071 29.7228 12.3773 29.6983C12.1 29.4521 11.8976 29.1329 11.793 28.7771C11.5597 28.1402 11.7614 27.4664 11.9685 27.0137C12.2054 26.4996 12.8195 25.5557 14.2495 24.9959C14.5881 24.8628 14.9511 24.803 15.3145 24.8205H15.3654C15.3408 25.4714 15.125 26.7944 14.8987 27.3471ZM64.7696 3.82148C63.2834 4.50402 62.2219 6.37267 61.5183 7.72897C59.6461 11.3452 58.4776 15.286 57.2318 19.1496C56.8809 19.1637 56.544 19.1689 56.2019 19.1602C55.8597 19.1514 55.2614 19.6865 54.9964 19.876C54.9438 19.9199 54.2841 20.4375 54.4174 20.4375C55.2336 20.4602 56.0503 20.418 56.8598 20.3112C55.8702 23.3554 54.8999 26.3066 53.8139 29.3368C53.7735 29.4456 53.8577 29.7228 54.3174 29.9615C54.5683 30.0931 54.8245 30.2317 54.9754 30.3124C56.179 26.94 57.2108 23.4923 58.2881 20.0603C58.7916 19.9497 59.2882 19.8181 59.776 19.662C60.2076 19.5234 60.6164 19.2075 60.9814 18.9461C61.0656 18.8864 61.6411 18.3618 61.5621 18.3881C60.6009 18.6933 59.6135 18.9095 58.6127 19.0338C59.5479 16.0931 60.5322 13.1717 61.706 10.3275C62.5184 8.35711 63.336 6.62533 64.752 5.20937C65.0573 4.90407 65.7662 4.61105 66.1838 4.48647C66.2317 4.47128 66.2811 4.46128 66.3311 4.45665C66.6119 4.82336 66.8575 5.33394 66.4294 5.56029C66.5487 5.49888 67.4576 6.63936 67.7699 6.47619C68.7104 5.99192 66.5803 2.98805 64.7696 3.82148ZM66.4662 4.47068C66.5171 4.49525 66.5154 4.48121 66.4662 4.47068V4.47068ZM55.3895 18.3899C54.4275 18.6944 53.4396 18.9099 52.4382 19.0338C53.3734 16.0931 54.3578 13.1717 55.5316 10.3275C56.3422 8.35711 57.1599 6.62533 58.5758 5.20937C58.8811 4.90407 59.59 4.61105 60.0093 4.48647C60.0572 4.47099 60.1066 4.46098 60.1567 4.45665C60.4375 4.82336 60.6831 5.33394 60.2532 5.56029C60.3725 5.49888 61.2832 6.63936 61.5937 6.47619C62.5359 5.98841 60.4059 2.98454 58.5969 3.81797C57.1107 4.50051 56.0492 6.36916 55.3474 7.72546C53.4752 11.3452 52.3119 15.286 51.0609 19.1496C50.71 19.1637 50.3731 19.1689 50.0309 19.1602C49.6888 19.1514 49.0887 19.6865 48.8255 19.876C48.7624 19.9199 48.1079 20.4322 48.2448 20.434C49.0604 20.4567 49.8765 20.4145 50.6854 20.3077C49.6976 23.3519 48.7255 26.3031 47.6412 29.3333C47.6008 29.4421 47.685 29.7193 48.143 29.9579C48.3957 30.0895 48.6518 30.2282 48.8027 30.3089C50.0064 26.9365 51.0381 23.4888 52.1154 20.0568C52.619 19.9462 53.1155 19.8146 53.6015 19.6585C54.0349 19.5199 54.442 19.204 54.807 18.9426C54.8912 18.8882 55.4702 18.3636 55.3895 18.3899ZM60.2901 4.47068C60.3427 4.49525 60.3392 4.48121 60.2901 4.47068V4.47068ZM37.0346 21.9868C35.9293 21.7973 34.966 22.7904 34.2448 23.7835C34.2951 23.4572 34.3484 23.1378 34.4045 22.8255C34.4361 22.6501 34.0062 22.2833 33.9062 22.1781C33.8729 22.1395 33.2939 21.6306 33.2921 21.6412C32.9043 23.7783 32.7394 26.3417 31.5603 28.2613C31.3127 28.6434 31.0308 29.0022 30.7181 29.3333C30.6198 29.4368 31.5638 30.4738 31.6358 30.4001C31.8974 30.1417 32.1325 29.8578 32.3376 29.5526C33.8009 27.512 34.5028 24.8152 36.689 23.3817C37.1434 23.0852 37.9348 22.8904 38.3594 23.2256C38.3861 23.3756 38.4008 23.5276 38.4032 23.68C38.4014 24.0715 38.3501 24.4612 38.2506 24.8398C37.9979 25.9785 37.4751 27.0225 37.0417 28.0946C36.8744 28.4995 36.7286 28.913 36.6048 29.3333C36.5048 29.6842 37.6242 30.2632 37.7628 30.3633C37.9323 29.7924 38.1374 29.2328 38.3769 28.6876C38.8331 27.6085 39.3209 26.5698 39.4876 25.3416C39.6788 23.9116 38.4822 22.2342 37.0346 21.9868ZM45.0058 22.0816C43.8197 21.7306 42.0861 23.3852 41.7194 23.8607C40.8018 25.0521 39.4876 27.4419 40.5877 28.8789C41.2018 29.6807 42.0177 30.379 43.0564 30.3948C44.811 30.4194 46.1796 28.8964 46.9165 27.4506C47.5815 26.1487 47.5728 24.1362 46.5937 23.015C46.1631 22.5602 45.6126 22.2366 45.0058 22.0816ZM45.4164 27.5068C43.7705 29.6912 41.7106 29.2947 41.4299 29.2438C41.4291 29.241 41.4291 29.2379 41.4299 29.2351C41.1141 27.9542 41.744 26.2908 42.4914 25.3188C44.4689 22.7483 45.7374 23.0589 45.8006 23.0694C45.9041 23.2905 46.9183 25.5118 45.4164 27.5068Z" fill="white"/>
+										<path d="M41.6369 35.8243C41.6369 36.3788 41.5071 36.8086 41.2526 37.0999C41.1073 37.2535 40.9299 37.3732 40.7331 37.4505C40.5363 37.5278 40.3249 37.5609 40.1139 37.5473C39.7279 37.5473 39.4454 37.4403 39.2752 37.2297C39.105 37.0192 39.0278 36.6788 39.0278 36.177V33.3995H38.4751V36.3419C38.469 36.5803 38.4843 36.8187 38.5207 37.0543C38.5459 37.1824 38.594 37.3048 38.6629 37.4157C38.7859 37.6069 38.963 37.7572 39.1717 37.8474C39.4386 37.9563 39.7251 38.0092 40.0133 38.0029C40.3016 37.9965 40.5854 37.931 40.8473 37.8105C41.0938 37.6786 41.2986 37.4805 41.4386 37.2385L41.6737 36.8507V37.8842H42.1826V33.3995H41.6369V35.8243ZM36.631 32.0765H36.0871V33.3995H35.3853V33.7732H36.0871V37.0788C36.0871 37.4105 36.1485 37.6386 36.2731 37.7579C36.3977 37.8772 36.6345 37.9333 36.9749 37.9333C37.0635 37.9327 37.1519 37.9274 37.2399 37.9175C37.3153 37.9088 37.396 37.8965 37.4855 37.8825V37.4578H37.3574C37.289 37.4578 37.2293 37.4578 37.182 37.4578C37.1038 37.4661 37.0247 37.457 36.9504 37.4312C36.8761 37.4055 36.8084 37.3636 36.7521 37.3087C36.6547 37.1586 36.612 36.9795 36.631 36.8016V33.7732H37.4855V33.3924H36.631V32.0765ZM33.4061 35.3523L32.6376 35.1769C32.4084 35.1405 32.1903 35.0536 31.9989 34.9225C31.9326 34.8669 31.8799 34.7969 31.8449 34.7178C31.81 34.6387 31.7936 34.5527 31.7971 34.4663C31.7917 34.3489 31.817 34.2321 31.8706 34.1274C31.9241 34.0228 32.004 33.934 32.1024 33.8697C32.3452 33.7289 32.6242 33.663 32.9043 33.6802C33.2006 33.6656 33.4939 33.7462 33.7412 33.91C33.8339 33.975 33.9126 34.0579 33.9729 34.1537C34.0331 34.2495 34.0737 34.3563 34.0921 34.468H34.6185C34.6112 34.3022 34.5673 34.1401 34.4899 33.9933C34.4126 33.8464 34.3037 33.7186 34.1711 33.6188C33.8024 33.3568 33.3559 33.2276 32.9043 33.2521C32.4671 33.2285 32.0347 33.352 31.6761 33.603C31.5374 33.7069 31.4261 33.8429 31.3518 33.9995C31.2775 34.156 31.2425 34.3282 31.2497 34.5013C31.2392 34.6392 31.2565 34.7778 31.3005 34.9089C31.3445 35.04 31.4143 35.1609 31.5059 35.2646C31.6813 35.4401 32.0164 35.5962 32.4919 35.7103L33.3833 35.9401C33.6127 35.9775 33.8295 36.0703 34.0149 36.2103C34.0789 36.2749 34.1287 36.3521 34.161 36.437C34.1933 36.5219 34.2075 36.6126 34.2027 36.7034C34.2057 36.8337 34.175 36.9626 34.1135 37.0776C34.052 37.1926 33.9619 37.2897 33.8517 37.3596C33.5877 37.5186 33.2823 37.5956 32.9745 37.5807C32.6391 37.6001 32.3074 37.5028 32.0357 37.3052C31.8258 37.1271 31.6905 36.8766 31.6567 36.6034H31.1304C31.132 36.7972 31.1731 36.9887 31.2512 37.1661C31.3293 37.3435 31.4429 37.503 31.5848 37.6351C31.8848 37.9018 32.3288 38.0369 32.9008 38.0369C33.4728 38.0369 33.9535 37.9088 34.2746 37.6544C34.4328 37.5302 34.5585 37.3696 34.641 37.1863C34.7235 37.0029 34.7603 36.8023 34.7483 36.6016C34.7586 36.4606 34.7397 36.319 34.6929 36.1856C34.6461 36.0522 34.5724 35.9298 34.4764 35.8261C34.2904 35.6401 33.929 35.4839 33.4061 35.3523ZM49.022 32.2695H49.5659V31.6133H49.022V32.2695ZM49.022 37.8842H49.5659V33.3995H49.022V37.8842ZM47.0095 34.2276L46.7831 33.9293C46.6224 33.7139 46.4124 33.54 46.1708 33.4223C45.9132 33.3025 45.6319 33.2425 45.3479 33.2468C45.0784 33.2359 44.8102 33.2885 44.5648 33.4003C44.3195 33.5122 44.1039 33.6802 43.9354 33.8907C43.5845 34.3224 43.3985 34.9189 43.3985 35.6611C43.3985 36.4033 43.574 36.9736 43.9337 37.3999C44.1038 37.6083 44.3203 37.7741 44.5658 37.884C44.8113 37.994 45.0791 38.0451 45.3479 38.0333C45.6221 38.0354 45.8932 37.9754 46.1409 37.8579C46.3928 37.7321 46.6138 37.5524 46.7884 37.3315L47.013 37.0595V37.8825H47.5394V31.6185H47.013L47.0095 34.2276ZM46.6428 37.0473C46.5097 37.2197 46.3371 37.3576 46.1395 37.4492C45.9419 37.5408 45.7251 37.5835 45.5075 37.5736C45.2917 37.5825 45.0767 37.541 44.8796 37.4524C44.6826 37.3638 44.5089 37.2305 44.3723 37.0631C44.0849 36.6725 43.9411 36.1946 43.9652 35.7103C43.9652 35.0874 44.0986 34.5943 44.3583 34.2487C44.4902 34.0729 44.6631 33.932 44.8618 33.8381C45.0605 33.7442 45.2792 33.7003 45.4988 33.71C45.7161 33.6963 45.9336 33.7337 46.1338 33.8193C46.334 33.905 46.5114 34.0364 46.6515 34.2031C46.9059 34.5224 47.0358 34.9944 47.0358 35.6067C47.0358 36.2191 46.9095 36.7069 46.6498 37.0473H46.6428ZM54.5139 33.8644C54.1419 33.4521 53.6085 33.2433 52.9347 33.2433C52.261 33.2433 51.7276 33.4539 51.3556 33.8662C50.9836 34.2785 50.7924 34.8786 50.7924 35.6348C50.7924 36.391 50.9819 36.9946 51.3574 37.4105C51.7328 37.8263 52.261 38.0298 52.9365 38.0298C53.612 38.0298 54.1437 37.821 54.5156 37.4087C54.8876 36.9964 55.0771 36.3963 55.0771 35.6348C55.0771 34.8733 54.8946 34.2785 54.5209 33.8644H54.5139ZM54.1068 37.0613C53.9664 37.2329 53.7872 37.3689 53.5841 37.4579C53.381 37.547 53.1597 37.5866 52.9382 37.5736C52.7154 37.5858 52.4928 37.5458 52.2881 37.4569C52.0834 37.3679 51.9023 37.2325 51.7592 37.0613C51.489 36.7279 51.3538 36.2489 51.3538 35.6348C51.3538 35.0207 51.4889 34.5435 51.7574 34.2118C51.9007 34.0403 52.0821 33.9046 52.2871 33.8157C52.4921 33.7267 52.7151 33.6869 52.9382 33.6995C53.1599 33.6869 53.3815 33.7271 53.5846 33.8168C53.7877 33.9065 53.9667 34.0431 54.1068 34.2153C54.3717 34.547 54.5051 35.026 54.5051 35.6348C54.5051 36.2437 54.3788 36.7279 54.1138 37.0613H54.1068Z" fill="white"/>
+										</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__map">
+					<span></span>
+					<iframe loading="lazy" src="https://yandex.ru/map-widget/v1/?lang=ru_RU&amp;scroll=false&amp;um=constructor%3A7997baa63ec61026443ac80781153dc1dfe35547fa1dda51de2724ed35d750eb" frameborder="0" allowfullscreen="true" width="100%" style="display: block;"></iframe>
+				</div>
+			</footer>
+			<div class="survey-popup">
+				<div class="survey-popup__container">
+					<div class="popup__close">
+						<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="25" cy="25" r="25" fill="#242424"/>
+							<path d="M26.9771 24.4926L32.6332 18.792C32.83 18.5951 32.9406 18.3281 32.9406 18.0497C32.9406 17.7713 32.83 17.5043 32.6332 17.3075C32.4363 17.1106 32.1693 17 31.8909 17C31.6125 17 31.3455 17.1106 31.1486 17.3075L25.4926 23.008L19.792 17.3668C19.5951 17.17 19.3281 17.0594 19.0497 17.0594C18.7713 17.0594 18.5043 17.17 18.3075 17.3668C18.1106 17.5637 18 17.8307 18 18.1091C18 18.3875 18.1106 18.6545 18.3075 18.8514L24.008 24.4926L18.3668 30.208C18.17 30.4049 18.0594 30.6719 18.0594 30.9503C18.0594 31.2287 18.17 31.4957 18.3668 31.6925C18.5637 31.8894 18.8307 32 19.1091 32C19.3875 32 19.6545 31.8894 19.8514 31.6925L25.4926 25.9771L31.208 31.6332C31.4049 31.83 31.6719 31.9406 31.9503 31.9406C32.2287 31.9406 32.4957 31.83 32.6925 31.6332C32.8894 31.4363 33 31.1693 33 30.8909C33 30.6125 32.8894 30.3455 32.6925 30.1486L26.9771 24.4926Z" fill="white"/>
+						</svg>
+					</div>
+					<a href="#" class="popup__logo">
+						<img src="img/logo-b.svg" alt="">
+						<b>Luck-hunter</b>
+						<p>
+							<b>FORT PRO-01</b>
+							метательная машинка
+						</p>
+					</a>
+					<div class="popup__produced">
+						<img src="img/Dev-hunterswithoutstar.svg" alt="">
+					</div>
+					<form class="survey-popup__body active">
+						<div class="popup__title">
+							Вопрос 1 из 5 
+						</div>
+						<div class="survey-popup__content">
+							<div class="survey-popup__title">
+								Формулировка вопроса, формулировка вопроса, формулировка вопроса,формулировка вопроса?
+							</div>
+							<div class="popup__option">
+								<input checked id="radio1" type="radio" name="radio1">
+								<label for="radio1">
+									<span></span>
+									Доставка до двери
+								</label>
+							</div>
+							<div class="popup__option">
+								<input id="radio2" type="radio" name="radio1">
+								<label for="radio2">
+									<span></span>
+									Доставка до терминала транспортной компании в вашем городе
+								</label>
+							</div>
+							<div class="popup__option">
+								<input id="radio3" type="radio" name="radio1">
+								<label for="radio3">
+									<span></span>
+									Самовывоз
+								</label>
+							</div>
+						</div>
+						<div class="popup__bottom">
+							<a href="#" class="popup__btn survey-popup__btn">
+								Следующий вопрос
+							</a>
+						</div>					
+					</form>
+					<form class="survey-popup__body">
+						<div class="popup__title">
+							Вопрос 2 из 5 
+						</div>
+						<div class="survey-popup__content">
+							<div class="survey-popup__title">
+								Формулировка вопроса, формулировка вопроса?
+							</div>
+							<div class="popup__option">
+								<input checked id="checkbox1" type="checkbox" name="checkbox1">
+								<label for="checkbox1">
+									<span></span>
+										Доставка до двери
+								</label>
+							</div>
+							<div class="popup__option">
+								<input id="checkbox2" type="checkbox" name="checkbox1">
+								<label for="checkbox2">
+									<span></span>
+									Доставка до терминала транспортной компании в вашем городе
+								</label>
+							</div>
+							<div class="popup__option">
+								<input id="checkbox3" type="checkbox" name="checkbox1">
+								<label for="checkbox3">
+									<span></span>
+									Самовывоз
+								</label>
+							</div>
+						</div>		
+						<div class="popup__bottom">
+							<button class="survey-popup__back">
+								<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<circle cx="23" cy="23" r="22.5" fill="white" stroke="#D5D5D5"/>
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M15.2379 23.64C15.0845 23.4625 15 23.2357 15 23.001C15 22.7664 15.0845 22.5396 15.2379 22.362L21.6149 15.265C21.6858 15.1823 21.7738 15.1158 21.8728 15.0702C21.9718 15.0247 22.0795 15.0011 22.1884 15.0011C22.2974 15.0011 22.4051 15.0247 22.5041 15.0702C22.6031 15.1158 22.6911 15.1823 22.7619 15.265C22.9154 15.4426 22.9999 15.6694 22.9999 15.904C22.9999 16.1387 22.9154 16.3655 22.7619 16.543L16.9599 23.001L22.7619 29.459C22.9152 29.6365 22.9995 29.8631 22.9995 30.0975C22.9995 30.332 22.9152 30.5586 22.7619 30.736C22.6911 30.8188 22.6031 30.8853 22.5041 30.9308C22.4051 30.9764 22.2974 31 22.1884 31C22.0795 31 21.9718 30.9764 21.8728 30.9308C21.7738 30.8853 21.6858 30.8188 21.6149 30.736L15.2379 23.64Z" fill="#D5D5D5"/>
+								<path d="M15.9999 24.001C15.4477 24.001 15 23.5533 15 23.001C15 22.4488 15.4477 22.001 15.9999 22.001L29.9999 22.001C30.5522 22.001 30.9999 22.4488 30.9999 23.001C30.9999 23.5533 30.5522 24.001 29.9999 24.001L15.9999 24.001Z" fill="#D5D5D5"/>
+								</svg>
+							</button>
+							<a href="#" class="popup__btn survey-popup__btn">
+								Следующий вопрос
+							</a>
+						</div>					
+					</form>
+					<form class="survey-popup__body">
+						<div class="popup__title">
+							Вопрос 3 из 5 
+						</div>
+						<div class="survey-popup__content">
+							<div class="survey-popup__title">
+								Формулировка вопроса, формулировка вопроса, формулировка вопроса,формулировка вопроса?
+							</div>
+							<div class="popup__option">
+								<input checked id="radio4" type="radio" name="radio2">
+								<label for="radio4">
+									<span></span>
+									<p>
+										Доставка до двери
+										<input placeholder="Укажите город, улицу, дом, квартиру (офис)" type="text">
+									</p>
+								</label>
+							</div>
+							<div class="popup__option">
+								<input id="radio5" type="radio" name="radio2">
+								<label for="radio5">
+									<span></span>
+									<p>
+										Доставка до терминала транспортной компании в вашем городе
+										<input placeholder="Укажите город" type="text">
+									</p>
+								</label>
+							</div>
+							<div class="popup__option">
+								<input id="radio6" type="radio" name="radio2">
+								<label for="radio6">
+									<span></span>
+									Самовывоз
+								</label>
+							</div>
+						</div>
+						<div class="popup__bottom">
+							<button class="survey-popup__back">
+								<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<circle cx="23" cy="23" r="22.5" fill="white" stroke="#D5D5D5"/>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M15.2379 23.64C15.0845 23.4625 15 23.2357 15 23.001C15 22.7664 15.0845 22.5396 15.2379 22.362L21.6149 15.265C21.6858 15.1823 21.7738 15.1158 21.8728 15.0702C21.9718 15.0247 22.0795 15.0011 22.1884 15.0011C22.2974 15.0011 22.4051 15.0247 22.5041 15.0702C22.6031 15.1158 22.6911 15.1823 22.7619 15.265C22.9154 15.4426 22.9999 15.6694 22.9999 15.904C22.9999 16.1387 22.9154 16.3655 22.7619 16.543L16.9599 23.001L22.7619 29.459C22.9152 29.6365 22.9995 29.8631 22.9995 30.0975C22.9995 30.332 22.9152 30.5586 22.7619 30.736C22.6911 30.8188 22.6031 30.8853 22.5041 30.9308C22.4051 30.9764 22.2974 31 22.1884 31C22.0795 31 21.9718 30.9764 21.8728 30.9308C21.7738 30.8853 21.6858 30.8188 21.6149 30.736L15.2379 23.64Z" fill="#D5D5D5"/>
+									<path d="M15.9999 24.001C15.4477 24.001 15 23.5533 15 23.001C15 22.4488 15.4477 22.001 15.9999 22.001L29.9999 22.001C30.5522 22.001 30.9999 22.4488 30.9999 23.001C30.9999 23.5533 30.5522 24.001 29.9999 24.001L15.9999 24.001Z" fill="#D5D5D5"/>
+								</svg>
+							</button>
+							<a href="#" class="popup__btn survey-popup__btn">
+								Следующий вопрос
+							</a>
+						</div>					
+					</form>
+					<form class="survey-popup__body">
+						<div class="popup__title">
+							Вопрос 4 из 5 
+						</div>
+						<div class="survey-popup__content">
+							<div class="survey-popup__title">
+								Формулировка вопроса, формулировка вопроса, формулировка вопроса,формулировка вопроса?
+							</div>
+							<div class="survey-popup__slider" id="survey-popup__slider"></div>
+							<textarea placeholder="Можно указать здесь"></textarea>
+						</div>
+						<div class="popup__bottom">
+							<button class="survey-popup__back">
+								<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<circle cx="23" cy="23" r="22.5" fill="white" stroke="#D5D5D5"/>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M15.2379 23.64C15.0845 23.4625 15 23.2357 15 23.001C15 22.7664 15.0845 22.5396 15.2379 22.362L21.6149 15.265C21.6858 15.1823 21.7738 15.1158 21.8728 15.0702C21.9718 15.0247 22.0795 15.0011 22.1884 15.0011C22.2974 15.0011 22.4051 15.0247 22.5041 15.0702C22.6031 15.1158 22.6911 15.1823 22.7619 15.265C22.9154 15.4426 22.9999 15.6694 22.9999 15.904C22.9999 16.1387 22.9154 16.3655 22.7619 16.543L16.9599 23.001L22.7619 29.459C22.9152 29.6365 22.9995 29.8631 22.9995 30.0975C22.9995 30.332 22.9152 30.5586 22.7619 30.736C22.6911 30.8188 22.6031 30.8853 22.5041 30.9308C22.4051 30.9764 22.2974 31 22.1884 31C22.0795 31 21.9718 30.9764 21.8728 30.9308C21.7738 30.8853 21.6858 30.8188 21.6149 30.736L15.2379 23.64Z" fill="#D5D5D5"/>
+									<path d="M15.9999 24.001C15.4477 24.001 15 23.5533 15 23.001C15 22.4488 15.4477 22.001 15.9999 22.001L29.9999 22.001C30.5522 22.001 30.9999 22.4488 30.9999 23.001C30.9999 23.5533 30.5522 24.001 29.9999 24.001L15.9999 24.001Z" fill="#D5D5D5"/>
+								</svg>
+							</button>
+							<a href="#" class="popup__btn survey-popup__btn">
+								Следующий вопрос
+							</a>
+						</div>					
+					</form>
+					<form class="survey-popup__body">
+						<div class="popup__title">
+							Вопрос 5 из 5 
+						</div>
+						<div class="survey-popup__content">
+							<div class="survey-popup__title">
+								Оставьте контактные данные, для получения индивидуального предложения сформированного исходя из указанных данных
+							</div>
+							<div class="survey-popup__row">
+								<div class="survey-popup__input">
+									<p>Имя<span>*</span></p>
+									<input type="text" required>
+								</div>
+								<div class="survey-popup__input">
+									<p>Телефон</p>
+									<input type="tel" placeholder="+7">
+								</div>							
+							</div>
+							<div class="survey-popup__input">
+								<p>
+									E-mail (на эту почту мы вышлем предложение)<span>*</span>
+								</p>
+								<input type="email" placeholder="@" required>							
+							</div>
+
+						</div>
+						<div class="popup__bottom">
+							<button class="survey-popup__back">
+								<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<circle cx="23" cy="23" r="22.5" fill="white" stroke="#D5D5D5"/>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M15.2379 23.64C15.0845 23.4625 15 23.2357 15 23.001C15 22.7664 15.0845 22.5396 15.2379 22.362L21.6149 15.265C21.6858 15.1823 21.7738 15.1158 21.8728 15.0702C21.9718 15.0247 22.0795 15.0011 22.1884 15.0011C22.2974 15.0011 22.4051 15.0247 22.5041 15.0702C22.6031 15.1158 22.6911 15.1823 22.7619 15.265C22.9154 15.4426 22.9999 15.6694 22.9999 15.904C22.9999 16.1387 22.9154 16.3655 22.7619 16.543L16.9599 23.001L22.7619 29.459C22.9152 29.6365 22.9995 29.8631 22.9995 30.0975C22.9995 30.332 22.9152 30.5586 22.7619 30.736C22.6911 30.8188 22.6031 30.8853 22.5041 30.9308C22.4051 30.9764 22.2974 31 22.1884 31C22.0795 31 21.9718 30.9764 21.8728 30.9308C21.7738 30.8853 21.6858 30.8188 21.6149 30.736L15.2379 23.64Z" fill="#D5D5D5"/>
+									<path d="M15.9999 24.001C15.4477 24.001 15 23.5533 15 23.001C15 22.4488 15.4477 22.001 15.9999 22.001L29.9999 22.001C30.5522 22.001 30.9999 22.4488 30.9999 23.001C30.9999 23.5533 30.5522 24.001 29.9999 24.001L15.9999 24.001Z" fill="#D5D5D5"/>
+								</svg>
+							</button>
+							<button class="popup__btn survey-popup__btn">
+								Далее
+							</button>
+							<div class="popup__bottom-agree">
+								<input type="checkbox" id="popupagree">
+								<label for="popupagree">
+									<span></span>
+									<p>
+										Я согласен на обработку моих персональных данных.
+										<a href="#">Политика конфиденциальности</a>									
+									</p>
+
+								</label>
+							</div>
+						</div>					
+					</form>
+					<form class="survey-popup__body">
+						<div class="popup__title">
+							<b>Опрос успешно пройден!</b>
+							<br>Спасибо, наш менеджер свяжется с Вами в самое ближайшее время.
+						</div>
+						<div class="survey-popup__image">
+							<img src="img/surveypopup/1.webp" alt="">
+						</div>
+
+						<div class="popup__bottom">
+							<button class="popup__btn survey-popup__close1">
+								Закрыть
+							</button>
+						</div>					
+					</form>
+
+				</div>
+			</div>
+			<div class="buy-popup">
+				<div class="buy-popup__container">
+					<div class="popup__close">
+						<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<circle cx="25" cy="25" r="25" fill="#242424"/>
+							<path d="M26.9771 24.4926L32.6332 18.792C32.83 18.5951 32.9406 18.3281 32.9406 18.0497C32.9406 17.7713 32.83 17.5043 32.6332 17.3075C32.4363 17.1106 32.1693 17 31.8909 17C31.6125 17 31.3455 17.1106 31.1486 17.3075L25.4926 23.008L19.792 17.3668C19.5951 17.17 19.3281 17.0594 19.0497 17.0594C18.7713 17.0594 18.5043 17.17 18.3075 17.3668C18.1106 17.5637 18 17.8307 18 18.1091C18 18.3875 18.1106 18.6545 18.3075 18.8514L24.008 24.4926L18.3668 30.208C18.17 30.4049 18.0594 30.6719 18.0594 30.9503C18.0594 31.2287 18.17 31.4957 18.3668 31.6925C18.5637 31.8894 18.8307 32 19.1091 32C19.3875 32 19.6545 31.8894 19.8514 31.6925L25.4926 25.9771L31.208 31.6332C31.4049 31.83 31.6719 31.9406 31.9503 31.9406C32.2287 31.9406 32.4957 31.83 32.6925 31.6332C32.8894 31.4363 33 31.1693 33 30.8909C33 30.6125 32.8894 30.3455 32.6925 30.1486L26.9771 24.4926Z" fill="white"/>
+						</svg>
+					</div>
+					<a href="#" class="popup__logo">
+						<img src="img/logo-b.svg" alt="">
+						<b>Luck-hunter</b>
+						<p>
+							<b>FORT PRO-01</b>
+							метательная машинка
+						</p>
+					</a>
+					<form class="buy-popup__body active">
+						<div class="popup__title buy-popup__title">
+							Уникальная метательная машинка FORT PRO-01, пожалуй,
+							лучшая в своем сегменте!
+						</div>
+						<div class="popup__produced buy-popup__produced">
+							<img src="img/Dev-hunterswithoutstar.svg" alt="">
+						</div>					
+						<div class="buy-popup__content">
+							<div class="survey-popup__title">
+								Товар
+							</div>
+							<div class="buy-popup__product">
+								<div class="buy-popup__left">
+									<div class="buy-popup__left-image">
+										<img src="img/main/1.webp" alt="">
+									</div>
+									<div class="buy-popup__left-content">
+										<p>
+											FORT PRO-01:
+											<br>Комплект СТАНДАРТ
+										</p>
+										<div class="buy-popup__left-bottom">
+											<div class="buy-popup__left-img" data-fancybox="popup-img" href="img/main/3.webp">
+												<img src="img/main/3.webp" alt="">
+											</div>						
+											<p>
+												<b>В цену входит:</b>
+												фирменная сумка-чехол
+											</p>				
+										</div>
+									</div>
+								</div>
+								<div class="buy-popup__right">
+									<div class="buy-popup__count">
+										<div class="buy-popup__decrement">
+											<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="20" cy="20" r="19.5" fill="white" stroke="#D5D5D5"/>
+												<path d="M14 20.5H27" stroke="#D5D5D5"/>
+											</svg>
+										</div>
+										<input type="number" value="1" min="1" max="99">
+										<div class="buy-popup__increment">
+											<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<circle cx="20" cy="20" r="19.5" fill="white" stroke="#D5D5D5"/>
+												<path d="M20.5 14L20.5 27" stroke="#D5D5D5"/>
+												<path d="M14 20.5H27" stroke="#D5D5D5"/>
+											</svg>
+										</div>
+									</div>
+									<div class="buy-popup__cost">
+										<p data-buycost="25000"><span>25 000</span> ₽</p>
+										<div data-oldcost="35600" class="buy-popup__oldcost">
+											<span>35 600</span> ₽
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="buy-popup__content">
+							<div class="survey-popup__title">
+								Способ доставки
+							</div>
+							<div class="buy-popup__deliverywrapper">
+								<div class="buy-popup__optionwrapper">
+									<div class="popup__option">
+										<input checked id="buyradio1" type="radio" name="buyradio1">
+										<label for="buyradio1">
+											<span></span>
+											<p>
+												Доставка до двери
+												<input placeholder="Укажите город, улицу, дом, квартиру (офис)" type="text">
+											</p>
+										</label>
+									</div>
+									<div class="popup__option">
+										<input id="buyradio2" type="radio" name="buyradio1">
+										<label for="buyradio2">
+											<span></span>
+											<p>
+												Доставка до терминала транспортной компании в вашем городе
+												<input placeholder="Укажите город" type="text">
+											</p>
+										</label>
+									</div>
+									<div class="popup__option">
+										<input id="buyradio3" type="radio" name="buyradio1">
+										<label for="buyradio3">
+											<span></span>
+											Самовывоз
+										</label>
+									</div>							
+								</div>	
+								<ul class="buyradio1 show">
+									<li>
+										Товар передаётся в транспортную компанию в течении 1 рабочего дня после оплаты заказа.
+									</li>
+									<li>Доставка осуществляется за счет покупателя по действующим тарифам транспортных компаний.</li>
+									<li>Стоимость и сроки доставки по тарифам выбранной транспортной компании.</li>
+								</ul>	
+								<ul class="buyradio2">
+									<li>
+										Товар передаётся в транспортную компанию в течении 1 рабочего дня после оплаты заказа.
+									</li>
+									<li>Доставка осуществляется за счет покупателя по действующим тарифам транспортных компаний.</li>
+								</ul>						
+							</div>
+						</div>	
+						<div class="buy-popup__content">
+							<div class="survey-popup__title">
+								Способ оплаты
+							</div>
+							<div class="buy-popup__paywrapper">
+								<div class="buy-popup__paywrapper-subtitle">
+									<span>Для совершения оплаты подтвердите свой телефон:</span>
+									<b></b>
+								</div>
+								<div class="buy-popup__paywrapper-setcode">
+									<input type="text">
+								</div>
+								<div class="buy-popup__paywrapper-getcode">
+									<input required type="tel" placeholder="+7 (___) ___-__-__">
+									<button disabled>
+										Получить код
+									</button>
+								</div>
+								<div class="popup__bottom-agree">
+									<input type="checkbox" id="buypopupagree">
+									<label for="buypopupagree">
+										<span></span>
+										<p>
+											Я согласен на обработку моих персональных данных.
+											<a href="#">Политика конфиденциальности</a>									
+										</p>
+
+									</label>
+								</div>
+								<div class="buy-popup__paywrapper-retrycode">
+									<p>Запросить код повторно через <b>00:<span data-time="59">59</span></b></p>
+									<a href="#">Запросить код повторно</a>
+								</div>
+							</div>
+						</div>			
+						<div class="buy-popup__content">
+							<div class="survey-popup__title">
+								Способ оплаты
+								<div class="buy-popup__confirmed">
+									Сотовый подтвержден: <b>+7 (927) 777-88-55  </b>
+								</div>
+							</div>
+							<div data-da=".buy-popup__payment-options, 700, first"class="popup__option">
+								<input data-payment="img/pay/1.webp" checked id="buyradio4" type="radio" name="buyradio2">
+								<label for="buyradio4">
+									<span></span>
+									СБП - Оплата по QR-коду
+								</label>
+							</div>	
+							<div class="buy-popup__payment">
+								<div class="buy-popup__payment-image">
+									<img src="img/pay/1.webp" alt="">
+								</div>
+								<div class="buy-popup__payment-options">
+									<div class="popup__option">
+										<input data-payment="img/pay/2.svg" id="buyradio5" type="radio" name="buyradio2">
+										<label for="buyradio5">
+											<span></span>
+											Оплата картой: VISA, MasterCard, МИР
+										</label>
+									</div>	
+									<div class="popup__option">
+										<input data-payment="img/pay/3.webp" id="buyradio6" type="radio" name="buyradio2">
+										<label for="buyradio6">
+											<span></span>
+											Yandex Pay
+										</label>
+									</div>	
+									<div class="popup__option">
+										<input data-payment="img/pay/4.svg" id="buyradio7" type="radio" name="buyradio2">
+										<label for="buyradio7">
+											<span></span>
+											Платёжный сервис рассрочки «Подели»
+										</label>
+									</div>	
+								</div>	
+							</div>					
+						</div>		
+
+						<div class="buy-popup__content">
+							<div class="survey-popup__title">
+								Ваши данные
+							</div>
+							<div class="buy-popup__infowrapper">
+								<div class="buy-popup__inforows">
+									<div class="buy-popup__row">
+										<div class="buy-popup__input">
+											<p>Контактный телефон</p>
+											<input disabled type="tel" value="+7 (927) 777-88-55">
+										</div>
+										<div class="buy-popup__input">
+											<p>E-mail</p>
+											<input type="email" placeholder="@">
+										</div>							
+									</div>	
+									<div class="buy-popup__row">
+										<div class="buy-popup__input">
+											<p>Имя</p>
+											<input type="text">
+										</div>
+										<div class="buy-popup__input">
+											<p>Фамилия</p>
+											<input type="text">
+										</div>							
+									</div>	
+								</div>
+								<div class="buy-popup__textarea">
+									<p>Комментарий</p>
+									<textarea placeholder="Пожелания к заказу, вопросы"></textarea>
+								</div>	
+							</div>
+						</div>										
+						<div class="popup__bottom">
+							<a href="#" class="popup__btn">
+								Оплатить <span>25 000</span> ₽
+							</a>
+						</div>					
+					</form>
+					<form class="buy-popup__body">
+						<div class="popup__produced buy-popup__produced">
+							РАЗРАБОТАНА <br>ОХОТНИКАМИ
+						</div>		
+						<div class="popup__title buy-popup__title">
+							Заказ оформлен и оплачен
+							<img src="img/surveypopup/success.svg" alt="">
+						</div>			
+						<div class="buy-popup__content">
+							<div class="buy-popup__order">
+								<span>
+									№
+								</span>
+								<p>
+									42595255-0035
+								</p>
+							</div>
+							<div class="buy-popup__order">
+								<span>
+									<img src="img/surveypopup/card.svg" alt="">
+								</span>
+								<p>
+									Оплачено 25 000 ₽
+								</p>
+							</div>
+							<div class="buy-popup__order">
+								<span>
+									<img src="img/surveypopup/home.svg" alt="">
+								</span>
+								
+								<p>
+									Адрес доставки: 
+									<span>
+										Россия, Самара, улица Мичурина, 21Д, корпус 1,  офис 104
+									</span>
+								</p>
+							</div>
+							<div class="buy-popup__order">
+								<span>
+									<img src="img/surveypopup/persona.svg" alt="">
+								</span>
+								<p>
+									Получатель:
+									<span>
+										Фамилия Имя<br>
+										+7 927 333-22-11 <br>
+										mail-mail@gmail.com
+									</span>
+								</p>
+							</div>
+
+						</div>									
+						<div class="popup__bottom">
+							<button class="popup__btn survey-popup__close1">
+								Закрыть
+							</button>
+						</div>					
+					</form>
+
+
+				</div>
+			</div>
+		</div>
+	   <link rel="stylesheet" href="css/jquery.fancybox.min.css"> 
+	   <link rel="stylesheet" href="css/nouislider.min.css">  
+	   <link rel="stylesheet" href="css/simplebar.min.css">  
+	   <link rel="stylesheet" href="css/style.css"> 	
+		
+		<script src="js/jquery-3.6.0.min.js"></script>
+	   <script>
+			var counting = setInterval(function () {
+			   var loader = $("#percentage");
+			   var currval = parseInt(loader.html());
+			   var Width = currval;
+			   if(currval < 82){
+				   $("#percentage").html(++currval);
+				   $(".preload__progress>p").css('width', ''+Width+'%');			   	
+			   }
+	         else if(document.readyState == "complete") {
+	            clearInterval(counting);
+	            var counting1 = setInterval(function () {
+	            	if(currval < 99){
+			            $(".preload__progress>p").css('width', ''+ ++currval+'%');
+			            $("#percentage").html(''+ ++currval+'');
+		         	}
+		            else{
+		            	clearInterval(counting1);
+			            $(".preload__progress>p").css('width', '100%');
+			            $("#percentage").html('100');
+			            $('body').addClass('unlock');
+			            $('.preload').addClass('hide');		            	
+		            }
+	         	},5);
+	         }
+			   else{
+				   $("#percentage").html(currval);
+				   $(".preload__progress>p").css('width', ''+Width+'%');							   	
+			   }
+			}, 10);	   	
+	   </script>
+		<script src="js/dynamicadapt.js"></script>  
+		<script src="js/jquery.fancybox.min.js"></script>  
+		<script src="js/maskinput.js"></script>  
+		<script src="js/nouislider.min.js"></script>  
+		<script src="js/slick.min.js"></script>  
+		<script src="js/simplebar.min.js"></script>
+		<script src="js/script.js"></script>  
+	</body>
+</html>
