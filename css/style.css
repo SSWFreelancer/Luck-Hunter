@@ -115,7 +115,7 @@ body {
   font-family: "Segoe UI", sans-serif;
   font-weight: 400;
   background: #ffffff;
-  color: #242424;
+  color: #2e2e2e;
   overflow: hidden;
 }
 
@@ -165,50 +165,16 @@ body.unlock {
   top: 0;
   width: 100vw;
   min-height: calc(100vh + 5px);
-  background: url("../img/preload.webp") 0 0/cover no-repeat;
+  background: #2e2e2e;
   z-index: 2000;
-  -webkit-transition: all 0.3s ease 0.5s;
-  transition: all 0.3s ease 0.5s;
 }
-@media (max-width: 670px) {
-  .preload {
-    background: #242424;
-  }
-}
+
 .preload.hide {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
-.preload__logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.preload__logo img {
-  width: 145px;
-  margin-right: 9px;
-}
-.preload__logo b {
-  font-family: "Impact";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 55.1277px;
-  line-height: 1.2181818182;
-  text-transform: uppercase;
-  color: #E65C11;
-}
-@media (max-width: 670px) {
-  .preload__logo img {
-    width: 120px;
-  }
-  .preload__logo b {
-    font-size: 35px;
-  }
-}
+
 .preload__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,7 +228,7 @@ body.unlock {
   border: 2px solid #E65C11;
   width: 18px;
   border-radius: 50%;
-  background: #000;
+  background: #2e2e2e;
   -webkit-transform: translate(50%, 0);
           transform: translate(50%, 0);
   top: -8px;
@@ -288,11 +254,9 @@ body.unlock {
   line-height: 1.3333333333;
   text-align: center;
   color: #E65C11;
-  margin-top: 80px;
 }
 @media (max-width: 670px) {
   .preload__content > p {
-    margin-top: 40px;
     font-size: 18px;
   }
 }
