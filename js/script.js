@@ -266,10 +266,6 @@ $(document).ready(function (event) {
              zoom: false,
            },
       });
-      $('.footer__map span').click(function () {
-         $(this).remove();
-         $('.footer__map iframe').attr('src', $('.footer__map iframe').attr('src').replace('false', 'true'))
-      });
 });    
 const simpleBar = new SimpleBar(document.getElementById('videos__wrapper'));
 simpleBar.getScrollElement().addEventListener('scroll', function(){
